@@ -1,19 +1,21 @@
 {
   "main": {
-    "id": "8f30aec5248071b3",
+    "id": "c00c5f17f97e90d2",
     "type": "split",
     "children": [
       {
-        "id": "4c535e101a01bbc4",
+        "id": "3df634eb8d9786d6",
         "type": "tabs",
         "children": [
           {
-            "id": "e97bb91a72f44710",
+            "id": "894b6632562ecfdf",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "1sem/lab1/задание__Информатика_ЛР_1_2023.pdf"
+                "file": "1 sem/24.09.2024/Classwork 24.09.2024.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -23,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b157b5dbd9105d66",
+    "id": "27307eef1211b4b5",
     "type": "split",
     "children": [
       {
-        "id": "d204bd6ffcf3f9e6",
+        "id": "33ddb1f77053896f",
         "type": "tabs",
         "children": [
           {
-            "id": "edaf6e2fc171f81c",
+            "id": "cd648bf7e738aa53",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -41,7 +43,7 @@
             }
           },
           {
-            "id": "7b0497cd64f2ce48",
+            "id": "3366a518beabea63",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,7 +58,7 @@
             }
           },
           {
-            "id": "f6be7f161cbcbc23",
+            "id": "b7a66e623c6321c0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -70,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "f0b547729023c814",
+    "id": "c18a3f85474292da",
     "type": "split",
     "children": [
       {
-        "id": "6dde714125adf3f1",
+        "id": "a7f9e5a68ab00158",
         "type": "tabs",
         "children": [
           {
-            "id": "68868c12366b7e19",
+            "id": "fddb3f61829d7c19",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1sem/lab1/задание__Информатика_ЛР_1_2023.pdf",
+                "file": "1 sem/24.09.2024/Classwork 24.09.2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,19 +97,19 @@
             }
           },
           {
-            "id": "5863393afdaa2b4a",
+            "id": "8542c27bcb648d25",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1sem/lab1/задание__Информатика_ЛР_1_2023.pdf",
+                "file": "1 sem/24.09.2024/Classwork 24.09.2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "cf1eeaa3b8ac59c7",
+            "id": "2062fd1e7b56646f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -118,12 +120,12 @@
             }
           },
           {
-            "id": "c8d3496ead880857",
+            "id": "05d50af4e3bcbecc",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "1sem/lab1/задание__Информатика_ЛР_1_2023.pdf"
+                "file": "1 sem/24.09.2024/Classwork 24.09.2024.md"
               }
             }
           }
@@ -144,21 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e97bb91a72f44710",
+  "active": "894b6632562ecfdf",
   "lastOpenFiles": [
-    "1sem/lab2/Информатика_ЛР_2_2023.pdf",
-    "1sem/lab2",
-    "1sem/lec_2/lu2306vga.tmp",
-    "1sem/lec_2/lu2306vg7.tmp",
-    "1sem/lec_2/lu2306ue7.tmp",
-    "1sem/lec_2/Аннотация_к_лекции_1_Информатика_Снагин_Станислав_Р3115.odt",
-    "1sem/lec_2/lu2306u34.tmp",
-    "1sem/lec_2",
-    "1sem/Untitled Folder",
-    "1sem/lab1/2.-Цилькер-Б.Я.-Орлов-С.А.-Организация-ЭВМ-и-систем-СПБ-Питер-2011.pdf",
-    "1sem/lab1/задание__Информатика_ЛР_1_2023.pdf",
-    "1sem/lec_1/лекция 11.09.2024.md",
-    "1sem/lec_1/Pasted image 20240911093848.png",
-    "Welcome.md"
+    "1 sem/24.09.2024/дз сделать.md",
+    "1 sem/24.09.2024/Classwork 24.09.2024.md",
+    "1 sem/24.09.2024/Pasted image 20240923133239.png",
+    "1 sem/24.09.2024",
+    "Welcome.md",
+    "1 sem"
   ]
 }
