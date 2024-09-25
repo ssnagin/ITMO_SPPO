@@ -33,34 +33,34 @@ class Lab1 {
             }
             
             // Set values for mega-super-two-dimentional array ww:
-            double ww[][] = new double[11][15];
+            double result[][] = new double[11][15];
             double current_x;
-            
-            int[] numbers = {6,7,10,12,14};
-            
-            for (int i = 0; i < ww.length; i++) {
-                for (int j = 0; j < ww[i].length; j++) {
+         
+            for (int i = 0; i < result.length; i++) {
+                for (int j = 0; j < result[i].length; j++) {
                     
                     current_x = (double) x[j];
                     
-                    // ww[i] == 16 condition (1st group):
-                    if (w[i] == 16) {
-                        ww[i][j] = Math.sin((3.0/4.0) * Math.pow(current_x, (current_x/2.0) ));
-                        continue;
-//                        System.out.println(ww[i][j]);
-                    }
-                    
-                    // w[i] ∈ {6, 7, 10, 12, 14} condition (2nd group):
-                    for (int k = 0; k < numbers.length; k++) {
-                        if (!(w[i] == numbers[k])) {
-                            // Other values (3rd group):
-                            ww[i][j] = Math.log10(Math.pow(Math.sin(Math.asin( (current_x + 2.0) / 16.0 )), 2.0));
-                            System.out.println(w[i] + " " + ww[i][j]);
-                        }
-                        ww[i][j] = Math.cos(Math.tan(Math.pow(Math.E, current_x)));
-//                        System.out.println(w[i] + " " + ww[i][j]);
-                    } 
+                    result[i][j] = nextElement(current_x, w[i]);
                 }
             }
 	}
+        
+        public static double nextElement(double current_x, long w_value) {
+            
+            int[] NUMBERS = {6,7,10,12,14};
+            
+            if (w_value == 16) {
+                return Math.sin((3.0/4.0) * Math.pow(current_x, (current_x/2.0) ));
+            }
+            
+            // w[i] ∈ {6, 7, 10, 12, 14} condition (2nd group):
+            for (int k = 0; k < NUMBERS.length; k++) {
+                if (!(w_value == NUMBERS[k])) {
+                    // Other values (3rd group):
+                    return Math.log10(Math.pow(Math.sin(Math.asin( (current_x + 2.0) / 16.0 )), 2.0));
+                }
+                return Math.cos(Math.tan(Math.pow(Math.E, current_x)));
+            } 
+        }
 }
