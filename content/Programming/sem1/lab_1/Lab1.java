@@ -50,17 +50,15 @@ class Lab1 {
             
             int[] NUMBERS = {6,7,10,12,14};
             
-            if (w_value == 16) {
-                return Math.sin((3.0/4.0) * Math.pow(current_x, (current_x/2.0) ));
-            }
+            // The 1st group (w == 16)
+            if (w_value == 16) return Math.sin((3.0/4.0) * Math.pow(current_x, (current_x/2.0) ));
             
             // w[i] ∈ {6, 7, 10, 12, 14} condition (2nd group):
             for (int k = 0; k < NUMBERS.length; k++) {
-                if (!(w_value == NUMBERS[k])) {
-                    // Other values (3rd group):
-                    return Math.log10(Math.pow(Math.sin(Math.asin( (current_x + 2.0) / 16.0 )), 2.0));
-                }
+                if (NUMBERS[k] != w_value) continue;
                 return Math.cos(Math.tan(Math.pow(Math.E, current_x)));
-            } 
+            }
+            // Other values (3rd group):
+            return Math.log10(Math.pow(Math.sin(Math.asin( (current_x + 2.0) / 16.0 )), 2.0));
         }
 }
