@@ -44,6 +44,8 @@ class Lab1 {
                     result[i][j] = nextElement(current_x, w[i]);
                 }
             }
+            
+            print(result);
 	}
         
         public static double nextElement(double current_x, long w_value) {
@@ -60,5 +62,17 @@ class Lab1 {
             }
             // Other values (3rd group):
             return Math.log10(Math.pow(Math.sin(Math.asin( (current_x + 2.0) / 16.0 )), 2.0));
+        }
+        
+        public static void print(double[][] matrix) {
+            String row = "";
+            for (int i = 0; i < matrix.length; i++) {
+
+                for (int j = 0; j < matrix[i].length; j++) {
+                    row += Double.toString(matrix[i][j]) + " ";
+                }
+                row += "\n";
+            }
+            System.out.print(row);
         }
 }
