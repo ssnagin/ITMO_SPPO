@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
+                "file": "sem1/lab_1/Форматирование текста для лаб по проге.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
+                "file": "sem1/lab_1/Форматирование текста для лаб по проге.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
+                "file": "sem1/lab_1/Форматирование текста для лаб по проге.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md"
+                "file": "sem1/lab_1/Форматирование текста для лаб по проге.md"
               }
             }
           }
@@ -148,10 +148,12 @@
   },
   "active": "ebb012901ff5f8fd",
   "lastOpenFiles": [
+    "sem1/lab_1/lu2330q00.tmp",
+    "sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
+    "sem1/lab_1/Форматирование текста для лаб по проге.md",
     "Books/Shildt_G_-_Java_8_Polnoe_rukovodstvo_-_2015.pdf",
     "Books",
     "sem1/lab_1/proga_manual-2024.pdf",
-    "sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
     "Untitled",
     "Welcome.md"
   ]
