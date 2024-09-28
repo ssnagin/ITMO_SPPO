@@ -67,11 +67,13 @@ java -jar Build.jar
 
 --> И что мы видим????
 
-![[Pasted image 20240928171418.png]]
+![Image 1](https://github.com/ssnagin/ITMO_SPPO/blob/main/Programming/sem1/lab_1/assets/Pasted%20image%2020240928171418.png?raw=true)
 
-Правильно, у нас нет файла-манифеста, который бы указывал нашу входную точку (класс, с которого бы всё стартовало)
+Правильно, у нас нет входной точки в файле-манифесте, с которого бы стартовала программа
 
-![[dem_66f810313c83a.png]]
+![Image 2](https://github.com/ssnagin/ITMO_SPPO/blob/main/Programming/sem1/lab_1/assets/dem_66f810313c83a.png?raw=true)
+
+
 
 Мы, конечно, можем прописать всякие костыли (я не гарантирую их работоспособность):
 
@@ -90,9 +92,9 @@ jar cfe build/Build.jar Main Main.class
 
 Открывем в созданом архиве MANIFEST.MF и прописываем входной файл:
 
-![[Pasted image 20240928192929.png]]
+![Image 3](https://github.com/ssnagin/ITMO_SPPO/blob/main/Programming/sem1/lab_1/assets/Pasted%20image%2020240928192911.png?raw=true)
 
-![[Pasted image 20240928192911.png]]
+![Image 4](https://github.com/ssnagin/ITMO_SPPO/blob/main/Programming/sem1/lab_1/assets/Pasted%20image%2020240928192929.png?raw=true)
 
 Здесь нам нужно прописать атрибут:
 
@@ -100,7 +102,7 @@ jar cfe build/Build.jar Main Main.class
 Main-Class: Main
 ```
 
-![[Pasted image 20240928194629.png]]
+![Image 5](https://github.com/ssnagin/ITMO_SPPO/blob/main/Programming/sem1/lab_1/assets/Pasted%20image%2020240928194629.png?raw=true)
 
 Закрываем этот архив и вуаля! Программа создана. Осталось только показать все эти этапы преподу и залить исходники на Gelios, поэтому лучше попрактиковаться в этом деле.
 
