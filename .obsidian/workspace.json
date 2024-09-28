@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e52361e3d401791a",
+        "id": "cb7128c1a7f1d0fd",
         "type": "tabs",
         "children": [
           {
-            "id": "acf0a5875836350b",
+            "id": "e491b7ca19abf081",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Programming/sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Programming/sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Programming/sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Programming/sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md"
               }
             }
           }
@@ -146,27 +146,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1bb2afd4629fe3ee",
+  "active": "e491b7ca19abf081",
   "lastOpenFiles": [
+    "Programming/sem1/lab_1/proga_manual-2024.pdf",
+    "Programming/sem1/lab_1/assets/Pasted image 20240928171418.png",
+    "Programming/sem1/lab_1/assets/dem_66f810313c83a.png",
+    "Programming/sem1/lab_1/assets/Pasted image 20240928192911.png",
+    "Programming/sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
+    "Pasted image 20240928171418.png",
+    "Programming/sem1/lab_1/Форматирование текста для лаб по проге.md",
+    "Programming/sem1/lab_1/assets/Pasted image 20240928192929.png",
+    "Programming/sem1/lab_1/assetess",
+    "Programming/sem1/lab_1/Untitled/Untitled",
+    "dem_66f810313c83a.png",
+    "Pasted image 20240928192929.png",
+    "Pasted image 20240928192911.png",
+    "Programming/sem1/lab_1/build/Build.jar",
+    "README.md",
+    "Как.md",
+    "().md",
+    "Programming/sem1/lab_1/dem_66f81010aed87.png",
+    "Programming/sem1/lab_1/build/app.jar",
+    "Programming/sem1/lab_1/build/empty.file.md",
+    "Programming/sem1/lab_1/build/empty.file",
+    "Programming/sem1/lab_1/src",
+    "Programming/sem1/lab_1/build",
+    "English C1/1 sem/24.09.2024/Classwork 24.09.2024.md",
+    "English C1/1 sem/24.09.2024/Pasted image 20240923133239.png",
+    "English C1/1 sem/24.09.2024/дз сделать.md",
     "OPD/1sem/lec1/Лекция 11.09.2024.md",
-    "OPD/1sem/lec1/Pasted image 20240911103404.png",
-    "OPD/1sem/lec1/Pasted image 20240911101758.png",
-    "OPD/1sem/lec1/Pasted image 20240911100753.png",
+    "Untitled.canvas",
     "OPD/1sem/lab1/Тейнсли Дэвид. Linux и UNIX_ программирование в shell. Руководство разработчика. - royallib.com.html.zip",
     "OPD/1sem/lab1/ОПД_ЛР1_Р3115_Снагин_Станислав_Максимович.odt",
-    "OPD/1sem/lab1/БилетыЭкзаменОПД.docx",
-    "OPD/1sem/lab1/proga_manual-2024.pdf",
-    "OPD/1sem/lab1/1лаба.pdf",
-    "OPD/1sem/lec1",
-    "OPD/1sem/lab1",
-    "OPD/1sem",
-    "ICT/1sem/lab1/госты/картинки__2021-11gost_7.32-2017.pdf",
-    "ICT/1sem/lab1/глава3/задание__Информатика_ЛР_1_2023.pdf",
-    "ICT/1sem/lab1/images/задачи_5-7_photo_2024-09-11_20-38-41.jpg",
-    "ICT/1sem/lab1/images/задачи_1-3.jpg",
-    "ICT/1sem/lab1/images/задача_4_photo_2024-09-11_20-35-11.jpg",
-    "ICT/1sem/lec_1/лекция 11.09.2024.md",
-    "ICT/1sem/lec_1/Pasted image 20240911093848.png",
-    "README.md"
+    "ICT/1sem/lec_1/лекция 11.09.2024.md"
   ]
 }
