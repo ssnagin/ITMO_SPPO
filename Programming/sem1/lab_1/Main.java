@@ -12,6 +12,8 @@ public class Main {
 
             */
             
+            
+            
             long[] w = new long[11];
             int value = 6;
             
