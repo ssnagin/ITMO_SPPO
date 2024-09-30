@@ -12,18 +12,16 @@ public class Main {
 
             */
             
-            
-            
             long[] w = new long[11];
             int value = 6;
             
-            double min_ = -6;
-            double max_ = 10;
+            double lowerRange = -6;
+            double upperRange = 10;
             
             float[] x = new float[15];
             
             double result[][] = new double[11][15];
-            double current_x;
+            double currentValue;
             
             // Set values for w:
             for (int i = 0; i < w.length; i++) {
@@ -33,14 +31,14 @@ public class Main {
             
             // Set values for x:
             for (int i = 0; i < x.length; i++) {
-                x[i] = (float) (min_ + Math.random() * (max_ - min_));
+                x[i] = (float) (lowerRange + Math.random() * (upperRange - lowerRange));
             }
             
             // Set values for mega-super-two-dimentional array "result":
             for (int i = 0; i < result.length; i++) {
                 for (int j = 0; j < result[i].length; j++) {
-                    current_x = (double) x[j];
-                    result[i][j] = nextElement(current_x, w[i]);
+                    currentValue = (double) x[j];
+                    result[i][j] = nextElement(currentValue, w[i]);
                 }
             }
             
@@ -52,30 +50,31 @@ public class Main {
         
         Считает след. элемент массива на основе входных данных:
         
-        double current_x        рандомное значение x из подготовленных значений в
+        double x                рандомное значение x из подготовленных значений в
                                 float[15] x
+        long wArrayValue        Элемент из массива w (main)
         
         */
         
-        public static double nextElement(double current_x, long w_value) {
+        public static double nextElement(double x, long wArrayValue) {
             
-            int[] NUMBERS = {6,7,10,12,14};
+            int[] secondGroupNumbers = {6,7,10,12,14};
             
             // The 1st group (w == 16):
-            if (w_value == 16) {
+            if (wArrayValue == 16) {
                 return Math.sin((3.0/4.0) * 
-                        Math.pow(current_x, (current_x/2.0) ));
+                        Math.pow(x, (x/2.0) ));
             }
             
             // w_value ∈ {6, 7, 10, 12, 14} condition (2nd group):
-            for (int k = 0; k < NUMBERS.length; k++) {
-                if (NUMBERS[k] != w_value) continue;
-                return Math.cos(Math.tan(Math.pow(Math.E, current_x)));
+            for (int k = 0; k < secondGroupNumbers.length; k++) {
+                if (secondGroupNumbers[k] != wArrayValue) continue;
+                return Math.cos(Math.tan(Math.pow(Math.E, x)));
             }
             
             // Other values (3rd group):
             return Math.log10(Math.pow(Math.sin(
-                    Math.asin( (current_x + 2.0) / 16.0 )
+                    Math.asin( (x + 2.0) / 16.0 )
             ), 2.0));
         }
         
@@ -89,27 +88,12 @@ public class Main {
         public static void print(double[][] matrix) {
             String row = "";
             for (int i = 0; i < matrix.length; i++) {
-
-                for (int j = 0; j < matrix[i].length; j++) {
-                    Double formatting_num = matrix[i][j];
-                    row += round(formatting_num, 4) + " ";
-                    if (formatting_num >= 0) row += " ";
+                for (int j = 0; j < matrix[i].length; j++) {                  
+                    if (matrix[i][j] >= 0) row += " ";
+                    row += String.format("%5.4f", matrix[i][j]) + " ";
                 }
                 row += "\n";
             }
             System.out.print(row);
-        }
-        
-        /*
-        
-        Округляет (нормально) до n-цифры после запятой
-        
-        double value        значение, которое нужно округлить
-        int places          до какой n-ой цифры нужно округлить
-        
-        */
-        public static double round(double value, int places) {
-            double scale = Math.pow(10, places);
-            return Math.round(value * scale) / scale;
         }
 }
