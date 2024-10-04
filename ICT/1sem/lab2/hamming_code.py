@@ -55,7 +55,6 @@ def hamming_7_4(number: str) -> str:
 
     # wrong_bit_place = int(str(syndromes[0]) + str(syndromes[1]) + str(syndromes[2]), 2)
     wrong_bit_place = (syndromes[2] << 2) | (syndromes[1] << 1) | syndromes[0]
-    print(syndromes)
     response += "ERROR | Wrong bit place: " + str(wrong_bit_place) + f" ({NAMES[wrong_bit_place - 1]})\n" +\
                 "WAS   | Replaced with " + str(int(not bits[wrong_bit_place - 1])) + "\n"
 
