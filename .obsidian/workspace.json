@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
+                "file": "ICT/1sem/lec_2/Немного про коды Хэмминга.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
+                "file": "ICT/1sem/lec_2/Немного про коды Хэмминга.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
+                "file": "ICT/1sem/lec_2/Немного про коды Хэмминга.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md"
+                "file": "ICT/1sem/lec_2/Немного про коды Хэмминга.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "e491b7ca19abf081",
   "lastOpenFiles": [
+    "Programming/sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
+    "ICT/1sem/lec_2/Немного про коды Хэмминга.md",
     "Programming/sem1/lab_1/lu2373obo.tmp",
     "Programming/sem1/lab_1/lu2373oa1.tmp",
     "Programming/sem1/lab_1/cvmf",
@@ -168,9 +170,7 @@
     "History/sem1/Как рассказывать историю от первого лица/семейные легенды/семья.png",
     "History/sem1/Как рассказывать историю от первого лица/семейные легенды/признаки использования AngularJS.png",
     "History/sem1/Как рассказывать историю от первого лица/семейные легенды/Пользовательское соглашение _ Семейные легенды.pdf",
-    "History/sem1/Как рассказывать историю от первого лица/семейные легенды/Пользовательское соглашение _ Семейные легенды.html",
     "test.md",
-    "Programming/sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
     "Programming/sem1/lab_1/Форматирование текста для лаб по проге.md",
     "README.md",
     "Как.md",
