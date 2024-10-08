@@ -3,7 +3,7 @@ NAMES = ["r1", "r2", "i1", "r3", "i2", "i3", "i4"]
 
 
 def intro() -> str:
-    return ("ssngn | Hamming code ver. 1.0\nINFO  | Запись делать след. образом: r1 r2 i1 r3 i2 i3 i4")
+    return "ssngn | Hamming code ver. 1.0\nINFO  | Запись делать след. образом: r1 r2 i1 r3 i2 i3 i4"
 
 
 def regular_check(binary_number: str) -> bool:
