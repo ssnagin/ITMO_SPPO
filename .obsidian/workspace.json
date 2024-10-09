@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OPD/1sem/lab1/4 задание.md",
+                "file": "ICT/1sem/lec_3/Информатика лекция 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OPD/1sem/lab1/4 задание.md",
+                "file": "ICT/1sem/lec_3/Информатика лекция 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OPD/1sem/lab1/4 задание.md",
+                "file": "ICT/1sem/lec_3/Информатика лекция 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OPD/1sem/lab1/4 задание.md"
+                "file": "ICT/1sem/lec_3/Информатика лекция 3.md"
               }
             }
           }
@@ -148,8 +148,16 @@
   },
   "active": "e491b7ca19abf081",
   "lastOpenFiles": [
-    "OPD/1sem/lab1/manuals/ls.md",
+    "ICT/1sem/lab3/regular_expressions.py~",
+    "ICT/1sem/lab3/regular_expressions.py",
+    "ICT/1sem/lab_3",
+    "ICT/1sem/lab3/Информатика_ЛР_3_2024.pdf",
+    "ICT/1sem/lab3",
+    "ICT/1sem/lab_3/Информатика_ЛР_3_2024.pdf",
+    "ICT/1sem/lec_3/Информатика_2023_2024_Лекция_3.pdf",
     "OPD/1sem/lab1/4 задание.md",
+    "ICT/1sem/lec_3/Информатика лекция 3.md",
+    "OPD/1sem/lab1/manuals/ls.md",
     "OPD/1sem/lab1/manuals/ln.md",
     "OPD/1sem/lab1/manuals/cat.md",
     "OPD/1sem/lab1/manuals/tail.md",
@@ -162,17 +170,11 @@
     "Programming/sem1/lab_1/lu2373obo.tmp",
     "Programming/sem1/lab_1/lu2373oa1.tmp",
     "Programming/sem1/lab_1/cvmf",
-    "Programming/sem1/lab_1/Untitled Documentcvmf",
-    "Programming/sem1/lab_1/Untitled Document",
-    "Programming/sem1/lab_1/Untitled Folder",
-    "History/sem1/Как рассказывать историю от первого лица/lu231214y5.tmp",
-    "History/sem1/Как рассказывать историю от первого лица/требования.docx",
     "History/sem1/Как рассказывать историю от первого лица/семейные легенды/функционал (медианные особенности)/5_нейронка_Screenshot_20240914_213438.png",
     "History/sem1/Как рассказывать историю от первого лица/семейные легенды/функционал (медианные особенности)/4_днк_ъScreenshot_20240914_212007.png",
     "History/sem1/Как рассказывать историю от первого лица/семейные легенды/функционал (медианные особенности)/3_обзор_менюScreenshot_20240914_211351.png",
     "History/sem1/Как рассказывать историю от первого лица/семейные легенды/функционал (медианные особенности)/2_таймлайн_Screenshot_20240914_211338.png",
     "History/sem1/Как рассказывать историю от первого лица/семейные легенды/функционал (медианные особенности)/1_созадние_истории_Screenshot_20240914_211242.png",
-    "History/sem1/Как рассказывать историю от первого лица/семейные легенды/функционал (медианные особенности)",
     "History/sem1/Как рассказывать историю от первого лица/семейные легенды/соцсети.png",
     "History/sem1/Как рассказывать историю от первого лица/семейные легенды/собирают всё подряд и не краснеют.png",
     "History/sem1/Как рассказывать историю от первого лица/семейные легенды/скрытый гугл тэг.png",
