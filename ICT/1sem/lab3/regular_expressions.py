@@ -24,13 +24,62 @@ UNIT_TESTS_FIRST_TASK = [
 PATTERN_FIRST_TASK = r"\[\<\/"
 
 UNIT_TESTS_SECOND_TASK = [
-    "Пришлось потратить часа 3 и проштудировать всю методичку по регуляркам, чтобы сделать это (!) пятое задание (просто мрак). И даже кривошеее существо, (!)3 которое гуляет по парку, вам не поможет!"
+    "Пришлось потратить часа 3 и проштудировать всю методичку по регуляркам, чтобы сделать это (!) пятое задание (просто мрак). И даже кривошеее существо, (!)3 которое гуляет по парку, вам не поможет!",
     "Я че вспомнил, надо холодильник в общагу купить, а то без него совсем как-то грустно... :(",
     "Администрация города во Владимирской области попросила местных жителей подарить ей елку на Новый год.",
     "Аеоловые ыи, уюдовые жуи, и другие приключения Васи-алкоголика!",
     "Нуу пожалуйста-пожалуйста-пожалуйста, можно соотку за эту лабораторку? :_("
 ]
+
 PATTERN_SECOND_TASK = r"(?i)\b\w*[ёюаеоияыиу][ёюаеоияыиу]\w*\b(?=\s\b(?!([бвгджзйклмнпрстфхцчшщьъ][^бвгджзйклмнпрстфхцчшщьъ\s]*){4,})\b)"
+
+UNIT_TESTS_THIRD_TASK = [
+    [
+        "Троечников Г.А. P2281337",
+        "Фиг-Ня Л.В. P2281337",
+        "Там-тамыч А.П. P2281337",
+        "Любительплова Р.Д. P55543",
+        "Ъуъев М.Р. P0001",
+        "Дизоксирибонулеинов П.О. P88005553535",
+        "Ьязев Б.Б. P3455",
+        "Блевотов Т.У. P0002",
+        "Т-банк О.Т. P2281337",
+        "Катаракта А.А. P2281337",
+        "Каатаракта А.А. P2281337",
+        "Яэтосделалурааа А.Е. P2281337",
+        "Якрутоймолодец Ы.Ы. P2281337",
+    ],
+    [
+        "Сдоба П.А. P3066",
+        "Дедлайнов А.И. P3066",
+        "Кумысов Н.В. P7777",
+        "Кокаколлов К.К. P44362",
+        "Спросименя Д.Й. P3066",
+        "Кирпичлов П.Ц. P7777"
+    ],
+    [
+        "На-завод И.С. P2281337",
+        "Ненадо-назавод Л.А. P2271337",
+        "Ночьюспатьнадо О.О. P2281337",
+        "Никогданеговориникогда В.В. P2281337",
+    ],
+    [
+        "Здавствуйнебовоблаках P0000",
+        "Здравствуйюностьвпогах Л.А. P0000",
+        "Зпропадмоятоска Л.А. P0000",
+        "Звотоняприветвойска Г.Г. P0314",
+        "Адальшенепомню Г.Г. P0314",
+    ],
+    [
+        "Юзерлинукс P00500",
+        "Абобус Л.А. P0545000",
+        "Запорожец Л.А. P03000",
+        "Барабарабарабереберебере Г.Г. P01314",
+        "Бебра Г.Г. P03314",
+    ],
+]
+ALPHABET_THIRD_TASK = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"
+PATTERN_THIRD_TASK = r"(?i)\b%s[\w\-]+\s+\b[А-я]\.\b[А-я]\.\s+\bP%s"
 
 def log(right_space: str, left_space: str = "       "):
     """
@@ -75,7 +124,7 @@ def generate_random_pseudo_word(characters_amount: int = 4) -> str:
     """
     result = ""
 
-    LAT_DICTIONARY = [character for character in "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzАаБбВвГгДдЕеЁёЖжЗзИиКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя"]
+    LAT_DICTIONARY = [character for character in "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzАаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя"]
     result = "".join([random.choice(LAT_DICTIONARY) for i in range(characters_amount)])
 
     return result + " "
@@ -133,9 +182,25 @@ def second_unittest():
         log(row, amount)
 
 
-def third_unittest():
-    pass
+def third_unittest(group_number: int):
 
+    mask = [0 for i in ALPHABET_THIRD_TASK]
+
+    for data in UNIT_TESTS_THIRD_TASK:
+
+        result = []
+
+        for letter in ALPHABET_THIRD_TASK:
+            response = re.findall(PATTERN_THIRD_TASK % (str(letter), str(group_number)), "\n".join(data))
+
+            if len(response) < 2: continue
+
+            for row in response:
+                data.remove(row)
+
+        for i in data:
+            log(i)
+        log(" ==== END ==== ")
 while True:
 
     show_menu()
@@ -152,7 +217,7 @@ while True:
         if command == 3:
             second_unittest()
         if command == 4:
-            third_unittest()
+            third_unittest(input("       | Enter group number (default 2281337): "))
 
     except ValueError as e:
         log("Value Error: Invalid number", "ERR")
