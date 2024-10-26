@@ -88,9 +88,8 @@ public class Main {
         public static void print(double[][] matrix) {
             String row = "";
             for (int i = 0; i < matrix.length; i++) {
-                for (int j = 0; j < matrix[i].length; j++) {                  
-                    if (matrix[i][j] >= 0) row += " ";
-                    row += String.format("%.4f", matrix[i][j]) + " ";
+                for (int j = 0; j < matrix[i].length; j++) {
+                    row += String.format("%8.4f", matrix[i][j]) + " ";
                 }
                 row += "\n";
             }
