@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ICT/1sem/lec_3/Информатика лекция 3.md",
+                "file": "Programming/Theory of Kulinich/Theory of Kulinich.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ICT/1sem/lec_3/Информатика лекция 3.md",
+                "file": "Programming/Theory of Kulinich/Theory of Kulinich.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ICT/1sem/lec_3/Информатика лекция 3.md",
+                "file": "Programming/Theory of Kulinich/Theory of Kulinich.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ICT/1sem/lec_3/Информатика лекция 3.md"
+                "file": "Programming/Theory of Kulinich/Theory of Kulinich.md"
               }
             }
           }
@@ -148,6 +148,20 @@
   },
   "active": "e491b7ca19abf081",
   "lastOpenFiles": [
+    "Programming/Theory of Kulinich/Pasted image 20241026162154.png",
+    "Programming/Theory of Kulinich/Pasted image 20241026162255.png",
+    "Programming/Theory of Kulinich/Theory of Kulinich.md",
+    "Programming/Theory of Kulinich/Pasted image 20241026162045.png",
+    "Programming/Theory of Kulinich/Pasted image 20241026161834.png",
+    "Programming/Theory of Kulinich/Pasted image 20241026161735.png",
+    "Programming/Theory of Kulinich/Pasted image 20241026161457.png",
+    "Programming/Theory of Kulinich/Pasted image 20241026161137.png",
+    "Programming/Theory of Kulinich/Pasted image 20241026160936.png",
+    "Programming/Theory of Kulinich/lab1/Перечень необходимых тем.md",
+    "ICT/1sem/lec_3/Информатика лекция 3.md",
+    "Programming/Theory of Kulinich/lab1",
+    "Programming/Theory of Kulinich",
+    "Programming/sem1/lab_1/Untitled",
     "ICT/1sem/lab3/regular_expressions.py~",
     "ICT/1sem/lab3/regular_expressions.py",
     "ICT/1sem/lab_3",
@@ -156,7 +170,6 @@
     "ICT/1sem/lab_3/Информатика_ЛР_3_2024.pdf",
     "ICT/1sem/lec_3/Информатика_2023_2024_Лекция_3.pdf",
     "OPD/1sem/lab1/4 задание.md",
-    "ICT/1sem/lec_3/Информатика лекция 3.md",
     "OPD/1sem/lab1/manuals/ls.md",
     "OPD/1sem/lab1/manuals/ln.md",
     "OPD/1sem/lab1/manuals/cat.md",
@@ -165,21 +178,9 @@
     "OPD/1sem/lab1/manuals/sort.md",
     "OPD/1sem/lab1/manuals/grep.md",
     "ICT/1sem/lec_2/Немного про коды Хэмминга.md",
-    "OPD/1sem/lab1/manuals",
     "Programming/sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
-    "Programming/sem1/lab_1/lu2373obo.tmp",
-    "Programming/sem1/lab_1/lu2373oa1.tmp",
-    "Programming/sem1/lab_1/cvmf",
     "History/sem1/Как рассказывать историю от первого лица/семейные легенды/функционал (медианные особенности)/5_нейронка_Screenshot_20240914_213438.png",
     "History/sem1/Как рассказывать историю от первого лица/семейные легенды/функционал (медианные особенности)/4_днк_ъScreenshot_20240914_212007.png",
-    "History/sem1/Как рассказывать историю от первого лица/семейные легенды/функционал (медианные особенности)/3_обзор_менюScreenshot_20240914_211351.png",
-    "History/sem1/Как рассказывать историю от первого лица/семейные легенды/функционал (медианные особенности)/2_таймлайн_Screenshot_20240914_211338.png",
-    "History/sem1/Как рассказывать историю от первого лица/семейные легенды/функционал (медианные особенности)/1_созадние_истории_Screenshot_20240914_211242.png",
-    "History/sem1/Как рассказывать историю от первого лица/семейные легенды/соцсети.png",
-    "History/sem1/Как рассказывать историю от первого лица/семейные легенды/собирают всё подряд и не краснеют.png",
-    "History/sem1/Как рассказывать историю от первого лица/семейные легенды/скрытый гугл тэг.png",
-    "History/sem1/Как рассказывать историю от первого лица/семейные легенды/семья.png",
-    "History/sem1/Как рассказывать историю от первого лица/семейные легенды/признаки использования AngularJS.png",
     "test.md",
     "Programming/sem1/lab_1/Форматирование текста для лаб по проге.md",
     "README.md",

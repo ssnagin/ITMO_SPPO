@@ -89,7 +89,7 @@ public class Main {
             String row = "";
             for (int i = 0; i < matrix.length; i++) {
                 for (int j = 0; j < matrix[i].length; j++) {
-                    row += String.format("%8.4f", matrix[i][j]) + " ";
+                    row += String.format("8.4f", matrix[i][j]) + " ";
                 }
                 row += "\n";
             }
