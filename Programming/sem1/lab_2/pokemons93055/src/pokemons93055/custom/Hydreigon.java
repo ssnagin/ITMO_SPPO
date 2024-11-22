@@ -11,7 +11,7 @@ import ru.ifmo.se.pokemon.Type;
  * 
  * @author developer
  */
-public class Celebi extends Pokemon {
+public class Hydreigon extends Pokemon {
     
     private final double HP = 310;
     private final double ATTACK = 184;
@@ -20,7 +20,7 @@ public class Celebi extends Pokemon {
     private final double SPECIAL_DEFENCE = 184;
     private final double SPEED = 184;
             
-    public Celebi(String name, int level) {
+    public Hydreigon(String name, int level) {
         super(name, level);
         
         setType(Type.PSYCHIC, Type.GRASS);
