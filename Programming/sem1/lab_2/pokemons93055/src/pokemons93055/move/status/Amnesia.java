@@ -23,7 +23,7 @@ public class Amnesia extends StatusMove {
     
     @Override protected void applySelfEffects(Pokemon pokemon) {
         Effect effect = new Effect().stat(Stat.SPECIAL_DEFENSE,
-                (int) pokemon.getStat(Stat.SPECIAL_DEFENSE) + 1);
+                (int) pokemon.getStat(Stat.SPECIAL_DEFENSE) + 2);
         pokemon.addEffect(effect);
     }
     
