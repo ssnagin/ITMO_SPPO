@@ -2,3 +2,4 @@ Manifest-Version: 1.0
 X-COMMENT: Main-Class will be added automatically by build
 Main-Class: pokemons93055.Main
 Class-Path: lib/Pokemon.jar
+
