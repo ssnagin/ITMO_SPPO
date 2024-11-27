@@ -21,6 +21,8 @@ public class Celebi extends Pokemon {
     private final double SPECIAL_DEFENCE = 184;
     private final double SPEED = 184;
     
+    
+    
     /**
      * 
      * @param name - Name of Celebi
@@ -28,6 +30,7 @@ public class Celebi extends Pokemon {
      */
     
     public Celebi(String name, int level) {
+        
         super(name, level);
         
         setType(Type.PSYCHIC, Type.GRASS);
@@ -36,6 +39,7 @@ public class Celebi extends Pokemon {
         setMove(new Confusion(), new MagicalLeaf(), new Swagger(), new DazzlingGleam());
         
     }
+    
     
     
 }

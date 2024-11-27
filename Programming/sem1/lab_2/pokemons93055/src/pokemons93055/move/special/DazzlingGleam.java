@@ -23,7 +23,8 @@ public class DazzlingGleam extends SpecialMove {
         super(Type.FAIRY, POWER, ACCURACY, PRIORITY, HITS);
     }
     
-    @Override protected String describe() {
+    @Override 
+    protected String describe() {
         return "uses Dazzling Gleam!";
     }
 }

@@ -1,8 +1,5 @@
 package pokemons93055.move.physical;
 
-import ru.ifmo.se.pokemon.Pokemon;
-import ru.ifmo.se.pokemon.Status;
-import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.PhysicalMove;
 import ru.ifmo.se.pokemon.Type;
 

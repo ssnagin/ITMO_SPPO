@@ -8,27 +8,11 @@ import pokemons93055.pokemons.Deino;
 import pokemons93055.pokemons.Hydreigon;
 import pokemons93055.pokemons.Zweilous;
 
-
+import pokemons93055.*;
 /**
  *
  * @author developer
  */
-
-/*
-
-Attacks:
-- Confusion +
-- Magical Leaf +
-- Swagger +
-- Dazzling Gleam +
-- Facade +
-- Defense Curl +
-- Amnesia +
-- Waterfall +
-- Focus Energy +?
-- Double Hit +?
-- Steel Wing +
-*/
 public class Main {
     
     /**
@@ -37,6 +21,11 @@ public class Main {
      */
     
     public static void main(String[] args) {
+        
+        test.MultipleSuper.VeryChildClass test = new test.MultipleSuper.VeryChildClass();
+        
+        System.exit(0);
+        
         Battle battle = new Battle();
         
         Celebi celebi = new Celebi("Подопытное мясо", 1);
