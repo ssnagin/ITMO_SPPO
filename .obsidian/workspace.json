@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "19997cf62acf852f",
+        "id": "87475ba99bea1624",
         "type": "tabs",
         "children": [
           {
-            "id": "4652d003670d8658",
+            "id": "b098ab58f5c72865",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -162,9 +162,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4652d003670d8658",
+  "active": "b098ab58f5c72865",
   "lastOpenFiles": [
+    "OPD/2sem/lab3_test/lu610394mj48.tmp",
+    "OPD/2sem/lab3_test/lu610394mj1i.tmp",
+    "OPD/2sem/lab3_test/lu610394mj10.tmp",
+    "OPD/2sem/lab3_test/ОПД_ЛР3_Р3115_Снагин_Станислав_Максимович.odt",
+    "OPD/2sem/lab3_test",
+    "OPD/2sem",
+    "OPD",
     "README_ENG.md",
+    "1-2 Basics of Professional Activities (ОПД)/1sem/ОПД_Вопросы_к_зачету_для_первого_семестра_1.pdf",
     "README.md",
     "0 General Information/Для_Абита_09_03_04_Системное_и_прикладное_программное_обеспечение.pdf",
     "1 ICT/README.md",
@@ -181,13 +189,6 @@
     "Programming/Theory of Kulinich/Pasted image 20241026160936.png",
     "Programming/Theory of Kulinich/lab1/Перечень необходимых тем.md",
     "ICT/1sem/lec_3/Информатика лекция 3.md",
-    "Programming/Theory of Kulinich/lab1",
-    "Programming/Theory of Kulinich",
-    "Programming/sem1/lab_1/Untitled",
-    "ICT/1sem/lab3/regular_expressions.py~",
-    "ICT/1sem/lab3/regular_expressions.py",
-    "ICT/1sem/lab_3",
-    "ICT/1sem/lab3/Информатика_ЛР_3_2024.pdf",
     "OPD/1sem/lab1/4 задание.md",
     "OPD/1sem/lab1/manuals/ls.md",
     "OPD/1sem/lab1/manuals/ln.md",
