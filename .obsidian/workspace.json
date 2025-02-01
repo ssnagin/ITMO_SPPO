@@ -163,22 +163,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b098ab58f5c72865",
+  "active": "1bb2afd4629fe3ee",
   "lastOpenFiles": [
-    "OPD/2sem/lab3_test/lu610394mj48.tmp",
-    "OPD/2sem/lab3_test/lu610394mj1i.tmp",
-    "OPD/2sem/lab3_test/lu610394mj10.tmp",
-    "OPD/2sem/lab3_test/ОПД_ЛР3_Р3115_Снагин_Станислав_Максимович.odt",
-    "OPD/2sem/lab3_test",
-    "OPD/2sem",
-    "OPD",
-    "README_ENG.md",
-    "1-2 Basics of Professional Activities (ОПД)/1sem/ОПД_Вопросы_к_зачету_для_первого_семестра_1.pdf",
+    "2 Databases/lectures/7_Query_execution_isbd-2021-7.2.pdf",
+    "2 Databases/lectures/6_Indexes_and_Queries_execution_isbd-2021-6.2.pdf",
+    "2 Databases/lectures/5_PL_pgSQL_isbd-2021-5.2.pdf",
+    "2 Databases/lectures/4_Requests_and_SQL_isbd-2021-4.3.pdf",
+    "2 Databases/БД Учебный Процесс.pdf",
+    "1-2 Programming/Books/additional/+++patterns_notes.pdf",
+    "1-2 Programming/Books/additional/+++multithreading_prog-concurrency.pdf",
+    "1-2 Programming/Books/additional",
+    "1-2 Basics of Professional Activities (ОПД)/1sem/Теория_к_зачету.pdf",
+    "1-2 Basics of Professional Activities (ОПД)/1sem/Теория_к_экзу.pdf",
+    "1-2 Basics of Professional Activities (ОПД)/1sem/Вопросы к зачету (2023).pdf",
+    "1-2 Basics of Professional Activities (ОПД)/1sem/lec1/Лекция 11.09.2024.md",
+    "2 Databases/README.md",
     "README.md",
-    "0 General Information/Для_Абита_09_03_04_Системное_и_прикладное_программное_обеспечение.pdf",
+    "README_ENG.md",
     "1 ICT/README.md",
-    "0 Media/Pictures",
-    "0 Media",
     "Programming/Theory of Kulinich/Pasted image 20241026162154.png",
     "Programming/Theory of Kulinich/Pasted image 20241026162255.png",
     "Programming/Theory of Kulinich/Theory of Kulinich.md",
@@ -209,8 +211,6 @@
     "Programming/sem1/lab_1/build/empty.file.md",
     "English C1/1 sem/24.09.2024/Classwork 24.09.2024.md",
     "English C1/1 sem/24.09.2024/дз сделать.md",
-    "OPD/1sem/lec1/Лекция 11.09.2024.md",
-    "Untitled.canvas",
-    "ICT/1sem/lec_1/лекция 11.09.2024.md"
+    "Untitled.canvas"
   ]
 }
