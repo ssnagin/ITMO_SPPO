@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "README_ENG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "README_ENG"
+            }
+          },
+          {
+            "id": "2f9ac147f3595864",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,8 +176,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b098ab58f5c72865",
+  "active": "2f9ac147f3595864",
   "lastOpenFiles": [
+    "README.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3_test/lu382604zsgh.tmp",
     "1-2 Basics of Professional Activities (ОПД)/lectures/4_Презентация лекций 2019 часть 4.pdf",
     "1-2 Basics of Professional Activities (ОПД)/lectures/2_Презентация лекций 2019 часть 3.pdf",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3_test/lu382604zse3.tmp",
@@ -173,13 +188,10 @@
     "2 Databases/README.md",
     "2 Databases/labs/test_1",
     "2 Databases/БД Учебный Процесс.pdf",
-    "README.md",
     "0 Media/Pictures/Pasted image 20250201193413.png",
     "README_ENG.md",
     "1-2 Basics of Professional Activities (ОПД)/lectures/1_Лекция.pdf",
     "1-2 Basics of Professional Activities (ОПД)/lectures/1лаба.pdf",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3_test/lu382604zs99.tmp",
-    "2 Databases/lectures/7_Query_execution_isbd-2021-7.2.pdf",
     "1-2 Basics of Professional Activities (ОПД)/1sem/lec1/Лекция 11.09.2024.md",
     "1 ICT/README.md",
     "Programming/Theory of Kulinich/Pasted image 20241026162154.png",

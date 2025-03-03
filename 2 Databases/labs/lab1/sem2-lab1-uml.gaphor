@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="2.27.0">
+<StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed">
+<styleSheet>
+<val>diagram {
+ /* line-style: sloppy 0.3; */
+}
+
+controlflow {
+  dash-style: 0;
+}
+</val>
+</styleSheet>
+</StyleSheet>
+<Diagram id="0026541e-f82f-11ef-8cc6-d72541b68b78">
+<diagramType>
+<val>cls</val>
+</diagramType>
+<name>
+<val>sem2-lab1-uml</val>
+</name>
+</Diagram>
+</gaphor>
