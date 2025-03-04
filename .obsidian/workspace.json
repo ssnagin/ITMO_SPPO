@@ -11,30 +11,15 @@
             "id": "b098ab58f5c72865",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "README_ENG.md",
-                "mode": "source",
-                "source": false
+                "file": "2 Databases/labs/lab1/img/Pasted image 20250304093223.png"
               },
-              "icon": "lucide-file",
-              "title": "README_ENG"
-            }
-          },
-          {
-            "id": "2f9ac147f3595864",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250304093223"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "8958fbce40799f89",
@@ -107,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "2 Databases/labs/lab1/img/Pasted image 20250304093223.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for Pasted image 20250304093223"
             }
           },
           {
@@ -176,8 +161,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f9ac147f3595864",
+  "active": "1bb2afd4629fe3ee",
   "lastOpenFiles": [
+    "2 Databases/labs/lab1/img",
+    "2 Databases/labs/lab1/README.md.md",
+    "2 Databases/labs/lab1/img/Pasted image 20250304104224.png",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "2 Databases/labs/lab1/img/Pasted image 20250304100915.png",
+    "2 Databases/labs/lab1/img/Pasted image 20250304100843.png",
+    "2 Databases/labs/lab1/img/Pasted image 20250304100209.png",
+    "2 Databases/labs/lab1/img/Pasted image 20250304100048.png",
+    "2 Databases/labs/lab1/img/Pasted image 20250304095953.png",
+    "2 Databases/labs/lab1/img/Pasted image 20250304095620.png",
+    "2 Databases/labs/lab1/img/Pasted image 20250304095350.png",
+    "2 Databases/labs/lab1/img/Pasted image 20250304093423.png",
+    "2 Databases/labs/lab1/img/Pasted image 20250304093420.png",
+    "README_ENG.md",
     "README.md",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3_test/lu382604zsgh.tmp",
     "1-2 Basics of Professional Activities (ОПД)/lectures/4_Презентация лекций 2019 часть 4.pdf",
@@ -188,21 +188,11 @@
     "2 Databases/README.md",
     "2 Databases/labs/test_1",
     "2 Databases/БД Учебный Процесс.pdf",
-    "0 Media/Pictures/Pasted image 20250201193413.png",
-    "README_ENG.md",
     "1-2 Basics of Professional Activities (ОПД)/lectures/1_Лекция.pdf",
     "1-2 Basics of Professional Activities (ОПД)/lectures/1лаба.pdf",
     "1-2 Basics of Professional Activities (ОПД)/1sem/lec1/Лекция 11.09.2024.md",
     "1 ICT/README.md",
-    "Programming/Theory of Kulinich/Pasted image 20241026162154.png",
-    "Programming/Theory of Kulinich/Pasted image 20241026162255.png",
     "Programming/Theory of Kulinich/Theory of Kulinich.md",
-    "Programming/Theory of Kulinich/Pasted image 20241026162045.png",
-    "Programming/Theory of Kulinich/Pasted image 20241026161834.png",
-    "Programming/Theory of Kulinich/Pasted image 20241026161735.png",
-    "Programming/Theory of Kulinich/Pasted image 20241026161457.png",
-    "Programming/Theory of Kulinich/Pasted image 20241026161137.png",
-    "Programming/Theory of Kulinich/Pasted image 20241026160936.png",
     "Programming/Theory of Kulinich/lab1/Перечень необходимых тем.md",
     "ICT/1sem/lec_3/Информатика лекция 3.md",
     "OPD/1sem/lab1/4 задание.md",
@@ -215,14 +205,11 @@
     "OPD/1sem/lab1/manuals/grep.md",
     "ICT/1sem/lec_2/Немного про коды Хэмминга.md",
     "Programming/sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
-    "History/sem1/Как рассказывать историю от первого лица/семейные легенды/функционал (медианные особенности)/5_нейронка_Screenshot_20240914_213438.png",
     "test.md",
     "Programming/sem1/lab_1/Форматирование текста для лаб по проге.md",
     "Как.md",
     "().md",
     "Programming/sem1/lab_1/build/empty.file.md",
-    "English C1/1 sem/24.09.2024/Classwork 24.09.2024.md",
-    "English C1/1 sem/24.09.2024/дз сделать.md",
-    "Untitled.canvas"
+    "English C1/1 sem/24.09.2024/Classwork 24.09.2024.md"
   ]
 }
