@@ -1,3 +1,31 @@
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [Теория по лабораторной работе №1](#----1)
+   * [Архитектура ANSI-SPARC](#-ansi-sparc)
+   * [Модель "Сущность-Связь"](#--)
+      + [Основные понятия](#-)
+      + [Характеристика связей и язык моделирования](#----)
+      + [Виды связей](#--1)
+      + [Ограничения целостности](#--2)
+   * [Языки описания команд:](#---1)
+      + [Data Definition Language](#data-definition-language)
+         - [Команды](#)
+            * [CREATE](#create)
+            * [ALTER](#alter)
+               + [Примеры](#-1)
+            * [DROP](#drop)
+         - [Необязательные, но не менее полезные команды](#-----)
+            * [TRUNCATE](#truncate)
+      + [Data Manipulation Language](#data-manipulation-language)
+         - [Команды](#-2)
+            * [SELECT](#select)
+            * [INSERT](#insert)
+            * [DELETE](#delete)
+            * [UPDATE](#update)
+   * [Источники](#-3)
+
+<!-- TOC end -->
+
 # Теория по лабораторной работе №1
 
 ## Архитектура ANSI-SPARC
@@ -193,7 +221,7 @@ ALTER TABLE example_table ALTER COLUMN counter SET NOT NULL UNIQUE;
 ALTER TABLE examle_table ADD PRIMARY KEY (id);
 ```
 
-###### DELETE
+##### DROP
 
 Команду используют для удаления объектов из базы данных: таблицы, представления или индекса. Пример удаляет таблицу с именем my_table.
 
