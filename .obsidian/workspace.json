@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "87475ba99bea1624",
+        "id": "a5cb940071c08f21",
         "type": "tabs",
         "children": [
           {
-            "id": "b098ab58f5c72865",
+            "id": "e533e38688b78d94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 Databases/README.md",
+                "file": "1-2 Basics of Professional Activities (ОПД)/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -163,18 +163,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b098ab58f5c72865",
+  "active": "e533e38688b78d94",
   "lastOpenFiles": [
-    "2 Databases/labs/README.md",
-    "2 Databases/README.md",
+    "README.md",
+    "1-2 Basics of Professional Activities (ОПД)/README.md",
+    "Books/Методические.md",
+    "Books",
+    "1-2 Programming/README.md",
     "0 Media/Templates/COURSE TEMPLATE.md",
+    "1-2 Basics of Professional Activities (ОПД)/Books/Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng.pdf",
+    "1-2 Basics of Professional Activities (ОПД)/img/Pasted image 20250306174825.png",
+    "1-2 Basics of Professional Activities (ОПД)/img/Pasted image 20250306174123.png",
+    "2 Databases/README.md",
+    "2 Databases/labs/README.md",
+    "0.md",
     "0 Media/Pictures/-template-course-o-o-.gif",
     "99 Unsorted attachments",
     "2 Databases/img/DataBases_GIF.gif",
-    "1-2 Programming/README.md",
     "0 Media/Templates",
     "1-2 Programming/img/Programming.gif",
-    "README.md",
     "0 Media/Pictures/earthbound-text-generator.gif",
     "99.md",
     "0 Media/Unsorted attachments",
@@ -183,9 +190,6 @@
     "1-2 Programming/img",
     "1-2 Programming/Books/additional/+++patterns_notes.pdf",
     "1-2 Programming/Books/additional/+++multithreading_prog-concurrency.pdf",
-    "2 Life Safety/2. Здоровый сон/lu10663163zy.tmp",
-    "2 Life Safety/2. Здоровый сон/lu10663163zw.tmp",
-    "1-2 Basics of Professional Activities (ОПД)/README.md",
     "1-2 Basics of Professional Activities (ОПД)/img/Data-2521677485.gif",
     "2 Databases/labs/lab2/README.md",
     "2 Databases/labs/lab1/README.md",
@@ -194,8 +198,6 @@
     "Untitled 1.canvas",
     "Pasted image 20250306143835.png",
     "2 Databases/labs/lab1/datalogical_scheme.png",
-    "2 Databases/labs/lab1/img/Pasted image 20250304093223.png",
-    "2 Databases/labs/lab1/img/Pasted image 20250304104224.png",
     "README_ENG.md",
     "1-2 Basics of Professional Activities (ОПД)/1sem/lec1/Лекция 11.09.2024.md",
     "1 ICT/README.md",
@@ -210,7 +212,6 @@
     "OPD/1sem/lab1/manuals/head.md",
     "OPD/1sem/lab1/manuals/sort.md",
     "OPD/1sem/lab1/manuals/grep.md",
-    "ICT/1sem/lec_2/Немного про коды Хэмминга.md",
-    "Programming/sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md"
+    "ICT/1sem/lec_2/Немного про коды Хэмминга.md"
   ]
 }
