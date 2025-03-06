@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 Databases/labs/lab1/README.md",
-                "mode": "preview",
+                "file": "2 Databases/README.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -165,7 +165,9 @@
   },
   "active": "e533e38688b78d94",
   "lastOpenFiles": [
+    "2 Databases/labs/lab1/README.md",
     "2 Databases/README.md",
+    "CODE_OF_CONDUCT.md",
     "2 Databases/labs/README.md",
     "1-2 Programming/sem2/lab5/README.md",
     "0 Media/Unsorted attachments/Pasted image 20250306190506.png",
@@ -194,7 +196,6 @@
     "1-2 Programming/img/Programming",
     "1-2 Programming/img",
     "1-2 Basics of Professional Activities (ОПД)/img/Data-2521677485.gif",
-    "2 Databases/labs/lab1/README.md",
     "99 Unsorted attachments/Pasted image 20250306144035.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
