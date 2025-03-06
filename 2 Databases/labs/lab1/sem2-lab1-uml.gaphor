@@ -19,5 +19,222 @@ controlflow {
 <name>
 <val>sem2-lab1-uml</val>
 </name>
+<ownedPresentation>
+<reflist>
+<ref refid="27b28ec9-f82f-11ef-8b3b-d72541b68b78"/>
+<ref refid="49d97008-f82f-11ef-8661-d72541b68b78"/>
+<ref refid="fd113861-f82f-11ef-954f-d72541b68b78"/>
+<ref refid="1d053a6c-f831-11ef-99da-d72541b68b78"/>
+<ref refid="24c253ec-f831-11ef-b10a-d72541b68b78"/>
+</reflist>
+</ownedPresentation>
 </Diagram>
+<Class id="27b17427-f82f-11ef-8454-d72541b68b78">
+<name>
+<val>Space</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="27b28ec9-f82f-11ef-8b3b-d72541b68b78"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="27b28ec9-f82f-11ef-8b3b-d72541b68b78">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 74.38472747802734, 250.0300750732422)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>258.5086135864258</val>
+</width>
+<height>
+<val>162.20127868652344</val>
+</height>
+<diagram>
+<ref refid="0026541e-f82f-11ef-8cc6-d72541b68b78"/>
+</diagram>
+<subject>
+<ref refid="27b17427-f82f-11ef-8454-d72541b68b78"/>
+</subject>
+</ClassItem>
+<Class id="49d8f224-f82f-11ef-9898-d72541b68b78">
+<name>
+<val>Spacecraft</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="49d97008-f82f-11ef-8661-d72541b68b78"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="49d97008-f82f-11ef-8661-d72541b68b78">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 46.6462302175961, 882.4993286132812)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>246.4101333618164</val>
+</width>
+<height>
+<val>219.26852416992188</val>
+</height>
+<diagram>
+<ref refid="0026541e-f82f-11ef-8cc6-d72541b68b78"/>
+</diagram>
+<subject>
+<ref refid="49d8f224-f82f-11ef-9898-d72541b68b78"/>
+</subject>
+</ClassItem>
+<Class id="fd10b242-f82f-11ef-9cd7-d72541b68b78">
+<name>
+<val>creature</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="5309f1aa-f834-11ef-856c-d72541b68b78"/>
+</reflist>
+</ownedAttribute>
+<ownedOperation>
+<reflist>
+<ref refid="f2b7b1f0-f83a-11ef-9abc-d72541b68b78"/>
+</reflist>
+</ownedOperation>
+<presentation>
+<reflist>
+<ref refid="fd113861-f82f-11ef-954f-d72541b68b78"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="fd113861-f82f-11ef-954f-d72541b68b78">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 411.38641357421875, 685.0064697265625)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>245.76040649414062</val>
+</width>
+<height>
+<val>186.10714721679688</val>
+</height>
+<diagram>
+<ref refid="0026541e-f82f-11ef-8cc6-d72541b68b78"/>
+</diagram>
+<subject>
+<ref refid="fd10b242-f82f-11ef-9cd7-d72541b68b78"/>
+</subject>
+</ClassItem>
+<Class id="1d047fab-f831-11ef-858b-d72541b68b78">
+<name>
+<val>Camera</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="1d053a6c-f831-11ef-99da-d72541b68b78"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="1d053a6c-f831-11ef-99da-d72541b68b78">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 776.3513911056091, 238.20281358146497)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>240.74636840820312</val>
+</width>
+<height>
+<val>237.3099365234375</val>
+</height>
+<diagram>
+<ref refid="0026541e-f82f-11ef-8cc6-d72541b68b78"/>
+</diagram>
+<subject>
+<ref refid="1d047fab-f831-11ef-858b-d72541b68b78"/>
+</subject>
+</ClassItem>
+<Class id="24c19726-f831-11ef-90cd-d72541b68b78">
+<name>
+<val>creatures_species</val>
+</name>
+<note>
+<val>Name can be: "human" or "robot".</val>
+</note>
+<ownedAttribute>
+<reflist>
+<ref refid="dfb8815e-f831-11ef-a2b4-d72541b68b78"/>
+</reflist>
+</ownedAttribute>
+<ownedOperation>
+<reflist>
+<ref refid="5b791609-f832-11ef-be44-d72541b68b78"/>
+</reflist>
+</ownedOperation>
+<presentation>
+<reflist>
+<ref refid="24c253ec-f831-11ef-b10a-d72541b68b78"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="24c253ec-f831-11ef-b10a-d72541b68b78">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 789.4234619140625, 624.5649809398634)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>227.6742975997497</val>
+</width>
+<height>
+<val>108.52149457918148</val>
+</height>
+<diagram>
+<ref refid="0026541e-f82f-11ef-8cc6-d72541b68b78"/>
+</diagram>
+<subject>
+<ref refid="24c19726-f831-11ef-90cd-d72541b68b78"/>
+</subject>
+</ClassItem>
+<Property id="dfb8815e-f831-11ef-a2b4-d72541b68b78">
+<class_>
+<ref refid="24c19726-f831-11ef-90cd-d72541b68b78"/>
+</class_>
+<name>
+<val>id</val>
+</name>
+<visibility>
+<val>private</val>
+</visibility>
+</Property>
+<Operation id="5b791609-f832-11ef-be44-d72541b68b78">
+<class_>
+<ref refid="24c19726-f831-11ef-90cd-d72541b68b78"/>
+</class_>
+<name>
+<val>+ name</val>
+</name>
+</Operation>
+<Property id="5309f1aa-f834-11ef-856c-d72541b68b78">
+<class_>
+<ref refid="fd10b242-f82f-11ef-9cd7-d72541b68b78"/>
+</class_>
+<name>
+<val>id</val>
+</name>
+</Property>
+<Operation id="f2b7b1f0-f83a-11ef-9abc-d72541b68b78">
+<class_>
+<ref refid="fd10b242-f82f-11ef-9cd7-d72541b68b78"/>
+</class_>
+<name>
+<val>+ species_id</val>
+</name>
+</Operation>
 </gaphor>
