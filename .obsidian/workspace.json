@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a5cb940071c08f21",
+        "id": "b48cf6d255cb2138",
         "type": "tabs",
         "children": [
           {
-            "id": "e533e38688b78d94",
+            "id": "e8cb91e1cc8e3def",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 Databases/labs/lab1/README.md",
+                "file": "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 267.5
   },
   "right": {
     "id": "8958fbce40799f89",
@@ -163,43 +163,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e533e38688b78d94",
+  "active": "e8cb91e1cc8e3def",
   "lastOpenFiles": [
+    "0 Media/Unsorted attachments/Pasted image 20250310160842.png",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310202159.png",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310202011.png",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310200132.png",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310195825.png",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310195644.png",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310194646.png",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310193950.png",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310193828.png",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310193656.png",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310193608.png",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/Books/Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng.pdf",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/bcomp_loop_example.txt",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/Untitled.md",
+    "1-2 Basics of Professional Activities (ОПД)/emulators/bcomp-ng.jar",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img",
+    "1-2 Programming/sem2/lab5/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/lu220024zspeh.tmp",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/lu220024zspby.tmp",
+    "2 Life Safety/1. Безопасность при ЧС/Снагин_Станислав_Максимович_ЛР_1_Безопасность_при_ЧС_compressed.pdf",
+    "2 Life Safety/1. Безопасность при ЧС/Снагин_Станислав_Максимович_ЛР_1_Безопасность_при_ЧС.zip",
+    "2 Life Safety/1. Безопасность при ЧС/Снагин_Станислав_Максимович_ЛР_1_Безопасность_при_ЧС.zip.u9670z",
+    "2 Life Safety/1. Безопасность при ЧС/Снагин_Станислав_Максимович_ЛР_1_Безопасность_при_ЧС.pdf",
+    "2 Databases/labs/lab1/README.md",
     "2 Databases/labs/README.md",
     "2 Databases/README.md",
-    "2 Databases/labs/lab1/README.md",
     "CODE_OF_CONDUCT.md",
-    "1-2 Programming/sem2/lab5/README.md",
-    "0 Media/Unsorted attachments/Pasted image 20250306190506.png",
     "2 Databases/labs/lab2/README.md",
     "1-2 Programming/README.md",
-    "1-2 Programming/sem2/lab5",
-    "1-2 Programming/sem2/lab5",
-    "1-2 Basics of Professional Activities (ОПД)/README.md",
     "README.md",
     "Books/Методические.md",
-    "Books",
     "0 Media/Templates/COURSE TEMPLATE.md",
-    "1-2 Basics of Professional Activities (ОПД)/Books/Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng.pdf",
-    "1-2 Basics of Professional Activities (ОПД)/img/Pasted image 20250306174825.png",
-    "1-2 Basics of Professional Activities (ОПД)/img/Pasted image 20250306174123.png",
     "0.md",
-    "0 Media/Pictures/-template-course-o-o-.gif",
-    "99 Unsorted attachments",
-    "2 Databases/img/DataBases_GIF.gif",
-    "0 Media/Templates",
-    "1-2 Programming/img/Programming.gif",
-    "0 Media/Pictures/earthbound-text-generator.gif",
     "99.md",
-    "0 Media/Unsorted attachments",
-    "99 Unsorted attachments/Programming",
-    "1-2 Programming/img/Programming",
-    "1-2 Programming/img",
-    "1-2 Basics of Professional Activities (ОПД)/img/Data-2521677485.gif",
-    "99 Unsorted attachments/Pasted image 20250306144035.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "Pasted image 20250306143835.png",
     "README_ENG.md",
     "1-2 Basics of Professional Activities (ОПД)/1sem/lec1/Лекция 11.09.2024.md",
     "1 ICT/README.md",
@@ -209,9 +212,6 @@
     "OPD/1sem/lab1/4 задание.md",
     "OPD/1sem/lab1/manuals/ls.md",
     "OPD/1sem/lab1/manuals/ln.md",
-    "OPD/1sem/lab1/manuals/cat.md",
-    "OPD/1sem/lab1/manuals/tail.md",
-    "OPD/1sem/lab1/manuals/head.md",
-    "OPD/1sem/lab1/manuals/sort.md"
+    "OPD/1sem/lab1/manuals/cat.md"
   ]
 }
