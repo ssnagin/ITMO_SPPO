@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
+                "file": "2 Databases/labs/lab1/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IMPORTANT_TABLES"
+              "title": "README"
             }
           },
           {
@@ -112,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 395.5
   },
   "right": {
     "id": "8958fbce40799f89",
@@ -200,6 +200,15 @@
   "active": "e8cb91e1cc8e3def",
   "lastOpenFiles": [
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/README.md",
+    "2 Databases/labs/lab1/README.md",
+    "img/Pasted.md",
+    "img",
+    "2 Databases/labs/lab1/infological_scheme.png",
+    "2 Databases/labs/lab1/datalogical_scheme.png",
+    "2 Databases/labs/lab2/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/microlectures/2.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/code.txt",
+    "1-2 Programming/sem2/lab5/README.md",
     "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
     "1-2 Basics of Professional Activities (ОПД)/Books/Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng.pdf",
     "1-2 Basics of Professional Activities (ОПД)/microlectures/TYPES_OF_ADDRESSING.md",
@@ -213,8 +222,6 @@
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab4",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/lu220024zsr2m.tmp",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/lu220024zsr14.tmp",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/lu220024zsr11.tmp",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/lu220024zsr08.tmp",
     "1 ICT/README.md",
     "1-2 Basics of Professional Activities (ОПД)/microlectures/img/Pasted image 20250310212238.png",
     "1-2 Basics of Professional Activities (ОПД)/img/Pasted image 20250310210535.png",
@@ -224,15 +231,10 @@
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310200132.png",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310195825.png",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310195644.png",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310194646.png",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310193950.png",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/Untitled.md",
-    "1-2 Programming/sem2/lab5/README.md",
-    "2 Databases/labs/lab1/README.md",
     "2 Databases/labs/README.md",
     "2 Databases/README.md",
     "CODE_OF_CONDUCT.md",
-    "2 Databases/labs/lab2/README.md",
     "1-2 Programming/README.md",
     "README.md",
     "Books/Методические.md",
@@ -244,7 +246,6 @@
     "README_ENG.md",
     "1-2 Basics of Professional Activities (ОПД)/1sem/lec1/Лекция 11.09.2024.md",
     "Programming/Theory of Kulinich/Theory of Kulinich.md",
-    "Programming/Theory of Kulinich/lab1/Перечень необходимых тем.md",
-    "ICT/1sem/lec_3/Информатика лекция 3.md"
+    "Programming/Theory of Kulinich/lab1/Перечень необходимых тем.md"
   ]
 }
