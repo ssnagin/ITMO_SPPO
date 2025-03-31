@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8188437c628db869",
+        "id": "803efa440689e013",
         "type": "tabs",
         "children": [
           {
-            "id": "e8cb91e1cc8e3def",
+            "id": "45cda1e443445a36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-2 Programming/sem2/lab5/README.md",
+                "file": "2 Databases/labs/lab2/SOLUTION.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "SOLUTION"
             }
           }
         ]
@@ -163,8 +163,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8cb91e1cc8e3def",
+  "active": "45cda1e443445a36",
   "lastOpenFiles": [
+    "2 Databases/labs/lab2/Pasted image 20250331110807.png",
+    "2 Databases/labs/lab2/README.md",
+    "0 Media/Unsorted attachments/Pasted image 20250306190506.png",
+    "0 Media/Unsorted attachments/Pasted image 20250306225358.png",
+    "2 Databases/labs/lab2/SOLUTION.md",
+    "2 Databases/БД Учебный Процесс.pdf",
+    "2 Databases/labs/README.md",
+    "1-2 Programming/sem2/lab5/README.md",
     "2 Life Safety/3. Финансовая безопасность/lu3987522hdg0y.tmp",
     "2 Life Safety/3. Финансовая безопасность/lu3987522hdg0w.tmp",
     "2 Life Safety/3. Финансовая безопасность/lu3987522hdg0u.tmp",
@@ -174,8 +182,6 @@
     "2 Life Safety/3. Финансовая безопасность/lu3987522hdg0m.tmp",
     "2 Life Safety/3. Финансовая безопасность/Шаблон_лабораторной_работы_Осознанное_потребление_2024.docx",
     "2 Life Safety/3. Финансовая безопасность/Снагин Станислав_ЛР3_Выявление небезопасных финансовых операций.docx",
-    "2 Life Safety/3. Финансовая безопасность/Снагин Станислав_ЛР3_ Выявление небезопасных финансовых операций.docx",
-    "2 Life Safety/3. Финансовая безопасность/Шаблон лабораторной работы Выявление небезопасных финансовых операций.docx",
     "1-2 Programming/README.md",
     "1-2 Basics of Professional Activities (ОПД)/microlectures/2.md",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/README.md",
@@ -183,26 +189,19 @@
     "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
     "1-2 Basics of Professional Activities (ОПД)/README.md",
     "README.md",
-    "2 Databases/labs/lab2/SOLUTION.md",
-    "2 Databases/labs/lab2/README.md",
     "2 Databases/labs/lab1/README.md",
     "2 Databases/README.md",
-    "2 Databases/labs/README.md",
     "2 Databases/img/DataBases_GIF.gif",
     "2 Databases/labs/lab1/img/Pasted image 20250304104224.png",
     "2 Databases/labs/lab1/infological_scheme.png",
     "2 Databases/labs/lab1/datalogical_scheme.png",
     "img/Pasted.md",
-    "1-2 Programming/sem2/lab5/README.md",
     "1-2 Basics of Professional Activities (ОПД)/ABOUT_BEC.md",
     "1-2 Basics of Professional Activities (ОПД)/Untitled.md",
     "1 ICT/README.md",
     "1-2 Basics of Professional Activities (ОПД)/microlectures/img/Pasted image 20250310212238.png",
     "1-2 Basics of Professional Activities (ОПД)/img/Pasted image 20250310210535.png",
-    "0 Media/Unsorted attachments/Pasted image 20250306190506.png",
-    "0 Media/Unsorted attachments/Pasted image 20250306225358.png",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310202011.png",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310200132.png",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/Untitled.md",
     "CODE_OF_CONDUCT.md",
     "Books/Методические.md",
