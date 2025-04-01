@@ -11,6 +11,39 @@
             "id": "45cda1e443445a36",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2 Databases/БД Учебный Процесс.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "БД Учебный Процесс"
+            }
+          },
+          {
+            "id": "cb155a9bed1672ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 Databases/labs/lab2/SOLUTION.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SOLUTION"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "977b776e9bfc40e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b41e32251dac446",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "2 Databases/labs/lab2/SOLUTION.md",
@@ -78,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 200
   },
   "right": {
     "id": "8958fbce40799f89",
@@ -94,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "2 Databases/labs/lab2/SOLUTION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +137,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for SOLUTION"
             }
           },
           {
@@ -113,12 +146,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "2 Databases/labs/lab2/SOLUTION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from SOLUTION"
             }
           },
           {
@@ -128,7 +161,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -163,25 +198,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "45cda1e443445a36",
+  "active": "5b41e32251dac446",
   "lastOpenFiles": [
-    "2 Databases/labs/lab2/Pasted image 20250331110807.png",
     "2 Databases/labs/lab2/README.md",
+    "2 Databases/labs/lab2/SOLUTION.md",
+    "2 Databases/README.md",
+    "2 Databases/БД Учебный Процесс.pdf",
+    "2 Databases/labs/lab2/img/joins.png",
+    "2 Databases/labs/lab2/Pasted image 20250331110807.png",
+    "2 Databases/labs/README.md",
+    "0 Media/Unsorted attachments/Pasted image 20250401121357.png",
+    "2 Databases/labs/lab1/README.md",
+    "2 Databases/labs/lab2/joins.png",
+    "2 Databases/labs/lab2/img",
+    "2 Databases/labs/lab2/joins",
+    "2 Databases/labs/lab2/joins.part",
+    "2 Life Safety/4. Осознанное потребление и eco-friendly lifestyle/Снагин_Станислав_Осознанное_потребление_2025.pdf",
+    "2 Life Safety/4. Осознанное потребление и eco-friendly lifestyle/Снагин_Станислав_Осознанное_потребление_2025.docx",
     "0 Media/Unsorted attachments/Pasted image 20250306190506.png",
     "0 Media/Unsorted attachments/Pasted image 20250306225358.png",
-    "2 Databases/labs/lab2/SOLUTION.md",
-    "2 Databases/БД Учебный Процесс.pdf",
-    "2 Databases/labs/README.md",
     "1-2 Programming/sem2/lab5/README.md",
     "2 Life Safety/3. Финансовая безопасность/lu3987522hdg0y.tmp",
     "2 Life Safety/3. Финансовая безопасность/lu3987522hdg0w.tmp",
     "2 Life Safety/3. Финансовая безопасность/lu3987522hdg0u.tmp",
     "2 Life Safety/3. Финансовая безопасность/lu3987522hdg0s.tmp",
-    "2 Life Safety/3. Финансовая безопасность/lu3987522hdg0q.tmp",
-    "2 Life Safety/3. Финансовая безопасность/lu3987522hdg0o.tmp",
-    "2 Life Safety/3. Финансовая безопасность/lu3987522hdg0m.tmp",
-    "2 Life Safety/3. Финансовая безопасность/Шаблон_лабораторной_работы_Осознанное_потребление_2024.docx",
-    "2 Life Safety/3. Финансовая безопасность/Снагин Станислав_ЛР3_Выявление небезопасных финансовых операций.docx",
     "1-2 Programming/README.md",
     "1-2 Basics of Professional Activities (ОПД)/microlectures/2.md",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/README.md",
@@ -189,8 +229,6 @@
     "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
     "1-2 Basics of Professional Activities (ОПД)/README.md",
     "README.md",
-    "2 Databases/labs/lab1/README.md",
-    "2 Databases/README.md",
     "2 Databases/img/DataBases_GIF.gif",
     "2 Databases/labs/lab1/img/Pasted image 20250304104224.png",
     "2 Databases/labs/lab1/infological_scheme.png",
@@ -199,9 +237,6 @@
     "1-2 Basics of Professional Activities (ОПД)/ABOUT_BEC.md",
     "1-2 Basics of Professional Activities (ОПД)/Untitled.md",
     "1 ICT/README.md",
-    "1-2 Basics of Professional Activities (ОПД)/microlectures/img/Pasted image 20250310212238.png",
-    "1-2 Basics of Professional Activities (ОПД)/img/Pasted image 20250310210535.png",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/img/Pasted image 20250310202011.png",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/Untitled.md",
     "CODE_OF_CONDUCT.md",
     "Books/Методические.md",
