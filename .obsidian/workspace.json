@@ -37,14 +37,12 @@
             "id": "5b41e32251dac446",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "2 Databases/labs/lab2/README.md",
-                "mode": "source",
-                "source": false
+                "file": "2 Databases/labs/lab2/Pasted image 20250331110807.png"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250331110807"
             }
           }
         ],
@@ -105,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 228.5
   },
   "right": {
     "id": "8958fbce40799f89",
@@ -121,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 Databases/labs/lab2/README.md",
+                "file": "2 Databases/labs/lab2/Pasted image 20250331110807.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +129,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for Pasted image 20250331110807"
             }
           },
           {
@@ -140,12 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 Databases/labs/lab2/README.md",
+                "file": "2 Databases/labs/lab2/Pasted image 20250331110807.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from Pasted image 20250331110807"
             }
           },
           {
@@ -194,25 +192,25 @@
   },
   "active": "5b41e32251dac446",
   "lastOpenFiles": [
+    "2 Databases/labs/README.md",
+    "2 Databases/labs/lab2/img/joins.png",
+    "2 Databases/БД Учебный Процесс.pdf",
+    "2 Databases/labs/lab2/lu140051lg5lj.tmp",
+    "2 Databases/labs/lab2/lu140051lg5i0.tmp",
+    "2 Databases/labs/lab2/lu140051lg5ht.tmp",
+    "2 Databases/labs/lab2/lu140051lg5hq.tmp",
+    "2 Databases/labs/lab2/lu140051lg5hn.tmp",
+    "2 Databases/labs/lab2/lu140051lg5hk.tmp",
+    "2 Databases/labs/lab2/lu140051lg5hd.tmp",
+    "2 Databases/README.md",
+    "2 Databases/labs/lab2/lu140051lg5dy.tmp",
+    "2 Databases/labs/lab2/README.md",
+    "2 Databases/labs/lab2/SOLUTION.md",
+    "2 Databases/labs/lab2/lu140051lg5cr.tmp",
+    "2 Databases/labs/lab2/Pasted image 20250331110807.png",
     "0 Media/Unsorted attachments/Pasted image 20250401151945.png",
     "0 Media/Unsorted attachments/Pasted image 20250401151907.png",
     "0 Media/Unsorted attachments/Pasted image 20250401151804.png",
-    "2 Databases/labs/lab2/SOLUTION.md",
-    "2 Databases/labs/lab2/lu140051lg5cb.tmp",
-    "2 Databases/labs/lab2/lu140051lg5c8.tmp",
-    "2 Databases/labs/lab2/lu140051lg5c5.tmp",
-    "2 Databases/labs/lab2/lu140051lg5bt.tmp",
-    "2 Databases/labs/lab2/lu140051lg5be.tmp",
-    "2 Databases/labs/lab2/lu140051lg5b5.tmp",
-    "2 Databases/labs/lab2/lu140051lg5ak.tmp",
-    "2 Databases/labs/lab2/lu140051lg5a5.tmp",
-    "2 Databases/labs/lab2/lu140051lg59z.tmp",
-    "2 Databases/labs/lab2/lu140051lg59w.tmp",
-    "2 Databases/labs/lab2/README.md",
-    "2 Databases/README.md",
-    "2 Databases/labs/lab2/img/joins.png",
-    "2 Databases/labs/lab2/Pasted image 20250331110807.png",
-    "2 Databases/labs/README.md",
     "0 Media/Unsorted attachments/Pasted image 20250401121357.png",
     "2 Databases/labs/lab1/README.md",
     "2 Databases/labs/lab2/joins.png",
@@ -227,7 +225,6 @@
     "1-2 Basics of Professional Activities (ОПД)/README.md",
     "README.md",
     "2 Databases/img/DataBases_GIF.gif",
-    "2 Databases/labs/lab1/img/Pasted image 20250304104224.png",
     "img/Pasted.md",
     "1-2 Basics of Professional Activities (ОПД)/ABOUT_BEC.md",
     "1-2 Basics of Professional Activities (ОПД)/Untitled.md",
