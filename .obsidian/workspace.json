@@ -32,29 +32,23 @@
               "icon": "lucide-file",
               "title": "SOLUTION"
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "977b776e9bfc40e0",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "5b41e32251dac446",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 Databases/labs/lab2/SOLUTION.md",
+                "file": "2 Databases/labs/lab2/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SOLUTION"
+              "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 Databases/labs/lab2/SOLUTION.md",
+                "file": "2 Databases/labs/lab2/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SOLUTION"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -146,12 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 Databases/labs/lab2/SOLUTION.md",
+                "file": "2 Databases/labs/lab2/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SOLUTION"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -200,28 +194,31 @@
   },
   "active": "5b41e32251dac446",
   "lastOpenFiles": [
-    "2 Databases/labs/lab2/README.md",
+    "0 Media/Unsorted attachments/Pasted image 20250401151945.png",
+    "0 Media/Unsorted attachments/Pasted image 20250401151907.png",
+    "0 Media/Unsorted attachments/Pasted image 20250401151804.png",
     "2 Databases/labs/lab2/SOLUTION.md",
+    "2 Databases/labs/lab2/lu140051lg5cb.tmp",
+    "2 Databases/labs/lab2/lu140051lg5c8.tmp",
+    "2 Databases/labs/lab2/lu140051lg5c5.tmp",
+    "2 Databases/labs/lab2/lu140051lg5bt.tmp",
+    "2 Databases/labs/lab2/lu140051lg5be.tmp",
+    "2 Databases/labs/lab2/lu140051lg5b5.tmp",
+    "2 Databases/labs/lab2/lu140051lg5ak.tmp",
+    "2 Databases/labs/lab2/lu140051lg5a5.tmp",
+    "2 Databases/labs/lab2/lu140051lg59z.tmp",
+    "2 Databases/labs/lab2/lu140051lg59w.tmp",
+    "2 Databases/labs/lab2/README.md",
     "2 Databases/README.md",
-    "2 Databases/БД Учебный Процесс.pdf",
     "2 Databases/labs/lab2/img/joins.png",
     "2 Databases/labs/lab2/Pasted image 20250331110807.png",
     "2 Databases/labs/README.md",
     "0 Media/Unsorted attachments/Pasted image 20250401121357.png",
     "2 Databases/labs/lab1/README.md",
     "2 Databases/labs/lab2/joins.png",
-    "2 Databases/labs/lab2/img",
-    "2 Databases/labs/lab2/joins",
-    "2 Databases/labs/lab2/joins.part",
-    "2 Life Safety/4. Осознанное потребление и eco-friendly lifestyle/Снагин_Станислав_Осознанное_потребление_2025.pdf",
-    "2 Life Safety/4. Осознанное потребление и eco-friendly lifestyle/Снагин_Станислав_Осознанное_потребление_2025.docx",
     "0 Media/Unsorted attachments/Pasted image 20250306190506.png",
     "0 Media/Unsorted attachments/Pasted image 20250306225358.png",
     "1-2 Programming/sem2/lab5/README.md",
-    "2 Life Safety/3. Финансовая безопасность/lu3987522hdg0y.tmp",
-    "2 Life Safety/3. Финансовая безопасность/lu3987522hdg0w.tmp",
-    "2 Life Safety/3. Финансовая безопасность/lu3987522hdg0u.tmp",
-    "2 Life Safety/3. Финансовая безопасность/lu3987522hdg0s.tmp",
     "1-2 Programming/README.md",
     "1-2 Basics of Professional Activities (ОПД)/microlectures/2.md",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/README.md",
@@ -231,8 +228,6 @@
     "README.md",
     "2 Databases/img/DataBases_GIF.gif",
     "2 Databases/labs/lab1/img/Pasted image 20250304104224.png",
-    "2 Databases/labs/lab1/infological_scheme.png",
-    "2 Databases/labs/lab1/datalogical_scheme.png",
     "img/Pasted.md",
     "1-2 Basics of Professional Activities (ОПД)/ABOUT_BEC.md",
     "1-2 Basics of Professional Activities (ОПД)/Untitled.md",
