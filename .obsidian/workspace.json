@@ -25,28 +25,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 Databases/labs/lab2/SOLUTION.md",
+                "file": "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SOLUTION"
-            }
-          },
-          {
-            "id": "5b41e32251dac446",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "2 Databases/labs/lab2/Pasted image 20250331110807.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250331110807"
+              "title": "README"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,8 +178,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b41e32251dac446",
+  "active": "cb155a9bed1672ca",
   "lastOpenFiles": [
+    "1-2 Basics of Professional Activities (ОПД)/Books/Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng.pdf",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/ОПД_ЛР4_Р3115_Снагин_Станислав_Максимович_вар_15601.pdf",
+    "2 Databases/labs/lab2/Pasted image 20250331110807.png",
     "2 Databases/labs/README.md",
     "2 Databases/labs/lab2/img/joins.png",
     "2 Databases/БД Учебный Процесс.pdf",
@@ -203,11 +196,8 @@
     "2 Databases/labs/lab2/lu140051lg5hk.tmp",
     "2 Databases/labs/lab2/lu140051lg5hd.tmp",
     "2 Databases/README.md",
-    "2 Databases/labs/lab2/lu140051lg5dy.tmp",
     "2 Databases/labs/lab2/README.md",
     "2 Databases/labs/lab2/SOLUTION.md",
-    "2 Databases/labs/lab2/lu140051lg5cr.tmp",
-    "2 Databases/labs/lab2/Pasted image 20250331110807.png",
     "0 Media/Unsorted attachments/Pasted image 20250401151945.png",
     "0 Media/Unsorted attachments/Pasted image 20250401151907.png",
     "0 Media/Unsorted attachments/Pasted image 20250401151804.png",
@@ -219,7 +209,6 @@
     "1-2 Programming/sem2/lab5/README.md",
     "1-2 Programming/README.md",
     "1-2 Basics of Professional Activities (ОПД)/microlectures/2.md",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/README.md",
     "1-2 Basics of Professional Activities (ОПД)/microlectures/TYPES_OF_ADDRESSING.md",
     "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
     "1-2 Basics of Professional Activities (ОПД)/README.md",
@@ -237,7 +226,6 @@
     "99.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "README_ENG.md",
-    "1-2 Basics of Professional Activities (ОПД)/1sem/lec1/Лекция 11.09.2024.md"
+    "README_ENG.md"
   ]
 }
