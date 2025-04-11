@@ -1,0 +1,128 @@
+
+; Наша задача: вернуть D (D1 + D2) 
+
+CLA
+ST D1
+ST D2
+LD Y
+INC
+
+PUSH
+CALL SUBPROG
+POP
+
+CALL ST_D
+
+INC
+
+CALL ST_D
+
+
+SUB D (тут вычитаем ноль, без разницы, это можно вообще убрать)
+
+CALL ST_D +
+
+LD Z 
+DEC
+PUSH
+CALL SUBPROG
+POP
+
+CALL ST_D
+
+DEC
+
+CALL ST_D
+
+SUB D
+
+CALL ST_D +
+
+LD X
+INC
+PUSH
+CALL SUBPROG
+POP
+CALL ST_D
+DEC
+CALL ST_D
+HLT
+
+ST_D (0x500):
+    ; Аргумент через AC
+    ; 0x3BC D1 старшие
+    ; 0x3BD D2 младшие
+    ; 0x3BE 8000 эквивалент
+    CLC
+    
+    ; Проверка на 15 бит: если 1, расширение
+    
+    CMP 0x3BE ; #8000
+
+    BHIS IP + 8
+    
+    ADD 0x3BD ; тут без разницы ADD или ADC
+    ST 0x3BD
+    CLA (LD #0)
+    ADC 0x3BC
+    ST 0x3BC
+    CLA
+    CLC
+    RET ; это была программа для + чисел
+
+    ; если NEG:
+    PUSH
+    LD 0x3BC
+    SUB FFFF (-1, #FF)
+    ST 0x3BC
+    
+    LD 0x3BD
+    ADD &0 ; ADD (АРГУМЕНТ) тут ADD, т.к. мы заранее знаем знак       
+    POP
+    CLA
+    CLC
+
+    RET
+
+ST_D_NEG:
+    
+    ADD 0x3BD ; тут без разницы ADD или ADC
+    ST 0x3BD
+    LD #0
+    ADC 0x3BC
+    ST 0x3BC
+    CLA
+    CLC
+    RET
+
+
+SUBPROG:
+    LD &1
+    BMI IP + 4
+    BEQ IP + 3
+    
+    CMP A
+    
+    BEQ IP + 4
+    BLT IP + 3
+    
+    JUMP SUBPROG_EXECUTION
+    
+SUBPROG_EXECUTION:
+    ADD &1
+    SUB IP + 5
+    JUMP IP + 1
+    LD IP + 2
+    
+    ST &1
+
+    RET
+
+=====
+3B9 Z
+3BA Y
+3BB X
+3BC D1 Результат -- 32 разрядное число
+3BD D2
+
+

@@ -13,9 +13,9 @@ RET
 
 `int pow (int exp, int base)`
 
-поэтому возник polling convention
+поэтому возник calling convention
 
-Polling Convention регламентирует:
+Calling Convention регламентирует:
 
 1. Порядок аргументов
 	1. Место размещения аргументов

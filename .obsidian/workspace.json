@@ -11,30 +11,72 @@
             "id": "45cda1e443445a36",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2 Databases/БД Учебный Процесс.pdf"
+                "file": "1-2 Basics of Professional Activities (ОПД)/microlectures/CALLING_CONVENTIONS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "БД Учебный Процесс"
+              "icon": "lucide-file",
+              "title": "CALLING_CONVENTIONS"
             }
           },
           {
             "id": "cb155a9bed1672ca",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "1-2 Basics of Professional Activities (ОПД)/Books/Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng"
+            }
+          },
+          {
+            "id": "94e54c9f54428e50",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/README.md",
+                "file": "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IMPORTANT_TABLES"
+            }
+          },
+          {
+            "id": "d921377d03b6794c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 Databases/labs/lab3/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "50a8ce7b7d1c7589",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IMPORTANT_TABLES"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -91,7 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 200
   },
   "right": {
     "id": "8958fbce40799f89",
@@ -178,25 +220,68 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb155a9bed1672ca",
+  "floating": {
+    "id": "8900ca6a381a42dc",
+    "type": "floating",
+    "children": [
+      {
+        "id": "c1af433466a2d4a9",
+        "type": "window",
+        "children": [
+          {
+            "id": "48153829efeacab4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c1e8f4936090055f",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "1-2 Basics of Professional Activities (ОПД)/Books/Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 44,
+        "width": 960,
+        "height": 1156,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "d921377d03b6794c",
   "lastOpenFiles": [
-    "1-2 Discrete Math/sem2/lu108701lrlmk.tmp",
-    "1-2 Discrete Math/sem2/lu108701lrllx.tmp",
-    "1-2 Discrete Math/sem2/lu108701lrllu.tmp",
-    "1-2 Discrete Math/sem2/lu108701lrllr.tmp",
-    "1-2 Discrete Math/sem2/lu108701lrlka.tmp",
-    "1-2 Discrete Math/sem2/lu108701lrlk7.tmp",
-    "1-2 Discrete Math/sem2/lu108701lrlk4.tmp",
-    "1-2 Discrete Math/sem2/lu108701lrlh9.tmp",
-    "1-2 Discrete Math/sem2/lu108701lrlh6.tmp",
-    "1-2 Discrete Math/sem2/lu108701lrlh3.tmp",
-    "1-2 Discrete Math/sem2/lu108701lrlh0.tmp",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/README.md",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/README.md",
-    "2 Databases/labs/lab2/Pasted image 20250331110807.png",
-    "2 Databases/labs/README.md",
-    "2 Databases/labs/lab2/img/joins.png",
+    "2 Communications and team building/Снагин_Станислав_467525_РТ_КиК_25.pdf.part",
+    "2 Communications and team building/Тема 2",
+    "2 Communications and team building/Untitled Folder",
+    "2 Communications and team building/Тема 1",
     "2 Databases/README.md",
+    "2 Databases/labs/README.md",
+    "2 Databases/labs/lab3/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/Books/Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng.pdf",
+    "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/microlectures/CALLING_CONVENTIONS.md",
+    "1-2 Basics of Professional Activities (ОПД)/преза-2семестра.pdf",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/additional_task",
+    "0 Media/Unsorted attachments/Pasted image 20250408171938.png",
+    "0 Media/Unsorted attachments/Pasted image 20250408171918.png",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/stacktrace.csv",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/ОПД_ЛР4_Р3115_Снагин_Станислав_Максимович_вар_15601.odt",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/ОПД_ЛР4_Р3115_Снагин_Станислав_Максимович_вар_15601_2.odt",
+    "1-2 Basics of Professional Activities (ОПД)/microlectures/TYPES_OF_ADDRESSING.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/ОПД_ЛР4_Р3115_Снагин_Станислав_Максимович_вар_15601.pdf",
+    "2 Databases/labs/lab2/Pasted image 20250331110807.png",
+    "2 Databases/labs/lab2/img/joins.png",
     "2 Databases/labs/lab2/README.md",
     "2 Databases/labs/lab2/SOLUTION.md",
     "0 Media/Unsorted attachments/Pasted image 20250401151945.png",
@@ -206,15 +291,10 @@
     "2 Databases/labs/lab1/README.md",
     "2 Databases/labs/lab2/joins.png",
     "0 Media/Unsorted attachments/Pasted image 20250306190506.png",
-    "0 Media/Unsorted attachments/Pasted image 20250306225358.png",
     "1-2 Programming/sem2/lab5/README.md",
     "1-2 Programming/README.md",
-    "1-2 Basics of Professional Activities (ОПД)/microlectures/2.md",
-    "1-2 Basics of Professional Activities (ОПД)/microlectures/TYPES_OF_ADDRESSING.md",
-    "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
     "1-2 Basics of Professional Activities (ОПД)/README.md",
     "README.md",
-    "2 Databases/img/DataBases_GIF.gif",
     "img/Pasted.md",
     "1-2 Basics of Professional Activities (ОПД)/ABOUT_BEC.md",
     "1-2 Basics of Professional Activities (ОПД)/Untitled.md",
@@ -226,7 +306,6 @@
     "0.md",
     "99.md",
     "Untitled.canvas",
-    "Untitled 1.canvas",
-    "README_ENG.md"
+    "Untitled 1.canvas"
   ]
 }
