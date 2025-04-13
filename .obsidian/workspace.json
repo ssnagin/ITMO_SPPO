@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 Databases/labs/lab3/README.md",
+                "file": "2 Communications and team building/2. Командные роли/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -220,66 +220,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "8900ca6a381a42dc",
-    "type": "floating",
-    "children": [
-      {
-        "id": "c1af433466a2d4a9",
-        "type": "window",
-        "children": [
-          {
-            "id": "48153829efeacab4",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c1e8f4936090055f",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "1-2 Basics of Professional Activities (ОПД)/Books/Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 44,
-        "width": 960,
-        "height": 1156,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "d921377d03b6794c",
   "lastOpenFiles": [
-    "2 Communications and team building/Снагин_Станислав_467525_РТ_КиК_25.pdf.part",
-    "2 Communications and team building/Тема 2",
-    "2 Communications and team building/Untitled Folder",
-    "2 Communications and team building/Тема 1",
+    "2 Communications and team building/AGREEMENT.md",
+    "2 Communications and team building/2. Командные роли/README.md",
+    "2 Communications and team building/2. Командные роли/New Text Document.txt",
+    "2 Communications and team building/2. Командные роли",
+    "2 Communications and team building/Презентации/1 КиК Работа в команде.pptx.pdf",
+    "2 Communications and team building/Презентации/1 КиК Работа в команде.pptx.pdf.crdownload",
+    "2 Communications and team building/Презентации",
+    "2 Communications and team building/New folder (2)",
+    "2 Communications and team building/Удалённые команды_compressed.pdf",
+    "2 Communications and team building/Удалённые команды_compressed.pdf.crdownload",
+    "2 Communications and team building/New folder",
+    "2 Communications and team building/Шаблоны/РТ_КиК_25_Шаблон.pdf",
+    "2 Databases/labs/lab3/README.md",
     "2 Databases/README.md",
     "2 Databases/labs/README.md",
-    "2 Databases/labs/lab3/README.md",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/README.md",
-    "1-2 Basics of Professional Activities (ОПД)/Books/Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng.pdf",
     "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/README.md",
     "1-2 Basics of Professional Activities (ОПД)/microlectures/CALLING_CONVENTIONS.md",
-    "1-2 Basics of Professional Activities (ОПД)/преза-2семестра.pdf",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/additional_task",
     "0 Media/Unsorted attachments/Pasted image 20250408171938.png",
     "0 Media/Unsorted attachments/Pasted image 20250408171918.png",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/stacktrace.csv",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/ОПД_ЛР4_Р3115_Снагин_Станислав_Максимович_вар_15601.odt",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/ОПД_ЛР4_Р3115_Снагин_Станислав_Максимович_вар_15601_2.odt",
     "1-2 Basics of Professional Activities (ОПД)/microlectures/TYPES_OF_ADDRESSING.md",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/ОПД_ЛР4_Р3115_Снагин_Станислав_Максимович_вар_15601.pdf",
     "2 Databases/labs/lab2/Pasted image 20250331110807.png",
     "2 Databases/labs/lab2/img/joins.png",
     "2 Databases/labs/lab2/README.md",
@@ -304,7 +268,6 @@
     "Books/Методические.md",
     "0 Media/Templates/COURSE TEMPLATE.md",
     "0.md",
-    "99.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
