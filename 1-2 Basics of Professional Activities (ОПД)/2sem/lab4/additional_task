@@ -126,3 +126,241 @@ SUBPROG_EXECUTION:
 3BD D2
 
 
+======================
+
+START:
+.pro:	
+    PUSH
+	PUSH
+	PUSH
+.bdy:
+.fx:	
+    LD X
+	INC
+	PUSH
+	CALL F
+	POP
+	ST &0
+.sxx:	
+    PUSH
+	PUSH
+	PUSH
+	LD &3
+	ST &0
+	CALL sxt16
+	LD &1
+	ST &4
+	LD &0
+	ST &3
+	SWAP
+	POP
+	SWAP
+	POP
+.adx:	PUSH
+	PUSH
+	PUSH
+	PUSH
+	PUSH
+	PUSH
+	LD &8
+	ST &3
+	LD &7
+	ST &2
+	LD DL
+	ST &1
+	LD DH
+	ST &0
+	CALL add32
+	LD &1
+	ST DL
+	LD &0
+	ST DH
+	SWAP
+	POP
+	SWAP
+	POP
+.fy:	LD Y
+	INC
+	PUSH
+	CALL F
+	POP
+	ST &0
+.sxy:	PUSH
+	PUSH
+	PUSH
+	LD &3
+	ST &0
+	CALL sxt16
+	LD &1
+	ST &4
+	LD &0
+	ST &3
+	SWAP
+	POP
+	SWAP
+	POP
+.sby:	PUSH
+	PUSH
+	PUSH
+	PUSH
+	PUSH
+	PUSH
+	LD &8
+	ST &3
+	LD &7
+	ST &2
+	LD DL
+	ST &1
+	LD DH
+	ST &0
+	CALL sub32
+	LD &1
+	ST DL
+	LD &0
+	ST DH
+	SWAP
+	POP
+	SWAP
+	POP
+.fz:	LD Z
+	DEC
+	PUSH
+	CALL F
+	POP
+	ST &0
+.sxz:	PUSH
+	PUSH
+	PUSH
+	LD &3
+	ST &0
+	CALL sxt16
+	LD &1
+	ST &4
+	LD &0
+	ST &3
+	SWAP
+	POP
+	SWAP
+	POP
+.adz:	PUSH
+	PUSH
+	PUSH
+	PUSH
+	PUSH
+	PUSH
+	LD &8
+	ST &3
+	LD &7
+	ST &2
+	LD DL
+	ST &1
+	LD DH
+	ST &0
+	CALL add32
+	LD &1
+	ST DL
+	LD &0
+	ST DH
+	SWAP
+	POP
+	SWAP
+	POP
+.sbc:	PUSH
+	PUSH
+	PUSH
+	PUSH
+
+
+======================
+
+ORG 0x6EC
+
+STACK: 
+    LD &1
+
+BPL S_ADDR
+CMP W
+BMI S_ADDR
+JUMP LOAD
+
+S_ADDR: 
+    ADD &1
+    ADD &1
+    ADD &1
+    SUB S
+    JUMP SAVE
+
+LOAD: 
+    LD W
+
+SAVE: 
+    ST &1
+    RET
+
+W: 
+    WORD 0xF99C
+S: 
+    WORD 0x0085
+
+ORG 0x3D6
+
+Z: 
+    WORD 0x5576
+C: 
+    WORD 0x1555
+Y: 
+    WORD 0x5576
+B: 
+    WORD 0x1555
+X: 
+    WORD 0x5576
+A: 
+    WORD 0x1555
+R: 
+    WORD 0x0000
+P: 
+    WORD 0x0000
+
+ORG 0x3AA
+START: CLA
+ST R
+LD Z
+INC
+PUSH
+CALL $STACK
+POP
+ADD R
+ST R
+LD C
+ADC P
+ADD C
+ADD C
+ADD C
+ST P
+LD X
+PUSH
+CALL $STACK
+POP
+ADD R
+ST R
+LD A
+ADC P
+ADD A
+ADD A
+ADD A
+ST P
+LD Y
+PUSH
+CALL $STACK
+POP
+INC
+ADD R
+ST R
+LD B
+ADC P
+ADD B
+ADD B
+ADD B
+ST P
+HLT
+

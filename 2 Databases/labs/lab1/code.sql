@@ -183,7 +183,3 @@ INSERT INTO s467525.spacecraft_camera (camera_id, spacecraft_id) VALUES (1, 1), 
 
 -- рандомные 2 манипулятора у аппарата 1
 INSERT INTO s467525.manipulator (is_active, size, is_broken) VALUES (true, 100, false), (true, 100, false);
-
--- Отследить время создания
-
-ALTER TABLE s467525 SET 

@@ -22,7 +22,21 @@
             }
           },
           {
-            "id": "cb155a9bed1672ca",
+            "id": "e61e6d067bda2f23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IMPORTANT_TABLES"
+            }
+          },
+          {
+            "id": "62c181eff22f5f79",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -34,45 +48,17 @@
             }
           },
           {
-            "id": "94e54c9f54428e50",
+            "id": "cb155a9bed1672ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IMPORTANT_TABLES"
-            }
-          },
-          {
-            "id": "d921377d03b6794c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 Communications and team building/2. Командные роли/README.md",
+                "file": "2 Databases/labs/lab3/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "README"
-            }
-          },
-          {
-            "id": "50a8ce7b7d1c7589",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IMPORTANT_TABLES"
             }
           }
         ],
@@ -220,28 +206,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d921377d03b6794c",
+  "active": "cb155a9bed1672ca",
   "lastOpenFiles": [
-    "2 Communications and team building/2. Командные роли/lu203569x6yy.tmp",
-    "2 Communications and team building/2. Командные роли/lu203569x6yw.tmp",
-    "2 Communications and team building/2. Командные роли/lu203569x6yu.tmp",
-    "2 Communications and team building/2. Командные роли/lu203569x6ys.tmp",
-    "2 Communications and team building/2. Командные роли/lu203569x6yq.tmp",
-    "2 Communications and team building/2. Командные роли/lu203569x6yo.tmp",
-    "2 Communications and team building/2. Командные роли/lu203569x6ym.tmp",
-    "2 Communications and team building/2. Командные роли/lu203569x6yk.tmp",
-    "2 Communications and team building/2. Командные роли/lu203569x6yi.tmp",
-    "2 Communications and team building/2. Командные роли/lu203569x6yg.tmp",
-    "2 Communications and team building/2. Командные роли/lu203569x6ye.tmp",
-    "2 Communications and team building/AGREEMENT.md",
-    "2 Communications and team building/2. Командные роли/README.md",
+    "2 Databases/labs/lab1/README.md",
+    "2 Databases/labs/lab3/lu284785z7bt.tmp",
+    "2 Databases/labs/lab3/lu284785z7bq.tmp",
+    "2 Databases/labs/lab3/lu284785z7bn.tmp",
+    "2 Databases/labs/lab3/lu284785z7bk.tmp",
+    "2 Databases/labs/lab3/lu284785z7bg.tmp",
+    "2 Databases/labs/lab3/lu284785z6up.tmp",
+    "2 Databases/labs/lab3/lu284785z6um.tmp",
+    "2 Databases/labs/lab3/lu284785z6uj.tmp",
+    "2 Databases/labs/lab3/test.txt",
+    "2 Databases/labs/lab3/ф",
+    "2 Databases/labs/lab3/datalogical_scheme.png",
+    "2 Databases/labs/lab3/datalogical_scheme_BCNF.png",
     "2 Databases/labs/lab3/README.md",
-    "2 Databases/README.md",
-    "2 Databases/labs/README.md",
+    "0 Media/Unsorted attachments/Pasted image 20250428181438.png",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/README.md",
-    "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/README.md",
     "1-2 Basics of Professional Activities (ОПД)/microlectures/CALLING_CONVENTIONS.md",
+    "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
+    "2 Communications and team building/Тема 3/README.md",
+    "2 Communications and team building/2. Командные роли/README.md",
+    "2 Communications and team building/AGREEMENT.md",
+    "2 Databases/README.md",
+    "2 Databases/labs/README.md",
     "0 Media/Unsorted attachments/Pasted image 20250408171938.png",
     "0 Media/Unsorted attachments/Pasted image 20250408171918.png",
     "1-2 Basics of Professional Activities (ОПД)/microlectures/TYPES_OF_ADDRESSING.md",
@@ -252,10 +242,6 @@
     "0 Media/Unsorted attachments/Pasted image 20250401151945.png",
     "0 Media/Unsorted attachments/Pasted image 20250401151907.png",
     "0 Media/Unsorted attachments/Pasted image 20250401151804.png",
-    "0 Media/Unsorted attachments/Pasted image 20250401121357.png",
-    "2 Databases/labs/lab1/README.md",
-    "2 Databases/labs/lab2/joins.png",
-    "0 Media/Unsorted attachments/Pasted image 20250306190506.png",
     "1-2 Programming/sem2/lab5/README.md",
     "1-2 Programming/README.md",
     "1-2 Basics of Professional Activities (ОПД)/README.md",
@@ -267,7 +253,6 @@
     "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/Untitled.md",
     "CODE_OF_CONDUCT.md",
     "Books/Методические.md",
-    "0 Media/Templates/COURSE TEMPLATE.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
