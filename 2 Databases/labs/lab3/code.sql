@@ -42,6 +42,57 @@ CREATE TABLE time (
     time TIMESTAMP NOT NULL
 );
 
+CREATE OR REPLACE FUNCTION calculate_discount(price NUMERIC, discount_percent NUMERIC)
+RETURNS NUMERIC AS $$
+DECLARE
+    discount_amount NUMERIC;
+BEGIN
+    discount_amount := price * discount_percent / 100;
+    RETURN price - discount_amount;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE [ OR REPLACE ] FUNCTION
+    name ( [ [ argmode ] [ argname ] argtype [ { DEFAULT | = } default_expr ] [, ...] ] )
+    [ RETURNS rettype
+      | RETURNS TABLE ( column_name column_type [, ...] ) ]
+  { LANGUAGE lang_name
+    | TRANSFORM { FOR TYPE type_name } [, ... ]
+    | WINDOW
+    | { IMMUTABLE | STABLE | VOLATILE }
+    | [ NOT ] LEAKPROOF
+    | { CALLED ON NULL INPUT | RETURNS NULL ON NULL INPUT | STRICT }
+    | { [ EXTERNAL ] SECURITY INVOKER | [ EXTERNAL ] SECURITY DEFINER }
+    | PARALLEL { UNSAFE | RESTRICTED | SAFE }
+    | COST execution_cost
+    | ROWS result_rows
+    | SUPPORT support_function
+    | SET configuration_parameter { TO value | = value | FROM CURRENT }
+    | AS 'definition'
+    | AS 'obj_file', 'link_symbol'
+    | sql_body
+  } ...
+
+CREATE OR REPLACE FUNCTION update_spacecraft_status()
+RETURNS TRIGGER AS $$
+BEGIN
+    IF NEW.health = 100 THEN
+        NEW.status_id := (SELECT id FROM status WHERE time = 'active');
+    ELSIF NEW.health = 0 THEN
+        NEW.status_id := (SELECT id FROM status WHERE time = 'inactive');
+    ELSIF NEW.health BETWEEN 1 AND 99 THEN
+        NEW.status_id := (SELECT id FROM status WHERE time = 'broken');
+    END IF;
+    
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER spacecraft_status_trigger
+BEFORE INSERT OR UPDATE OF health ON spacecraft
+FOR EACH ROW
+EXECUTE FUNCTION update_spacecraft_status();
+
 CREATE TABLE color (
     id SERIAL PRIMARY KEY,
     color VARCHAR(64) NOT NULL

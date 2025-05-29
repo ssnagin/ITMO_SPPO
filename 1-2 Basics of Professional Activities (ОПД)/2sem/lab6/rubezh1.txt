@@ -1,0 +1,67 @@
+Задание №1. Разработать программу для работы с элементами массива M, в которой:
+1. Массив имеет следующие характеристики:
+- адрес начала массива в памяти БЭВМ - 0x6d9;
+- число измерений исходного массива - 1;
+- количество элементов исходного массива - 18;
+- каждый элемент является знаковым числом с разрядностью 21 бит; (значит расширяем 22 бит)
+- нумерация элементов начинается с 2;
+- элементы хранятся в массиве по границам слов, нет необходимости в плотной упаковке;
+2. Для элементов массива необходимо вычислить одно значение по правилам:
+- агрегировать необходимо только для элементы массива с кратными 2-м i-индексами;
+- из выбранных элементов необходимо вычислить cумму значений и записать результат в память по адресу 0x400.
+- Результатом является одно 32-х разрядное число!
+Примечание: все числа представлены в десятичной системе счисления, если явно не указано иное.
+
+
+
+; sysctl
+
+START:
+    LD ARRAY_START_ADDR
+    ST ARRAY_CURRENT_ADDR
+
+ADD_INTEGER ; add_integer(int16 val1; int16 val2; int16 result_addr)
+
+
+ARRAY_CURRENT_ADDR: WORD ?
+ARRAY_START_ADDR: WORD 0x6d9
+
+RESULT_ADDR: WORD 0x400
+
+ORG ARRAY_START
+WORD 0x1234 ;
+WORD 0x5678 ; 
+WORD 0x9ABC
+WORD 0xDEF1
+WORD 0x2345 ;
+WORD 0x6789 ;
+WORD 0xABCD
+WORD 0xBOBA
+WORD 0xBEBA ;
+WORD 0xDADA ;
+WORD 0xF0CA
+WORD 0xAE00
+WORD 0x1234 ;
+WORD 0x5678 ;
+WORD 0x9ABC
+WORD 0xDEF1
+WORD 0x2345 ;
+WORD 0x6789 ;
+WORD 0xABCD
+WORD 0xBOBA
+WORD 0xBEBA ;
+WORD 0xDADA ;
+WORD 0x9ABC
+WORD 0xDEF1
+WORD 0x2345 ;
+WORD 0x6789 ;
+WORD 0xABCD
+WORD 0xBOBA
+WORD 0xBEBA ;
+WORD 0xDADA ;
+WORD 0xF0CA
+WORD 0xAE00
+WORD 0x1234 ;
+WORD 0x5678 ;
+WORD 0x9ABC
+WORD 0xDEF1

@@ -1,0 +1,94 @@
+<mxfile host="65bd71144e">
+    <diagram id="CZdUmuOnwlGel_SCAfmL" name="Page-1">
+        <mxGraphModel dx="1121" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Н_ВЕДОМОСТИ.ЧЛВК_ИД &amp;gt; 105590" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E5E9FF;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="280" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Н_ТИПЫ_ВЕДОМОСТЕЙ.НАИМЕНОВАНИЕ = &#39;Перезачет&#39;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#EDEDED;fillColor=#EBEBEB;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="280" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Н_ВЕДОМОСТИ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="230" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Н_ТИПЫ_ВЕДОМОСТЕЙ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="555" y="230" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Н_ТИПЫ_ВЕДОМОСТЕЙ.ИД = Н.ВЕДОМОСТИ.ТВ_ИД" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFDCDB;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="410" width="410" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.295;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="6">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="470" as="sourcePoint"/>
+                        <mxPoint x="460" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="" style="endArrow=classic;html=1;entryX=0.724;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.544;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3" target="6">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="520" y="410" as="sourcePoint"/>
+                        <mxPoint x="570" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="&amp;nbsp;Н_ЛЮДИ.ФАМИЛИЯ &amp;gt; &quot;Ёлкин&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="680" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Н_ЛЮДИ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="640" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Н_ОБУЧЕНИЯ.НЗК &amp;lt; 999080" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="680" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Н_ОБУЧЕНИЯ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="640" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Н_УЧЕНИКИ.НАЧАЛО &amp;lt; 2008-09-01" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="680" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Н_УЧЕНИКИ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="640" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Н_УЧЕНИКИ.ИД = Н_ЛЮДИ.ИД" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="790" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="15">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="420" y="840" as="sourcePoint"/>
+                        <mxPoint x="470" y="790" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.844;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="13" target="15">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="450" y="790" as="sourcePoint"/>
+                        <mxPoint x="500" y="740" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Н_УЧЕНИКИ.ИД = Н_ОБУЧЕНИЯ.ИД&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="920" width="355" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.229;entryY=-0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="15" target="18">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="420" y="910" as="sourcePoint"/>
+                        <mxPoint x="470" y="860" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="endArrow=classic;html=1;exitX=0.402;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.983;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="11" target="18">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="620" y="820" as="sourcePoint"/>
+                        <mxPoint x="670" y="770" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="&lt;h2&gt;&lt;b&gt;РЕЗУЛЬТАТ&lt;/b&gt;&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="1020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.584;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="18" target="21">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="350" y="1000" as="sourcePoint"/>
+                        <mxPoint x="400" y="950" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,651 @@
+ORG 0x000
+
+V0: WORD $DEFAULT, 0x180
+V1: WORD $DEFAULT, 0x180
+V2: WORD $INTERRUPT_ED2, 0x180
+V3: WORD $INTERRUPT_ED3, 0x180
+V4: WORD $DEFAULT, 0x180
+V5: WORD $DEFAULT, 0x180
+V6: WORD $DEFAULT, 0x180
+V7: WORD $DEFAULT, 0x180
+
+ORG 0x0A0
+
+START:
+    CALL DISABLE_OTHER_INT   
+
+MY_LOOP:
+    CALL LOAD_DATA
+    DI
+    SUB #2
+    CALL STORE_DATA
+    EI
+    JUMP MY_LOOP
+
+
+LOAD_DATA:
+    LD X
+    RET
+
+STORE_DATA:
+    ST X
+    RET
+
+DISABLE_OTHER_INT:
+    DI
+    PUSH
+    CLA
+    OUT 0x1
+    OUT 0x3
+    OUT 0xB
+    OUT 0xE
+    OUT 0x12
+    OUT 0x16
+    OUT 0x1A
+    OUT 0x1E
+
+    LD #0xA
+    OUT 5
+
+    LD #0xB
+    OUT 7
+
+    POP
+    EI
+    RET
+
+FUNCTION:
+    ADD X
+    ADD X
+    ADD X
+    NEG
+
+    SUB #0xA
+    OUT 7
+    RET
+    
+
+INTERRUPT_ED2:
+    PUSH
+
+
+
+    POP
+    IRET
+
+
+INTERRUPT_ED3:
+    PUSH
+
+    NOP
+    LD X
+    CALL FUNCTION
+    OUT 7
+
+    POP
+    IRET
+
+DEFAULT:
+    IRET
+    
+X: WORD ?
+MIN_VALUE: WORD 0xFFFF
+MAX_VALUE: WORD 0x0FFF
+
+=========================================
+
+ORG 0x000
+V0: WORD $DEFAULT, 0x180
+V1: WORD $DEFAULT, 0x180
+V2: WORD $INT2, 0x180
+V3: WORD $INT3, 0x180
+V4: WORD $DEFAULT, 0x180
+V5: WORD $DEFAULT, 0x180
+V6: WORD $DEFAULT, 0x180
+V7: WORD $DEFAULT, 0x180
+DEFAULT: IRET
+
+ORG 0x020
+INT2:
+	DI
+	PUSH
+	NOP
+	IN 4
+	OR X 
+	CALL CHECK
+	ST X
+	NOP
+	POP
+	EI    IRET
+
+
+INTERRUPT_ED3:
+    PUSH
+
+    NOP
+    LD X
+    CALL FUNCTION
+    OUT 7
+
+    POP
+    IRET
+
+DEFAULT:
+    IRET
+    
+X: WORD ?
+MIN_VALUE: WORD 0xFFFF
+MAX_VALUE: WORD 0x0FFF
+
+=========================================
+
+ORG 0x000
+V0: WORD $DEFAULT, 0x180
+V1: WORD $DEFAULT, 0x180
+V2: WORD $INT2, 0x180
+V3: WORD $INT3, 0x180
+V4: WORD $DEFAULT, 0x180
+V5: WORD $DEFAULT, 0x180
+V6: WORD $DEFAULT, 0x180
+V7: WORD $DEFAULT, 0x180
+DEFAULT: IRET
+
+ORG 0x020
+INT2:
+	DI
+	PUSH
+	NOP
+	IN 4
+	OR X 
+	CALL CHECK
+	ST X
+	NOP
+	POP
+	EI
+	IRET
+
+INT3: 
+	DI
+	PUSH
+	NOP
+	LD X
+	; F(X)
+	ADD X
+	ADD X
+	ADD X
+	ADD X
+	INC
+	; F(X)
+	OUT 6
+	NOP
+	POP
+	EI
+	IRET
+
+ORG 0x03E
+X: WORD ?
+MIN_X: WORD 0xFFE7
+MAX_X: WORD 0x0019
+
+START:
+	CLA
+	DI
+	OUT 0x1
+	OUT 0x3
+	OUT 0xB
+	OUT 0xE
+	OUT 0x12
+	OUT 0x16
+	OUT 0x1A
+	OUT 0x1E
+	LD #0xA ; (0010 | 1000)
+	OUT 5
+	LD #0xB ; (0011 | 1000)
+	OUT 7
+	EI
+	JUMP MAIN
+
+MAIN:
+	DI
+	LD X
+	INC
+	INC
+	INC
+	CALL CHECK
+	ST X
+	EI
+	JUMP MAIN
+
+CHECK: ;Проверяет значение X в AC на принадлежность ОДЗ
+	CHECK_MIN:
+		CMP MIN_X
+		BLT LD_MIN
+	CHECK_MAX:
+		CMP MAX_X
+		BEQ RETURN
+		BLT RETURN
+LD_MIN: LD MIN_X
+RETURN: RET	
+
+======================================
+
+ORG 0x000
+
+V0: WORD $DEFAULT, 0x180
+V1: WORD $DEFAULT, 0x180
+V2: WORD $INTERRUPT_2, 0x180
+V3: WORD $INTERRUPT_3, 0x180
+V4: WORD $DEFAULT, 0x180
+V5: WORD $DEFAULT, 0x180
+V6: WORD $DEFAULT, 0x180
+V7: WORD $DEFAULT, 0x180
+
+ORG 0x080
+
+START:
+    CLA
+    OUT 0x1
+    OUT 0x3
+    OUT 0xB
+    OUT 0xE
+    OUT 0x12
+    OUT 0x16
+    OUT 0x1A
+    OUT 0x1E
+    LD #0xA
+    OUT 5
+    LD #0xB
+    OUT 7
+    EI
+MAIN_LOOP:
+    DI
+    LD X
+    SUB #2
+    CALL SAFE_VALUE
+    ST X
+    EI
+    JUMP MAIN_LOOP
+
+SAFE_VALUE:
+    CMP MIN_VALUE
+    BGE VALUE_OK
+    LD MAX_VALUE
+VALUE_OK:
+    RET
+
+XOR_X:
+    PUSH ;~x
+    PUSH ;~y
+
+    LD X
+    NOT
+    ST &1
+
+    LD &3
+    NOT
+    ST &0
+
+    LD X
+    AND &0
+    ST &0
+
+    LD &1
+    AND &3
+    ST &1
+
+    LD &0
+    OR &1
+    ST &3
+
+    POP
+    POP
+    RET
+
+INTERRUPT_2:
+    PUSH
+	
+    IN 4
+    PUSH
+    CALL XOR_X
+    POP
+    CALL SAFE_VALUE
+    ST X
+    POP
+    IRET
+
+INTERRUPT_3:
+    PUSH
+    LD X
+    ADD X
+    ADD X
+    NEG
+    SUB #10
+    CALL SAFE_VALUE
+    OUT 6
+    POP
+    IRET
+
+DEFAULT:
+    IRET
+
+MIN_VALUE: WORD -45
+MAX_VALUE: WORD 39
+
+ORG 0x051
+
+X: WORD 0
+	IRET
+
+INT3: 
+	DI
+	PUSH
+	NOP
+	LD X
+	; F(X)
+	ADD X
+	ADD X
+	ADD X
+	ADD X
+	INC
+	; F(X)
+	OUT 6
+	NOP
+	POP
+	EI
+	IRET
+
+ORG 0x03E
+X: WORD ?
+MIN_X: WORD 0xFFE7
+MAX_X: WORD 0x0019
+
+START:
+	CLA
+	DI
+	OUT 0x1
+	OUT 0x3
+	OUT 0xB
+	OUT 0xE
+	OUT 0x12
+	OUT 0x16
+	OUT 0x1A
+	OUT 0x1E
+	LD #0xA ; (0010 | 1000)
+	OUT 5
+	LD #0xB ; (0011 | 1000)
+	OUT 7
+	EI
+	JUMP MAIN
+
+MAIN:
+	DI
+	LD X
+	INC
+	INC
+	INC
+	CALL CHECK
+	ST X
+	EI
+	JUMP MAIN
+
+CHECK: ;Проверяет значение X в AC на принадлежность ОДЗ
+	CHECK_MIN:
+		CMP MIN_X
+		BLT LD_MIN
+	CHECK_MAX:
+		CMP MAX_X
+		BEQ RETURN
+		BLT RETURN
+LD_MIN: LD MIN_X
+RETURN: RET	
+
+======================================
+
+ORG 0x0
+
+V0: WORD $DEFAULT, 0x180
+V1: WORD $DEFAULT, 0x180
+V2: WORD $INTERRUPT_2, 0x180
+V3: WORD $INTERRUPT_3, 0x180
+V4: WORD $DEFAULT, 0x180
+V5: WORD $DEFAULT, 0x180
+V6: WORD $DEFAULT, 0x180
+V7: WORD $DEFAULT, 0x180
+
+ORG 0x080
+
+START:
+    CLA
+    OUT 0x1
+    OUT 0x3
+    OUT 0xB
+    OUT 0xE
+    OUT 0x12
+    OUT 0x16
+    OUT 0x1A
+    OUT 0x1E
+    LD #0xA
+    OUT 5
+    LD #0xB
+    OUT 7
+    EI
+MAIN_LOOP:
+    DI
+    LD X
+    SUB #2
+    CALL SAFE_VALUE
+    ST X
+    EI
+    JUMP MAIN_LOOP
+
+SAFE_VALUE:
+    CMP MIN_VALUE
+    BGE VALUE_OK
+    LD MAX_VALUE
+VALUE_OK:
+    RET
+
+XOR_X:
+    PUSH ;~x
+    PUSH ;~y
+
+    LD X
+    NOT
+    ST &1
+
+    LD &3
+    NOT
+    ST &0
+
+    LD X
+    AND &0
+    ST &0
+
+    LD &1
+    AND &3
+    ST &1
+
+    LD &0
+    OR &1
+    ST &3
+
+    POP
+    POP
+    RET
+
+INTERRUPT_2:
+    PUSH
+	
+	NOP
+
+    IN 4
+	SXTB
+
+    PUSH
+
+    CALL XOR_X
+    POP
+    CALL SAFE_VALUE
+    ST X
+
+	NOP
+
+    POP
+    IRET
+
+INTERRUPT_3:
+    PUSH
+
+	NOP
+
+    LD X
+    ADD X
+    ADD X
+    NEG
+    SUB #10
+
+    OUT 6
+
+	NOP
+
+    POP
+    IRET
+
+DEFAULT:
+    IRET
+
+MIN_VALUE: WORD -45
+MAX_VALUE: WORD 39
+
+ORG 0x051
+
+X: WORD 0
+
+
+====================================================================================
+
+ORG 0x0
+
+V0: WORD $DEFAULT, 0x180
+V1: WORD $DEFAULT, 0x180
+V2: WORD $INTERRUPT_2, 0x180
+V3: WORD $INTERRUPT_3, 0x180
+V4: WORD $DEFAULT, 0x180
+V5: WORD $DEFAULT, 0x180
+V6: WORD $DEFAULT, 0x180
+V7: WORD $DEFAULT, 0x180
+
+ORG 0x080
+
+START:
+    CLA
+    OUT 0x1
+    OUT 0x3
+    OUT 0xB
+    OUT 0xE
+    OUT 0x12
+    OUT 0x16
+    OUT 0x1A
+    OUT 0x1E
+    LD #0xA
+    OUT 5
+    LD #0xB
+    OUT 7
+    EI
+MAIN_LOOP:
+    DI
+    LD X
+HLT
+    SUB #2
+    CALL SAFE_VALUE
+    ST X
+HLT
+    EI
+    JUMP MAIN_LOOP
+
+SAFE_VALUE:
+    CMP MAX_VALUE
+    BEQ VALUE_OK
+    BMI VALUE_OK
+    BEQ VALUE_OK
+    CMP MIN_VALUE
+    BGE VALUE_OK
+    LD MAX_VALUE
+VALUE_OK:
+    RET
+
+XOR_X:
+    PUSH ;~x
+    PUSH ;~y
+
+    LD X
+    NOT
+    ST &1
+
+    LD &3
+    NOT
+    ST &0
+
+    LD X
+    AND &0
+    ST &0
+
+    LD &1
+    AND &3
+    ST &1
+
+    LD &0
+    OR &1
+    ST &3
+
+    POP
+    POP
+    RET
+
+INTERRUPT_2:
+    PUSH
+	
+	HLT
+
+    IN 4
+    SXTB    
+
+    PUSH
+
+    CALL XOR_X
+    POP
+    HLT
+    CALL SAFE_VALUE
+    ST X
+
+	HLT
+
+    POP
+    IRET
+
+INTERRUPT_3:
+    PUSH
+
+    LD X
+    HLT
+    ADD X
+    ADD X
+    NEG
+    SUB #10
+    ;CALL SAFE_VALUE
+    OUT 6
+
+	NOP
+
+    POP
+    IRET
+
+DEFAULT:
+    IRET
+
+MIN_VALUE: WORD -45
+MAX_VALUE: WORD 39
+
+ORG 0x051
+
+X: WORD 90
