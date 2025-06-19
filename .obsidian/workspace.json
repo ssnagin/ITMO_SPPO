@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3f3becb51d703f5a",
+        "id": "c2aa614290c0b05d",
         "type": "tabs",
         "children": [
           {
-            "id": "4efe611b845b6a63",
+            "id": "39985ea015ec1f7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-2 Basics of Professional Activities (ОПД)/2sem/lab6/README.md",
+                "file": "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "IMPORTANT_TABLES"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 420.5
+    "width": 200
   },
   "right": {
     "id": "8958fbce40799f89",
@@ -165,53 +165,90 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4efe611b845b6a63",
+  "floating": {
+    "id": "3b92daa6124898ef",
+    "type": "floating",
+    "children": [
+      {
+        "id": "733aaf75ee1057b7",
+        "type": "window",
+        "children": [
+          {
+            "id": "3cae88f86758d096",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4efe611b845b6a63",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "1-2 Basics of Professional Activities (ОПД)/2sem/exam/Вопросы к экзамену 2019-2020.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Вопросы к экзамену 2019-2020"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 44,
+        "width": 960,
+        "height": 1156,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "39985ea015ec1f7d",
   "lastOpenFiles": [
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/README.md",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/README.md",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab6/README.md",
     "1-2 Basics of Professional Activities (ОПД)/README.md",
     "1-2 Basics of Professional Activities (ОПД)/ABOUT_BEC.md",
-    "1-2 Basics of Professional Activities (ОПД)/microlectures/TYPES_OF_ADDRESSING.md",
-    "0 Media/Unsorted attachments/Pasted image 20250607161932.png",
+    "1-2 Basics of Professional Activities (ОПД)/EXAM.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/exam/Вопросы к экзамену 2019-2020.pdf",
+    "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/преза-2семестра.pdf",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/exam/2. Представление чисел с фиксированной точкой.  Допкод, флаги.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/exam/1. Две формы представления информации. Способы представления дискретной информации..md",
+    "0 Media/Unsorted attachments/Pasted image 20250610152845.png",
+    "0 Media/Unsorted attachments/Pasted image 20250610152341.png",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/exam/img",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab6/README.md",
+    "0 Media/Unsorted attachments/Pasted image 20250609170845.png",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/ОПД_ЛР4_Р3115_Снагин_Станислав_Максимович_вар_15601.pdf",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab5/2.png",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab5/1.png",
+    "1-2 Basics of Professional Activities (ОПД)/Books/Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng.pdf",
     "0 Media/Unsorted attachments/Pasted image 20250607161608.png",
-    "0 Media/Unsorted attachments/Pasted image 20250607161554.png",
+    "0 Media/Unsorted attachments/Pasted image 20250607161932.png",
+    "0 Media/Unsorted attachments/Pasted image 20250306190506.png",
+    "0 Media/Unsorted attachments/Pasted image 20250401121357.png",
+    "0 Media/Unsorted attachments/Pasted image 20250401151804.png",
+    "1-2 Basics of Professional Activities (ОПД)/exam_theory",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/exam",
+    "1-2 Basics of Professional Activities (ОПД)/microlectures/TYPES_OF_ADDRESSING.md",
     "1-2 Basics of Professional Activities (ОПД)/microlectures/CALLING_CONVENTIONS.md",
     "1-2 Basics of Professional Activities (ОПД)/microlectures/DRAFT__CALLING_CONVENTIONS.md",
-    "1-2 Basics of Professional Activities (ОПД)/Books/Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng.pdf",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/преза-2семестра.pdf",
     "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh/task_1.asm",
     "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh/task_0 copy.asm",
     "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh/t",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh/task_0.asm",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh/z3.asm",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh/universal_code.asm",
     "2sem/преза-2семестра.pptx.md",
-    "2sem",
-    "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
     "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh/README.md",
     "2 Databases/labs/lab4/README.md",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh",
     "2 Databases/labs/lab3/README.md",
-    "2 Databases/labs/lab3/datalogical_scheme_old.png",
-    "2 Databases/labs/lab3/datalogical_scheme.png",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab5/2.png",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab5/1.png",
     "2 Databases/README.md",
     "2 Databases/labs/lab1/README.md",
-    "2 Databases/labs/lab3/datalogical_scheme_BCNF.png",
-    "0 Media/Unsorted attachments/Pasted image 20250428181438.png",
     "2 Communications and team building/Тема 3/README.md",
     "2 Communications and team building/2. Командные роли/README.md",
     "2 Communications and team building/AGREEMENT.md",
     "2 Databases/labs/README.md",
-    "0 Media/Unsorted attachments/Pasted image 20250408171938.png",
     "2 Databases/labs/lab2/README.md",
     "2 Databases/labs/lab2/SOLUTION.md",
     "1-2 Programming/sem2/lab5/README.md",
-    "1-2 Programming/README.md",
-    "README.md",
-    "img/Pasted.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
