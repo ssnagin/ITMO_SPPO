@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "c2aa614290c0b05d",
+        "id": "803efa440689e013",
         "type": "tabs",
         "children": [
           {
-            "id": "39985ea015ec1f7d",
+            "id": "45cda1e443445a36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-2 Basics of Professional Activities (ОПД)/microlectures/CALLING_CONVENTIONS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CALLING_CONVENTIONS"
+            }
+          },
+          {
+            "id": "cb155a9bed1672ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-2 Basics of Professional Activities (ОПД)/ABOUT_BEC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ABOUT_BEC"
+            }
+          },
+          {
+            "id": "50a8ce7b7d1c7589",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +49,8 @@
               "title": "IMPORTANT_TABLES"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,90 +194,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "3b92daa6124898ef",
-    "type": "floating",
-    "children": [
-      {
-        "id": "733aaf75ee1057b7",
-        "type": "window",
-        "children": [
-          {
-            "id": "3cae88f86758d096",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "4efe611b845b6a63",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "1-2 Basics of Professional Activities (ОПД)/2sem/exam/Вопросы к экзамену 2019-2020.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Вопросы к экзамену 2019-2020"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 44,
-        "width": 960,
-        "height": 1156,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "39985ea015ec1f7d",
+  "active": "cb155a9bed1672ca",
   "lastOpenFiles": [
-    "1-2 Basics of Professional Activities (ОПД)/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh/README.md",
     "1-2 Basics of Professional Activities (ОПД)/ABOUT_BEC.md",
-    "1-2 Basics of Professional Activities (ОПД)/EXAM.md",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/exam/Вопросы к экзамену 2019-2020.pdf",
+    "1-2 Basics of Professional Activities (ОПД)/README.md",
     "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/преза-2семестра.pdf",
+    "1-2 Basics of Professional Activities (ОПД)/EXAM.md",
+    "1-2 Basics of Professional Activities (ОПД)/microlectures/TYPES_OF_ADDRESSING.md",
+    "1-2 Basics of Professional Activities (ОПД)/microlectures/CALLING_CONVENTIONS.md",
+    "0 Media/Templates/COURSE TEMPLATE.md",
+    "1-2 Basics of Professional Activities (ОПД)/microlectures/DRAFT__CALLING_CONVENTIONS.md",
+    "1-2 Basics of Professional Activities (ОПД)/Books/Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng.pdf",
+    "README.md",
+    "2sem/преза-2семестра.pptx.md",
+    "2sem",
+    "2 Life Safety/7. Управление финансами/Шаблон лабораторной работы Формирование личного бюджета.docx",
+    "2 Life Safety/7. Управление финансами/Снагин Станислав 467525 Формирование личного бюджета.docx",
+    "2 Life Safety/7. Управление финансами/Описание лабораторной работы Формирование личного бюджета.pdf",
+    "2 Life Safety/7. Управление финансами",
+    "2 Life Safety/6. Страх и его преодоление/Отчет к лаб.работе_Страх_2023.docx",
+    "2 Life Safety/6. Страх и его преодоление/Описание лабы_Страх.docx",
+    "2 Life Safety/6. Страх и его преодоление/ЛР6_Снагин_Станислав_467525_Отчет к лаб.работе_Страх_2023.pdf",
+    "2 Life Safety/6. Страх и его преодоление/ЛР6_Снагин_Станислав_467525_Отчет к лаб.работе_Страх_2023.odt",
+    "2 Databases/labs/lab4/README.md",
+    "2 Databases/labs/lab3/datalogical_scheme_old.png",
+    "2 Databases/labs/lab3/datalogical_scheme_BCNF.png",
+    "2 Databases/labs/lab3/datalogical_scheme.png",
+    "2 Communications and team building/Тема 3/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab6/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab5/2.png",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab5/1.png",
     "1-2 Basics of Professional Activities (ОПД)/2sem/exam/2. Представление чисел с фиксированной точкой.  Допкод, флаги.md",
     "1-2 Basics of Professional Activities (ОПД)/2sem/exam/1. Две формы представления информации. Способы представления дискретной информации..md",
     "0 Media/Unsorted attachments/Pasted image 20250610152845.png",
     "0 Media/Unsorted attachments/Pasted image 20250610152341.png",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/exam/img",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/README.md",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/README.md",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab6/README.md",
     "0 Media/Unsorted attachments/Pasted image 20250609170845.png",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/ОПД_ЛР4_Р3115_Снагин_Станислав_Максимович_вар_15601.pdf",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab5/2.png",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab5/1.png",
-    "1-2 Basics of Professional Activities (ОПД)/Books/Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng.pdf",
-    "0 Media/Unsorted attachments/Pasted image 20250607161608.png",
     "0 Media/Unsorted attachments/Pasted image 20250607161932.png",
-    "0 Media/Unsorted attachments/Pasted image 20250306190506.png",
-    "0 Media/Unsorted attachments/Pasted image 20250401121357.png",
-    "0 Media/Unsorted attachments/Pasted image 20250401151804.png",
-    "1-2 Basics of Professional Activities (ОПД)/exam_theory",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/exam",
-    "1-2 Basics of Professional Activities (ОПД)/microlectures/TYPES_OF_ADDRESSING.md",
-    "1-2 Basics of Professional Activities (ОПД)/microlectures/CALLING_CONVENTIONS.md",
-    "1-2 Basics of Professional Activities (ОПД)/microlectures/DRAFT__CALLING_CONVENTIONS.md",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh/task_1.asm",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh/task_0 copy.asm",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh/t",
-    "2sem/преза-2семестра.pptx.md",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh/README.md",
-    "2 Databases/labs/lab4/README.md",
-    "2 Databases/labs/lab3/README.md",
-    "2 Databases/README.md",
-    "2 Databases/labs/lab1/README.md",
-    "2 Communications and team building/Тема 3/README.md",
+    "0 Media/Unsorted attachments/Pasted image 20250607161608.png",
+    "0.md",
     "2 Communications and team building/2. Командные роли/README.md",
     "2 Communications and team building/AGREEMENT.md",
+    "2 Databases/labs/lab3/README.md",
+    "2 Databases/README.md",
     "2 Databases/labs/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab3/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/README.md",
     "2 Databases/labs/lab2/README.md",
     "2 Databases/labs/lab2/SOLUTION.md",
-    "1-2 Programming/sem2/lab5/README.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
