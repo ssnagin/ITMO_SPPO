@@ -41,6 +41,9 @@
 
 Основная статья [2 сем рубежка](1-2%20Basics%20of%20Professional%20Activities%20(ОПД)/2sem/rubezh/README.md)
 
+## Экзамен
+
+Основная статья про [экзамен](EXAM.md)
 ## Полезные источники
 
 1. Инфа по курсу [здесь](https://se.ifmo.ru/courses/csbasics)
