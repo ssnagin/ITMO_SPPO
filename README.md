@@ -36,7 +36,11 @@
 |                                  |                                                                                                         |            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 ### Полезные инструменты
 
-#### Синхронизатор расписания my itmo и Google/Apple Calendar
+#### Организация учебного процесса
+
+https://github.com/ssnagin/study-cheat-code
+
+#### Синхронизатор расписания my.itmo и Google/Apple Calendar
 
 https://ruddnevitmo.github.io/itmo-to-calendar/
 
