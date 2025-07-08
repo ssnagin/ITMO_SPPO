@@ -39,7 +39,7 @@
 
 ## Рубежка
 
-Основная статья [2 сем рубежка](1-2%20Basics%20of%20Professional%20Activities%20(ОПД)/2sem/rubezh/README.md)
+Основная статья [2 сем рубежка](rubezh/README.md)
 
 ## Экзамен
 
