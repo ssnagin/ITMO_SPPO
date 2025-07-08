@@ -1,5 +1,6 @@
 {
   "attachmentFolderPath": "0 Media/Unsorted attachments",
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true
 }
