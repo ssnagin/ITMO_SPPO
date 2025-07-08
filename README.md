@@ -36,6 +36,10 @@
 |                                  |                                                                                                         |            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 ### Полезные инструменты
 
+#### Синхронизатор расписания my itmo и Google/Apple Calendar
+
+https://ruddnevitmo.github.io/itmo-to-calendar/
+
 #### Tools для красивого оформления README
 
 Генерация GIF окошек (**EarthBound Text Generator**): [гитхаб](https://github.com/beager/ebtext?tab=readme-ov-file) и [сайт](https://www.earthboundtext.com/)
