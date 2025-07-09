@@ -13,11 +13,11 @@
 </p>
 
 <p>
-  Гайд для абитуриентов: [тык](https://yank0vy3rdna.github.io/itmo-faq/)
+  Гайд для абитуриентов: <a href="https://yank0vy3rdna.github.io/itmo-faq/">тык</a>
   <br/>
-  Гайд для первокурсников: [тык](https://github.com/Imtjl/1st-year-guide?tab=readme-ov-file)
+  Гайд для первокурсников: <a href="https://github.com/Imtjl/1st-year-guide?tab=readme-ov-file">тык х2</a>
   <br/>
-  Программа курса на 2024 год: [тоже тык](https://github.com/ssnagin/ITMO_SPPO/blob/main/0%20General%20Information/%D0%94%D0%BB%D1%8F_%D0%90%D0%B1%D0%B8%D1%82%D0%B0_09_03_04_%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D0%B5_%D0%B8_%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B5_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5.pdf)
+  Программа курса на 2024 год: <a href="https://github.com/ssnagin/ITMO_SPPO/blob/main/0%20General%20Information/%D0%94%D0%BB%D1%8F_%D0%90%D0%B1%D0%B8%D1%82%D0%B0_09_03_04_%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D0%B5_%D0%B8_%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B5_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5.pdf">тоже тык</a>
 </p>
 
 
