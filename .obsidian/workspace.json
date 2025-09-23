@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "803efa440689e013",
+        "id": "f6178a713c6b31e1",
         "type": "tabs",
         "children": [
           {
-            "id": "cb155a9bed1672ca",
+            "id": "84effbb7013e5d8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-2 Programming/README.md",
+                "file": "0 Deutsch A1/hw/HW_23_09_2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "50a8ce7b7d1c7589",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IMPORTANT_TABLES"
+              "title": "HW_23_09_2025"
             }
           }
         ]
@@ -171,6 +157,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -179,54 +166,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb155a9bed1672ca",
+  "active": "84effbb7013e5d8f",
   "lastOpenFiles": [
+    "README.md",
+    "0 Deutsch A1/hw/HW_23_09_2025.md",
+    "0 Deutsch A1/hw",
+    "0 Deutsch A1",
+    "CODE_OF_CONDUCT.md",
+    "1-2 English C1/1 sem/24.09.2024/Pasted image 20240923133239.png",
+    "1-2 English C1/1 sem/24.09.2024/MEMES that influenced Russian Lang-1.pdf",
+    "3 Theory of Probability/README.md",
+    "3 Theory of Probability/materials/Teor_Ver_02.pdf",
+    "3 Theory of Probability/materials/Teor_Ver_03.pdf",
+    "3 Theory of Probability/materials/Teor_Ver_01.pdf",
+    "3 Theory of Probability/materials",
+    "3 Theory of Probability/Books/Chistjakov_Kurs_TV.pdf",
+    "3 Theory of Probability/Books",
+    "3 Theory of Probability/Books/Feller_vvedenie_vveroyatnosty_tom1.pdf",
+    "3 Theory of Probability/img/theory-of-probability-3-semester-2025-year.gif",
+    "3 Theory of Probability/Lecture notes/1. Лекция  (03.09.2025).md",
+    "3 Web Programming/README.md",
+    "3 Web Programming/img/web-programming-3-semester-2025-.gif",
+    "roadmap.sh/typescript.md",
+    "3 Web Programming/img/indexeddb.png",
+    "3 Web Programming/img/ts.png",
+    "1-2 Programming/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
+    "README_ENG.md",
     "1-2 Programming/sem2/lab5/README.md",
     "sem2/lab_5/README.md",
-    "1-2 Programming/README.md",
-    "sem2/lab_5",
-    "sem2",
     "1-2 Programming/sem1/lab_2/README.md",
     "1-2 Programming/sem1/lab_1/README.md",
     "sem1/lab1/README.md",
-    "sem1/lab1",
-    "sem1",
     "1-2 Programming/sem1/lab_3/README.md",
     "sem1/lab1.md",
     "sem2/lab1.md",
-    "1-2 Programming/sem1/lab_2/Р3115 Программирование ЛР2 Снагин С.М..pdf",
     "1-2 Programming/sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
-    "1-2 Programming/sem1/lab_1/Р3115 Программирование ЛР1 Снагин С.М.pdf",
     "1-2 Programming/sem1/lab_1/Форматирование текста для лаб по проге.md",
-    "1-2 Programming/sem1/lab_1/proga_manual-2024.pdf",
     "1-2 Programming/sem1/lab_1/assets/dem_66f810313c83a.png",
     "1-2 Programming/sem1/lab_1/assets/Pasted image 20240928192911.png",
     "1-2 Programming/sem1/lab_1/assets/Pasted image 20240928192929.png",
     "1-2 Programming/sem1/lab_1/assets/Pasted image 20240928194629.png",
     "1-2 Programming/sem1/lab_1/assets/Pasted image 20240928171418.png",
-    "README.md",
-    "CODE_OF_CONDUCT.md",
-    "0 General Information/Для_Абита_09_03_04_Системное_и_прикладное_программное_обеспечение.pdf",
-    "1-2 Discrete Math/sem1/шпора_по_теории_множеств.pdf",
     "2sem/преза-2семестра.pptx.md",
-    "2 Life Safety/1. Безопасность при ЧС/Снагин_Станислав_Максимович_ЛР_1_Безопасность_при_ЧС_compressed.pdf",
     "2 Databases/labs/README.md",
     "img/Pasted.md",
-    "1 ICT/1sem/lab_6/123456789.jpg",
-    "1 ICT/1sem/lab1/images/задачи_5-7_photo_2024-09-11_20-38-41.jpg",
-    "1 ICT/1sem/lab1/images/задачи_1-3.jpg",
-    "1 ICT/1sem/lab1/images/задача_4_photo_2024-09-11_20-35-11.jpg",
     "1 ICT/README.md",
-    "1 ICT/informatics-1-semester-2024-year.gif",
     "0 Media/Templates/COURSE TEMPLATE.md",
     "1-2 Programming/sem2/lab5_link.md",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh/RECEPIES.md",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh/README.md",
-    "README_ENG.md",
-    "2 Databases/README.md",
-    "БД.md",
-    "2 Databases/labs/lab3/README.md",
-    "2 Databases/labs/lab4/README.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
