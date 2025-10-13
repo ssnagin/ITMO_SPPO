@@ -4,8 +4,8 @@
 mkdir -p temp
 
 # Параметры зума
-START_X_MIN=-0.76
-START_X_MAX=-0.74
+START_X_MIN=-0.744
+START_X_MAX=-0.756
 START_Y_MIN=0.1
 START_Y_MAX=0.12
 ZOOM_FACTOR=0.95  # Коэффициент зума (меньше 1 = увеличение)
