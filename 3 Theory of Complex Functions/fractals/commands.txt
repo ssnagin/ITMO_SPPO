@@ -1,0 +1,17 @@
+# mandelbrot
+
+python mandelbrot.py --output mandel.png --max_iter 500
+
+python mandelbrot.py --x_min -0.75 --x_max -0.73 --y_min 0.1 --y_max 0.12 --max_iter 1000 --width 1200 --height 1200 --output seahorse.png
+
+python mandelbrot.py --cmap plasma --max_iter 300
+
+# Julia
+
+python 2_julia.py c = -0.5251993 + 0.5251993j
+
+python 2_julia.py --c -0.7269+0.1889j --x_min -0.5 --x_max 0.5 --y_min -0.5 --y_max 0.5 --max_iter 1000 --width 1200 --height 1200 --output zoom_julia.png
+
+python 2_julia.py --c 0.285+0.01j --cmap plasma
+
+

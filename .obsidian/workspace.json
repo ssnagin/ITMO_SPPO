@@ -4,61 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8b7d1c1254dc621b",
+        "id": "470c93f7f1e02d47",
         "type": "tabs",
         "children": [
           {
-            "id": "50b07d1ab1884112",
+            "id": "c1e96cea18019f87",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "3 Theory of Probability/Books/Chistjakov_Kurs_TV.pdf"
+                "file": "3 Theory of Complex Functions/fractals/Lab1.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Chistjakov_Kurs_TV"
-            }
-          },
-          {
-            "id": "292d4670f281b62d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "7672f3d4f627f144",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "3 Theory of Probability/materials/Teor_Ver_01.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Teor_Ver_01"
-            }
-          },
-          {
-            "id": "2d5eb3099594c362",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "3 Theory of Probability/materials/Teor_Ver_02.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Teor_Ver_02"
+              "title": "Lab1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,33 +164,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "292d4670f281b62d",
+  "active": "c1e96cea18019f87",
   "lastOpenFiles": [
-    "3 Theory of Probability/materials/Teor_Ver_03.pdf",
-    "3 Theory of Probability/Таблицы_нормального_распределения_Tablicy_MS.pdf",
-    "3 Theory of Probability/README.md",
-    "3 Theory of Probability/practicies/README.md",
-    "3 Theory of Probability/Tablicy_MS.pdf",
-    "3 Theory of Probability/practicies/3_1_photo_2025-10-01_16-24-54.jpg",
-    "3 Theory of Probability/practicies/photo_2025-10-01_16-24-54.jpg",
-    "3 Theory of Probability/practicies",
-    "3 Theory of Probability/Books/Chistjakov_Kurs_TV.pdf",
-    "3 Theory of Probability/Books/Feller_vvedenie_vveroyatnosty_tom1.pdf",
-    "3 Theory of Probability/materials/Teor_Ver_02.pdf",
-    "3 Theory of Probability/materials/Teor_Ver_01.pdf",
-    "0 Deutsch A1/hw/HW_23_09_2025.md",
-    "3 Theory of Probability/old_lecture_notes",
-    "README.md",
-    "0 Deutsch A1/hw",
-    "CODE_OF_CONDUCT.md",
-    "1-2 English C1/1 sem/24.09.2024/Pasted image 20240923133239.png",
-    "3 Theory of Probability/img/theory-of-probability-3-semester-2025-year.gif",
-    "3 Theory of Probability/Lecture notes/1. Лекция  (03.09.2025).md",
+    "3 Theory of Complex Functions/fractals/juli-zoom.sh",
+    "3 Theory of Complex Functions/fractals/Untitled Document",
+    "3 Theory of Complex Functions/fractals/temp/test",
+    "3 Theory of Complex Functions/fractals/mandelbrot_zoom.gif",
+    "3 Theory of Complex Functions/fractals/mandelbrot_zoom.mp4",
+    "3 Theory of Complex Functions/fractals/temp/mandelbrot_zoom_099.png",
+    "3 Theory of Complex Functions/fractals/temp/mandelbrot_zoom_098.png",
+    "3 Theory of Complex Functions/fractals/temp/mandelbrot_zoom_097.png",
+    "3 Theory of Complex Functions/fractals/temp/mandelbrot_zoom_096.png",
+    "3 Theory of Complex Functions/fractals/temp/mandelbrot_zoom_095.png",
+    "3 Theory of Complex Functions/fractals/temp/mandelbrot_zoom_094.png",
+    "3 Theory of Complex Functions/fractals/temp/mandelbrot_zoom_093.png",
+    "3 Theory of Complex Functions/fractals/temp/mandelbrot_zoom_092.png",
+    "3 Theory of Complex Functions/fractals/temp/mandelbrot_zoom_091.png",
+    "3 Theory of Complex Functions/fractals/mandelbrot-zoom.sh",
+    "3 Theory of Complex Functions/fractals/mandelbrot-zoom.txt",
+    "3 Theory of Complex Functions/fractals/mandelbrot-zoom.txt.part",
+    "3 Theory of Complex Functions/fractals/mandelbrot-simple.sh",
+    "3 Theory of Complex Functions/fractals/mandelbrot-simple.sh.part",
+    "3 Theory of Complex Functions/fractals/mandelbrot.sh",
+    "3 Theory of Complex Functions/fractals/temp",
+    "3 Theory of Complex Functions/fractals/venv/lib/python3.12/site-packages/numpy/random/LICENSE.md",
     "3 Web Programming/README.md",
-    "3 Web Programming/img/web-programming-3-semester-2025-.gif",
+    "3 Theory of Probability/README.md",
+    "README.md",
+    "3 Theory of Probability/practicies/README.md",
+    "0 Deutsch A1/hw/HW_23_09_2025.md",
+    "CODE_OF_CONDUCT.md",
+    "3 Theory of Probability/Lecture notes/1. Лекция  (03.09.2025).md",
     "roadmap.sh/typescript.md",
-    "3 Web Programming/img/indexeddb.png",
-    "3 Web Programming/img/ts.png",
     "1-2 Programming/README.md",
     "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
     "README_ENG.md",
@@ -243,13 +209,9 @@
     "sem2/lab1.md",
     "1-2 Programming/sem1/lab_1/Как создавать JAR архивы для лабы №1 по проге.md",
     "1-2 Programming/sem1/lab_1/Форматирование текста для лаб по проге.md",
-    "1-2 Programming/sem1/lab_1/assets/dem_66f810313c83a.png",
-    "1-2 Programming/sem1/lab_1/assets/Pasted image 20240928192911.png",
-    "1-2 Programming/sem1/lab_1/assets/Pasted image 20240928192929.png",
     "2sem/преза-2семестра.pptx.md",
     "2 Databases/labs/README.md",
     "img/Pasted.md",
-    "1 ICT/README.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
