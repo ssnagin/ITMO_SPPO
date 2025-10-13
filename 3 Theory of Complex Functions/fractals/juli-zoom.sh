@@ -44,7 +44,7 @@ for ((n=0; n<FRAMES; n++)); do
     printf "\rГенерация кадра %d/%d" $((n+1)) $FRAMES
     
     python 2_julia.py \
-        --c "$C_PARAM" \
+        --c="$C_PARAM" \
         --max_iter 100 \
         --x_min $CURRENT_X_MIN \
         --x_max $CURRENT_X_MAX \
