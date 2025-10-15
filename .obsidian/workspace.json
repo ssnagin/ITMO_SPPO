@@ -4,19 +4,75 @@
     "type": "split",
     "children": [
       {
-        "id": "470c93f7f1e02d47",
+        "id": "07ecf0050b45212f",
         "type": "tabs",
+        "dimension": 56.33159268929504,
         "children": [
           {
-            "id": "c1e96cea18019f87",
+            "id": "17f568724694dc99",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "3 Theory of Complex Functions/fractals/Lab1.pdf"
+                "file": "3 Theory of Probability/Books/Chistjakov_Kurs_TV.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Lab1"
+              "title": "Chistjakov_Kurs_TV"
+            }
+          },
+          {
+            "id": "f20db487d81c8e35",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "3 Theory of Probability/materials/Teor_Ver_04.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Teor_Ver_04"
+            }
+          },
+          {
+            "id": "8d2c285a8902b17a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "3 Theory of Probability/practicies/4_1_photo_2025-10-15_15-48-48.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "4_1_photo_2025-10-15_15-48-48"
+            }
+          },
+          {
+            "id": "bdf69a0cf0a97096",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "3 Theory of Probability/Books/Кудашов_Селина_2025_Задачи_по_Теории_Вероятностей.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Кудашов_Селина_2025_Задачи_по_Теории_Вероятностей"
+            }
+          }
+        ]
+      },
+      {
+        "id": "152255324c89cc47",
+        "type": "tabs",
+        "dimension": 43.66840731070496,
+        "children": [
+          {
+            "id": "1c78739a514be51b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "3 Theory of Probability/Таблицы_нормального_распределения_Tablicy_MS.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Таблицы_нормального_распределения_Tablicy_MS"
             }
           }
         ]
@@ -164,30 +220,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c1e96cea18019f87",
+  "active": "17f568724694dc99",
   "lastOpenFiles": [
-    "3 Theory of Complex Functions/fractals/julia_zoom.txt",
-    "3 Theory of Complex Functions/fractals/julia_animation.gif",
-    "3 Theory of Complex Functions/fractals/julia-simple.sh",
-    "3 Theory of Complex Functions/fractals/nikita/2_apollonian_gasket_final_precision.png",
-    "3 Theory of Complex Functions/fractals/nikita/1_apollonian_gasket_centers.png",
-    "3 Theory of Complex Functions/fractals/nikita/apollonian_gasket_final_precision.png",
-    "3 Theory of Complex Functions/fractals/nikita/appolonan-final.py",
-    "3 Theory of Complex Functions/fractals/nikita/apollonian_gasket_final.png",
-    "3 Theory of Complex Functions/fractals/nikita/appolonian_disket.py",
-    "3 Theory of Complex Functions/fractals/nikita/apollonian_gasket_discs.png",
-    "3 Theory of Complex Functions/fractals/nikita/cyrcle.py",
+    "3 Theory of Probability/Books/Кудашов_Селина_2025_Задачи_по_Теории_Вероятностей.pdf",
+    "3 Theory of Probability/Books/Chistjakov_Kurs_TV.pdf",
+    "3 Theory of Probability/materials/Teor_Ver_04.pdf",
+    "3 Theory of Probability/practicies/4_1_photo_2025-10-15_15-48-48.jpg",
+    "3 Theory of Probability/Таблицы_нормального_распределения_Tablicy_MS.pdf",
+    "3 Theory of Probability/materials/Teor_Ver_02.pdf",
+    "3 Theory of Probability/materials/Teor_Ver_03.pdf",
+    "3 Theory of Probability/materials/Teor_Ver_01.pdf",
+    "3 Theory of Probability/Lecture notes/1. Лекция  (03.09.2025).md",
+    "3 Theory of Complex Functions/fractals/Lab1.pdf",
+    "1-2 Basics of Professional Activities (ОПД)/recepies/basic-functon.asm",
+    "1-2 Basics of Professional Activities (ОПД)/recepies/y=50x",
     "3 Theory of Complex Functions/fractals/nikita/negative_zoom.png",
     "3 Theory of Complex Functions/fractals/nikita/negative.png",
-    "3 Theory of Complex Functions/fractals/mandelbrot-5-10-20-50-steps.png",
-    "3 Theory of Complex Functions/fractals/venv/Lib/site-packages/numpy/doc/__pycache__/ufuncs.cpython-312.pyc",
-    "3 Theory of Complex Functions/fractals/venv/Lib/site-packages/numpy/doc/ufuncs.py",
-    "3 Theory of Complex Functions/fractals/venv/Lib/site-packages/numpy/doc/__pycache__",
-    "3 Theory of Complex Functions/fractals/venv/Lib/site-packages/numpy/doc",
-    "3 Theory of Complex Functions/fractals/nikita/apollonian_gasket_centers.png",
-    "3 Theory of Complex Functions/fractals/nikita/2.py",
-    "3 Theory of Complex Functions/fractals/nikita/main.py",
-    "3 Theory of Complex Functions/fractals/venv/Lib/site-packages/numpy/random/LICENSE.md",
+    "3 Theory of Complex Functions/fractals/nikita/apollonian_gasket_final_precision.png",
+    "3 Theory of Complex Functions/fractals/nikita/apollonian_gasket_final.png",
+    "3 Theory of Complex Functions/fractals/nikita/2_apollonian_gasket_final_precision.png",
+    "3 Theory of Complex Functions/fractals/julia_c_animation.gif",
+    "3 Theory of Complex Functions/fractals/temp/julia-50.png",
+    "3 Theory of Complex Functions/fractals/temp/julia-49.png",
+    "3 Theory of Complex Functions/fractals/temp/julia-48.png",
     "3 Theory of Complex Functions/fractals/venv/lib/python3.12/site-packages/numpy/random/LICENSE.md",
     "3 Web Programming/README.md",
     "3 Theory of Probability/README.md",
@@ -195,7 +250,6 @@
     "3 Theory of Probability/practicies/README.md",
     "0 Deutsch A1/hw/HW_23_09_2025.md",
     "CODE_OF_CONDUCT.md",
-    "3 Theory of Probability/Lecture notes/1. Лекция  (03.09.2025).md",
     "roadmap.sh/typescript.md",
     "1-2 Programming/README.md",
     "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
@@ -212,6 +266,7 @@
     "1-2 Programming/sem1/lab_1/Форматирование текста для лаб по проге.md",
     "2sem/преза-2семестра.pptx.md",
     "2 Databases/labs/README.md",
+    "img/Pasted.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
