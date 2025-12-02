@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "470c93f7f1e02d47",
+        "id": "9f909186657e6288",
         "type": "tabs",
         "children": [
           {
-            "id": "c1e96cea18019f87",
+            "id": "49fe6ff14a263965",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-4 Physics/README.md",
+                "file": "0 Deutsch A1/hw/02_12_2025/HW_01_12_2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "HW_01_12_2025"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 375.5
   },
   "right": {
     "id": "8958fbce40799f89",
@@ -166,41 +166,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1bb2afd4629fe3ee",
+  "active": "49fe6ff14a263965",
   "lastOpenFiles": [
-    "3-4 Physics/books/3_Общая физика Оптика Учебно-методическое пособие.pdf",
-    "3-4 Physics/books/ОБРАБОТКА_ЭКСПЕРИМЕНТАЛЬНЫХ_ДАННЫХ.pdf",
-    "3-4 Physics/books/2_Механика. Часть 2. Энергия, динамика вращения, основы теории относительности учебное пособие.pdf",
-    "3-4 Physics/books/2_Боярский К.К., Смирнов А.В., Прищепенок О.Б. Механика. Ч. 1  Кинематика, динамика Учебно-методическое пособие.pdf",
-    "3-4 Physics/books/1_Боярский К.К., Смирнов А.В., Прищепенок О.Б. Механика. Ч. 1  Кинематика, динамика Учебно-методическое пособие.pdf",
-    "3-4 Physics/books/Боярский К.К., Смирнов А.В., Прищепенок О.Б. Механика. Ч. 1  Кинематика, динамика Учебно-методическое пособие.pdf",
-    "3-4 Physics/books/К. К. Боярский.pdf",
-    "3-4 Physics/books/Physics_1.pdf",
-    "3-4 Physics/books",
-    "3-4 Physics/New folder",
-    "3-4 Physics/literature",
-    "img 1.md",
+    "3 Additional Chapters of Math Analysis/Силлабус ДГМА.pdf",
+    "3 Theory of Complex Functions/fractals/Untitled.md",
+    "3-4 Physics/practices/Семинар 8 пиикт.pdf",
+    "3-4 Physics/practices/Семинар 7 пиикт.pdf",
+    "3-4 Physics/practices/Семинар 6 пиикт.pdf",
+    "3-4 Physics/practices/Семинар 5.pdf",
+    "3-4 Physics/practices/Семинар 4 фокст.pdf",
+    "3-4 Physics/practices/Семинар 3 фокст.pdf",
+    "3-4 Physics/practices/Семинар 2 фокст.pdf",
+    "3-4 Physics/practices/Семинар 1 ПИИКТ.pdf",
+    "3-4 Physics/practices",
+    "3 Theory of Complex Functions/2/Lab2.pdf",
+    "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/logo2.png",
+    "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/grace_hopper.jpg",
+    "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/Minduka_Present_Blue_Pack.png",
+    "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/matplotlib/mpl-data/images/zoom_to_rect_large.png",
+    "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/matplotlib/mpl-data/images/zoom_to_rect.svg",
+    "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/matplotlib/mpl-data/images/zoom_to_rect.png",
+    "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/matplotlib/mpl-data/images/zoom_to_rect-symbolic.svg",
+    "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/matplotlib/mpl-data/images/subplots_large.png",
+    "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/matplotlib/mpl-data/images/subplots.svg",
+    "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/matplotlib/mpl-data/images/subplots.png",
+    "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/numpy/random/LICENSE.md",
+    "3 Theory of Complex Functions/1_fractals/Untitled.md",
+    "0 Deutsch A1/hw/02_12_2025/HW_01_12_2025.md",
+    "0 Deutsch A1/hw/HW_23_09_2025.md",
     "3-4 Physics/README.md",
-    "3-4 Physics/img/physics-3-4-semester-2025-2026.gif",
+    "img 1.md",
     "img.md",
     "1-2 Programming/README.md",
     "2 Databases/README.md",
     "3 Web Programming/README.md",
     "README.md",
-    "3 Theory of Complex Functions/fractals/nikita/neg_ap_2.png",
-    "3 Theory of Complex Functions/fractals/nikita/neg_ap_1.png",
-    "3 Theory of Complex Functions/fractals/juli-steps.png",
-    "3 Theory of Probability/practicies/4_1_photo_2025-10-15_15-48-48.jpg",
-    "3 Theory of Complex Functions/fractals/julia_c_animation.gif",
-    "3 Theory of Complex Functions/fractals/julia_animation.gif",
-    "3 Theory of Complex Functions/fractals/nikita/2_apollonian_gasket_final_precision.png",
-    "3 Theory of Complex Functions/fractals/nikita/1_apollonian_gasket_centers.png",
-    "3 Theory of Complex Functions/fractals/nikita/apollonian_gasket_final_precision.png",
     "3 Theory of Complex Functions/fractals/venv/Lib/site-packages/numpy/random/LICENSE.md",
     "3 Theory of Complex Functions/fractals/venv/lib/python3.12/site-packages/numpy/random/LICENSE.md",
     "3 Theory of Probability/README.md",
     "3 Theory of Probability/practicies/README.md",
-    "0 Deutsch A1/hw/HW_23_09_2025.md",
     "CODE_OF_CONDUCT.md",
     "3 Theory of Probability/Lecture notes/1. Лекция  (03.09.2025).md",
     "roadmap.sh/typescript.md",
@@ -210,10 +214,6 @@
     "sem2/lab_5/README.md",
     "1-2 Programming/sem1/lab_2/README.md",
     "1-2 Programming/sem1/lab_1/README.md",
-    "sem1/lab1/README.md",
-    "1-2 Programming/sem1/lab_3/README.md",
-    "sem1/lab1.md",
-    "sem2/lab1.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
