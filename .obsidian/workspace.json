@@ -11,14 +11,26 @@
             "id": "49fe6ff14a263965",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "3 Theory of Probability/Books/Chistjakov_Kurs_TV.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Chistjakov_Kurs_TV"
+            }
+          },
+          {
+            "id": "cb0eeac7f2a05aac",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "0 Deutsch A1/hw/02_12_2025/HW_01_12_2025.md",
+                "file": "3 Theory of Probability/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HW_01_12_2025"
+              "title": "README"
             }
           }
         ]
@@ -168,18 +180,21 @@
   },
   "active": "49fe6ff14a263965",
   "lastOpenFiles": [
+    "3 Theory of Probability/materials/Teor_Ver_07 (1).pdf",
+    "3 Theory of Probability/materials/Teor_Ver_06.pdf",
+    "3 Theory of Probability/materials/Teor_Ver_05.pdf",
+    "3 Theory of Probability/materials/Teor_Ver_08.pdf",
+    "3 Theory of Probability/Books/Feller_vvedenie_vveroyatnosty_tom1.pdf",
+    "0 General Information/Для_Абита_09_03_04_Системное_и_прикладное_программное_обеспечение.pdf",
+    "0 Deutsch A1/hw/02_12_2025/HW_01_12_2025.md",
+    "3 Theory of Probability/README.md",
+    "3 Theory of Probability/Lecture notes/1. Лекция  (03.09.2025).md",
+    "3 Theory of Probability/Books/Chistjakov_Kurs_TV.pdf",
     "3 Additional Chapters of Math Analysis/Силлабус ДГМА.pdf",
+    "3 Additional Chapters of Math Analysis/ргр_1/Методичка_Кратные_интегралы.pdf",
+    "3 Additional Chapters of Math Analysis/ргр_1/Кратные.pdf",
+    "3 Additional Chapters of Math Analysis/ргр_1",
     "3 Theory of Complex Functions/fractals/Untitled.md",
-    "3-4 Physics/practices/Семинар 8 пиикт.pdf",
-    "3-4 Physics/practices/Семинар 7 пиикт.pdf",
-    "3-4 Physics/practices/Семинар 6 пиикт.pdf",
-    "3-4 Physics/practices/Семинар 5.pdf",
-    "3-4 Physics/practices/Семинар 4 фокст.pdf",
-    "3-4 Physics/practices/Семинар 3 фокст.pdf",
-    "3-4 Physics/practices/Семинар 2 фокст.pdf",
-    "3-4 Physics/practices/Семинар 1 ПИИКТ.pdf",
-    "3-4 Physics/practices",
-    "3 Theory of Complex Functions/2/Lab2.pdf",
     "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/logo2.png",
     "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/grace_hopper.jpg",
     "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/Minduka_Present_Blue_Pack.png",
@@ -192,7 +207,6 @@
     "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/matplotlib/mpl-data/images/subplots.png",
     "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/numpy/random/LICENSE.md",
     "3 Theory of Complex Functions/1_fractals/Untitled.md",
-    "0 Deutsch A1/hw/02_12_2025/HW_01_12_2025.md",
     "0 Deutsch A1/hw/HW_23_09_2025.md",
     "3-4 Physics/README.md",
     "img 1.md",
@@ -203,10 +217,8 @@
     "README.md",
     "3 Theory of Complex Functions/fractals/venv/Lib/site-packages/numpy/random/LICENSE.md",
     "3 Theory of Complex Functions/fractals/venv/lib/python3.12/site-packages/numpy/random/LICENSE.md",
-    "3 Theory of Probability/README.md",
     "3 Theory of Probability/practicies/README.md",
     "CODE_OF_CONDUCT.md",
-    "3 Theory of Probability/Lecture notes/1. Лекция  (03.09.2025).md",
     "roadmap.sh/typescript.md",
     "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
     "README_ENG.md",
