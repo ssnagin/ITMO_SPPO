@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# === 1. Определение квадратной волны ===
+
 def f_square(t):
     """
     Квадратная волна с периодом 2π:
@@ -9,13 +9,13 @@ def f_square(t):
     Функция периодически продолжается на всю числовую ось.
     """
     T = 2 * np.pi
-    # Приводим t к базовому периоду [π, 3π)
-    t_shifted = t - np.pi  # сдвигаем, чтобы период начинался с 0
-    t_mod = np.mod(t_shifted, T)  # берём по модулю периода
-    t_in_base = t_mod + np.pi     # возвращаем в [π, 3π)
+
+    t_shifted = t - np.pi 
+    t_mod = np.mod(t_shifted, T) 
+    t_in_base = t_mod + np.pi    
     return np.where(t_in_base < 2 * np.pi, 1.0, 2.0)
 
-# === 2. Численное вычисление коэффициентов Фурье ===
+
 def fourier_coeffs_numeric(N):
     """
     Вычисляет коэффициенты Фурье для квадратной волны на [π, 3π) с периодом T=2π.
@@ -24,7 +24,7 @@ def fourier_coeffs_numeric(N):
     T = 2 * np.pi
     t0 = np.pi
     t1 = t0 + T
-    # Используем плотную сетку для точного численного интегрирования
+
     num_points = 5000
     t = np.linspace(t0, t1, num_points, endpoint=False)
     dt = t[1] - t[0]
@@ -33,7 +33,6 @@ def fourier_coeffs_numeric(N):
     # a0
     a0 = (2 / T) * np.sum(f_vals) * dt
     
-    # Массивы для an и bn (индекс 0 не используется для n>=1, но оставим для удобства)
     an = np.zeros(N + 1)
     bn = np.zeros(N + 1)
     
@@ -43,14 +42,14 @@ def fourier_coeffs_numeric(N):
     
     # Комплексные коэффициенты c_n для n = -N, ..., 0, ..., N
     cn = np.zeros(2 * N + 1, dtype=complex)
-    cn[N] = a0 / 2  # c_0
+    cn[N] = a0 / 2 
     for n in range(1, N + 1):
-        cn[N + n] = (an[n] - 1j * bn[n]) / 2   # c_{+n}
-        cn[N - n] = (an[n] + 1j * bn[n]) / 2   # c_{-n}
+        cn[N + n] = (an[n] - 1j * bn[n]) / 2
+        cn[N - n] = (an[n] + 1j * bn[n]) / 2
     
     return a0, an, bn, cn
 
-# === 3. Частичные суммы ряда ===
+
 def partial_sum_trig(t, a0, an, bn, N):
     """Тригонометрическая частичная сумма F_N(t)"""
     result = np.full_like(t, a0 / 2, dtype=float)
@@ -62,13 +61,13 @@ def partial_sum_complex(t, cn, N):
     """Комплексная частичная сумма G_N(t)"""
     result = np.zeros_like(t, dtype=complex)
     for k in range(-N, N + 1):
-        idx = k + N  # индекс в массиве cn[0...2N]
+        idx = k + N 
         result += cn[idx] * np.exp(1j * k * t)
-    return result.real  # мнимая часть ≈ 0 из-за симметрии
+    return result.real
 
-# === 4. Построение графиков ===
+
 if __name__ == "__main__":
-    # Диапазон для построения (один период)
+
     t_plot = np.linspace(np.pi, 3 * np.pi, 1000)
     f_true = f_square(t_plot)
 
