@@ -11,14 +11,12 @@
             "id": "3d898e84d7222e75",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "0 General Information/2024_Для_Абита_09_03_04_Системное_и_прикладное_программное_обеспечение.pdf"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-file-text",
+              "title": "2024_Для_Абита_09_03_04_Системное_и_прикладное_программное_обеспечение"
             }
           }
         ]
@@ -166,26 +164,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d898e84d7222e75",
+  "active": "1bb2afd4629fe3ee",
   "lastOpenFiles": [
-    "3-4 Physics/practices/lab7.pdf",
-    "3-4 Physics/practices/1.04 physics.pdf",
-    "3-4 Physics/lectures/Лекции Введение Физика основа современного естествознания Из истории механики.pdf",
-    "3-4 Physics/lectures/Лекции Введение Физика основа современного естествознания Из истории механики.doc",
-    "3-4 Physics/lectures",
-    "3-4 Physics/Exam_Phys_2024_02.pdf",
-    "3 Web Programming/slides/internet-v25.pdf",
-    "3 Web Programming/slides/Angular .pdf",
-    "3 Web Programming/slides",
-    "3 Theory of Complex Functions/тфкп.doc",
-    "3 Theory of Complex Functions/hw/HW2.pdf",
+    "4 Numerical Methods/lections_old/Лекция №6. Решение ОДУ.pdf",
+    "4 Numerical Methods/lections_old/Лекция №5 Интерполяция функции.pdf",
+    "4 Numerical Methods/lections_old/Лекция №4 Аппроксимация функции.pdf",
+    "4 Numerical Methods/lections_old/Лекция №3 Численное интегрирование.pdf",
+    "4 Numerical Methods/lections_old/Лекция №2 НУиСНУ.pdf",
+    "4 Numerical Methods/lections_old/Лекция №1 СЛАУ.pdf",
+    "4 Numerical Methods/lections_old",
+    "4 Algorithms & Data Structures/lections_old/DynamicProgramming.pdf",
+    "4 Algorithms & Data Structures/lections_old/AlgoLecture12.pdf",
+    "4 Algorithms & Data Structures/lections_old/AlgoLecture11.pdf",
+    "4 Algorithms & Data Structures/lections_old/AlgoLecture10.pdf",
+    "README.md",
+    "4 Numerical Methods/README.md",
+    "4 Numerical Methods/num_methods.gif",
+    "4 Numerical Methods/4 Numerical Methods.gif",
+    "3-4 Physics/README.md",
+    "README_ENG.md",
+    "0 Media/Templates/COURSE TEMPLATE.md",
     "3 Programming Languages/README.md",
     "0 Deutsch A1/hw/HW_18_12_2025.md",
     "0 Deutsch A1/16_12_2025 sein.md",
     "3 Theory of Complex Functions/2/z1.png",
     "img.md",
     "img 1.md",
-    "README.md",
     "1-2 Basics of Professional Activities (ОПД)/README.md",
     "3 Web Programming/img/web-programming-3-semester-2025-.gif",
     "3 Web Programming/README.md",
@@ -197,10 +201,7 @@
     "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/logo2.png",
     "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/grace_hopper.jpg",
     "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/Minduka_Present_Blue_Pack.png",
-    "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/matplotlib/mpl-data/images/zoom_to_rect_large.png",
-    "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/matplotlib/mpl-data/images/zoom_to_rect.svg",
     "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/numpy/random/LICENSE.md",
-    "3-4 Physics/README.md",
     "CODE_OF_CONDUCT.md",
     "3 Theory of Probability/README.md",
     "0 Deutsch A1/hw/HW_23_09_2025.md",
@@ -211,9 +212,6 @@
     "2 Databases/README.md",
     "3 Theory of Complex Functions/fractals/venv/Lib/site-packages/numpy/random/LICENSE.md",
     "3 Theory of Complex Functions/fractals/venv/lib/python3.12/site-packages/numpy/random/LICENSE.md",
-    "3 Theory of Probability/practicies/README.md",
-    "3 Theory of Probability/Lecture notes/1. Лекция  (03.09.2025).md",
-    "roadmap.sh/typescript.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
