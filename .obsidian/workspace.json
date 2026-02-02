@@ -11,12 +11,14 @@
             "id": "3d898e84d7222e75",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "0 General Information/2024_Для_Абита_09_03_04_Системное_и_прикладное_программное_обеспечение.pdf"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "2024_Для_Абита_09_03_04_Системное_и_прикладное_программное_обеспечение"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -164,8 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1bb2afd4629fe3ee",
+  "active": "3d898e84d7222e75",
   "lastOpenFiles": [
+    "REVIEWS.md",
+    "README.md",
+    "0 General Information/2024_Для_Абита_09_03_04_Системное_и_прикладное_программное_обеспечение.pdf",
     "4 Numerical Methods/lections_old/Лекция №6. Решение ОДУ.pdf",
     "4 Numerical Methods/lections_old/Лекция №5 Интерполяция функции.pdf",
     "4 Numerical Methods/lections_old/Лекция №4 Аппроксимация функции.pdf",
@@ -175,9 +180,6 @@
     "4 Numerical Methods/lections_old",
     "4 Algorithms & Data Structures/lections_old/DynamicProgramming.pdf",
     "4 Algorithms & Data Structures/lections_old/AlgoLecture12.pdf",
-    "4 Algorithms & Data Structures/lections_old/AlgoLecture11.pdf",
-    "4 Algorithms & Data Structures/lections_old/AlgoLecture10.pdf",
-    "README.md",
     "4 Numerical Methods/README.md",
     "4 Numerical Methods/num_methods.gif",
     "4 Numerical Methods/4 Numerical Methods.gif",
