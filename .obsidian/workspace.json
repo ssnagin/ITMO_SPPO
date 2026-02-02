@@ -11,6 +11,20 @@
             "id": "3d898e84d7222e75",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4 Introduction to Software Engeneering/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "2d312703ede4c1f9",
+            "type": "leaf",
+            "state": {
               "type": "pdf",
               "state": {
                 "file": "4 Numerical Methods/docs/(old)_Лабораторный практикум.pdf"
@@ -19,7 +33,8 @@
               "title": "(old)_Лабораторный практикум"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,23 +179,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1bb2afd4629fe3ee",
+  "active": "2d312703ede4c1f9",
   "lastOpenFiles": [
+    "4 Numerical Methods/lections_old/Лекция №1 СЛАУ.pdf",
+    "4 Introduction to Software Engeneering/README.md",
+    "4 Numerical Methods/Books/README.md",
+    "4 Numerical Methods/docs/(old)_Лабораторный практикум.pdf",
     "4 Introduction to Software Engeneering/docs/Лекции по ОПИ v1.4.0.pdf",
     "4 Introduction to Software Engeneering/docs",
-    "4 Numerical Methods/lections_old/Лекция №1 СЛАУ.pdf",
-    "4 Numerical Methods/Books/README.md",
     "4 Numerical Methods/lections_old/Лекция №2 НУиСНУ.pdf",
     "4 Numerical Methods/Books/Основы численных методов - Турчак Л.И., Плотников П.В.djvu",
     "4 Numerical Methods/Books/xb7f71czwmXEM.djvu",
     "4 Numerical Methods/Books",
-    "4 Introduction to Software Engeneering/README.md",
     "4 Introduction to Software Engeneering",
     "4 Numerical Methods/labs",
     "README.md",
     "REVIEWS.md",
-    "0 General Information/2024_Для_Абита_09_03_04_Системное_и_прикладное_программное_обеспечение.pdf",
-    "4 Numerical Methods/lections_old/Лекция №6. Решение ОДУ.pdf",
     "4 Numerical Methods/README.md",
     "4 Numerical Methods/num_methods.gif",
     "4 Numerical Methods/4 Numerical Methods.gif",
