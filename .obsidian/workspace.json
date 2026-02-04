@@ -37,12 +37,14 @@
             "id": "375faeb1fe208916",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "4 Introduction to Software Engeneering/docs/Лекции по ОПИ v1.4.0.pdf"
+                "file": "4 Introduction to Software Engeneering/README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Лекции по ОПИ v1.4.0"
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
@@ -205,11 +207,19 @@
   },
   "active": "375faeb1fe208916",
   "lastOpenFiles": [
-    "4 Introduction to Software Engeneering/Конспекь 04.02.2026.md",
+    "4 Introduction to Software Engeneering/docs/Конспект 04.02.2026.md",
+    "4 Introduction to Software Engeneering/README.md",
+    "4 Introduction to Software Engeneering/img/literature.png",
+    "4 Introduction to Software Engeneering/img/monolit_microservices.png",
+    "0 Media/Unsorted attachments/Pasted image 20250306190506.png",
+    "4 Introduction to Software Engeneering/img/Pasted image 20260204190446.png",
+    "4 Introduction to Software Engeneering/img",
+    "4 Introduction to Software Engeneering/шьп",
+    "4 Introduction to Software Engeneering/New folder",
+    "0 Media/Unsorted attachments/Pasted image 20260204190446.png",
     "4 Introduction to Software Engeneering/docs/Лекции по ОПИ v1.4.0.pdf",
     "4 Introduction to Software Engeneering/exams",
     "4 Introduction to Software Engeneering/lectures",
-    "4 Introduction to Software Engeneering/README.md",
     "4 Numerical Methods/lections_old/Лекция №1 СЛАУ.pdf",
     "4 Numerical Methods/num_methods.gif",
     "4 Numerical Methods/docs/(old)_Лабораторный практикум.pdf",
@@ -219,9 +229,6 @@
     "4 Numerical Methods/Books/README.md",
     "README.md",
     "4 Optimization methods/lections_selina_old/lec2.pdf",
-    "4 Optimization methods/lections_selina_old/lec10.pdf",
-    "4 Optimization methods/lections_selina_old/lec9.pdf",
-    "4 Optimization methods/lections_selina_old/lec8.pdf",
     "4 Computer Architecture/README.md",
     "REVIEWS.md",
     "4 Numerical Methods/4 Numerical Methods.gif",
@@ -239,12 +246,7 @@
     "3 Web Programming/README.md",
     "0 Deutsch A1/hw/02_12_2025/HW_01_12_2025.md",
     "0 Deutsch A1/hw/02_12_2025/Pasted image 20251202175933.png",
-    "0 Deutsch A1/hw/02_12_2025/Pasted image 20251202180023.png",
-    "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/scipy/ndimage/tests/dots.png",
     "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/scipy/fft/_pocketfft/LICENSE.md",
-    "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/logo2.png",
-    "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/grace_hopper.jpg",
-    "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/Minduka_Present_Blue_Pack.png",
     "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/numpy/random/LICENSE.md",
     "CODE_OF_CONDUCT.md",
     "3 Theory of Probability/README.md",
