@@ -27,14 +27,38 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "4 Numerical Methods/docs/(old)_Лабораторный практикум.pdf"
+                "file": "4 Numerical Methods/lections_old/Лекция №1 СЛАУ.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "(old)_Лабораторный практикум"
+              "title": "Лекция №1 СЛАУ"
+            }
+          },
+          {
+            "id": "375faeb1fe208916",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "4 Introduction to Software Engeneering/docs/Лекции по ОПИ v1.4.0.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Лекции по ОПИ v1.4.0"
+            }
+          },
+          {
+            "id": "ca1a51ffefcc9113",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "1-2 Linear Algebra/Books/Fadeev.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Fadeev"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,27 +203,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1bb2afd4629fe3ee",
+  "active": "375faeb1fe208916",
   "lastOpenFiles": [
+    "4 Introduction to Software Engeneering/Конспекь 04.02.2026.md",
+    "4 Introduction to Software Engeneering/docs/Лекции по ОПИ v1.4.0.pdf",
+    "4 Introduction to Software Engeneering/exams",
+    "4 Introduction to Software Engeneering/lectures",
+    "4 Introduction to Software Engeneering/README.md",
+    "4 Numerical Methods/lections_old/Лекция №1 СЛАУ.pdf",
+    "4 Numerical Methods/num_methods.gif",
+    "4 Numerical Methods/docs/(old)_Лабораторный практикум.pdf",
+    "1-2 Linear Algebra/Books/Fadeev.pdf",
+    "4 Numerical Methods/README.md",
+    "4 Math Statistics/README.md",
+    "4 Numerical Methods/Books/README.md",
+    "README.md",
+    "4 Optimization methods/lections_selina_old/lec2.pdf",
     "4 Optimization methods/lections_selina_old/lec10.pdf",
     "4 Optimization methods/lections_selina_old/lec9.pdf",
     "4 Optimization methods/lections_selina_old/lec8.pdf",
-    "4 Optimization methods/lections_selina_old/lec7.pdf",
-    "4 Optimization methods/lections_selina_old/lec5.pdf",
-    "4 Optimization methods/lections_selina_old/lec4.pdf",
-    "4 Optimization methods/lections_selina_old/lec3.pdf",
-    "4 Optimization methods/lections_selina_old/lec2.pdf",
-    "4 Optimization methods/lections_selina_old",
-    "4 Optimization methods/linprog.pdf",
-    "4 Optimization methods",
-    "4 Math Statistics/README.md",
     "4 Computer Architecture/README.md",
-    "4 Introduction to Software Engeneering/README.md",
-    "4 Numerical Methods/Books/README.md",
-    "README.md",
     "REVIEWS.md",
-    "4 Numerical Methods/README.md",
-    "4 Numerical Methods/num_methods.gif",
     "4 Numerical Methods/4 Numerical Methods.gif",
     "3-4 Physics/README.md",
     "README_ENG.md",
@@ -226,7 +250,6 @@
     "3 Theory of Probability/README.md",
     "0 Deutsch A1/hw/HW_23_09_2025.md",
     "3 Theory of Complex Functions/fractals/Untitled.md",
-    "3 Theory of Complex Functions/1_fractals/venv/lib/python3.12/site-packages/numpy/random/LICENSE.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
