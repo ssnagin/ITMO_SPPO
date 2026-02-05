@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 Introduction to Software Engeneering/README.md",
+                "file": "4 Numerical Methods/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -207,8 +207,10 @@
   },
   "active": "375faeb1fe208916",
   "lastOpenFiles": [
-    "4 Introduction to Software Engeneering/docs/Конспект 04.02.2026.md",
+    "4 Numerical Methods/REQUIREMENTS.md",
+    "4 Numerical Methods/README.md",
     "4 Introduction to Software Engeneering/README.md",
+    "4 Introduction to Software Engeneering/docs/Конспект 04.02.2026.md",
     "4 Introduction to Software Engeneering/img/literature.png",
     "4 Introduction to Software Engeneering/img/monolit_microservices.png",
     "0 Media/Unsorted attachments/Pasted image 20250306190506.png",
@@ -224,7 +226,6 @@
     "4 Numerical Methods/num_methods.gif",
     "4 Numerical Methods/docs/(old)_Лабораторный практикум.pdf",
     "1-2 Linear Algebra/Books/Fadeev.pdf",
-    "4 Numerical Methods/README.md",
     "4 Math Statistics/README.md",
     "4 Numerical Methods/Books/README.md",
     "README.md",
