@@ -1,3 +1,18 @@
+# OBSIDIAN GITIGNORE
+
+# UI
+.obsidian/workspace.json
+.obsidian/app.json
+
+# System and Editor files
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
+# ==== OTHER ==== 
+
 /Programming/sem1/lab_2/pokemons/nbproject/private/
 /Programming/sem1/lab_2/pokemons/build/
 /Programming/sem1/lab_2/pokemons93055/nbproject/private/
