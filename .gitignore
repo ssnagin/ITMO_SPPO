@@ -1,14 +1,14 @@
 # OBSIDIAN GITIGNORE
 
 # UI
-.obsidian/workspace.json
-.obsidian/app.json
+/.obsidian/workspace.json
+/.obsidian/app.json
 
 # System and Editor files
-.vscode/
-.idea/
+/.vscode/
+/.idea/
 
-.DS_Store
+/.DS_Store
 Thumbs.db
 
 # ==== OTHER ==== 
