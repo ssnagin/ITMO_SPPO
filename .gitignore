@@ -1,7 +1,7 @@
 # OBSIDIAN GITIGNORE
 
 # UI
-/.obsidian/workspace.json
+.obsidian/workspace.json
 /.obsidian/app.json
 
 # System and Editor files

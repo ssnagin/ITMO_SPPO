@@ -27,7 +27,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "4 Numerical Methods/lections_old/Лекция №1 СЛАУ.pdf"
+                "file": "4 Numerical Methods/lections_2024/Лекция №1 СЛАУ.pdf"
               },
               "icon": "lucide-file-text",
               "title": "Лекция №1 СЛАУ"
@@ -39,10 +39,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "4 Public Speaking Techniques/home_assignments/Домашние задания.pdf"
+                "file": "4 Numerical Methods/docs/(old)_Лабораторный практикум.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Домашние задания"
+              "title": "(old)_Лабораторный практикум"
             }
           },
           {
@@ -203,53 +203,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "375faeb1fe208916",
+  "active": "1bb2afd4629fe3ee",
   "lastOpenFiles": [
-    "4 Public Speaking Techniques/img.gif",
-    "4 Public Speaking Techniques/README.md",
+    "3-4 Physics/practices/sem2/ФПИиКТ online Практические занятия.pdf",
+    "3-4 Physics/books/ОБРАБОТКА_ЭКСПЕРИМЕНТАЛЬНЫХ_ДАННЫХ.pdf",
     "4 Numerical Methods/README.md",
-    "4 Public Speaking Techniques/public-speaking-techniques-4-sem.gif",
-    "4 Computer Architecture/README.md",
-    "4 Public Speaking Techniques/home_assignments/Домашние задания.pdf",
-    "README.md",
-    "4 Public Speaking Techniques/home_assignments/Домашние задания.docx",
-    "4 Public Speaking Techniques/home_assignments/lu200041nlb2y.tmp",
-    "4 Public Speaking Techniques/home_assignments/lu200041nlb2t.tmp",
-    "4 Public Speaking Techniques/home_assignments",
-    "4 Public Speaking Techniques/New folder",
-    "4 Public Speaking Techniques",
-    "New folder",
-    "4 Math Statistics/Books/Chernova_math_statistics.pdf",
-    "4 Math Statistics/Books",
+    "4 Numerical Methods/num_methods.gif",
     "4 Numerical Methods/REQUIREMENTS.md",
-    "0 Media/Pictures/balakshin.png",
-    "0 Media/Pictures/earthbound-text-generator.gif",
-    "0 ITMO_ENTER/day 1/test 123.md",
-    "0 ITMO_ENTER/day 1/photo_17_2024-09-02_11-41-53.jpg",
-    "0 ITMO_ENTER/day 1/photo_1_2024-09-02_11-41-53.jpg",
-    "0 ITMO_ENTER/day 1/photo_2_2024-09-02_11-41-53.jpg",
-    "0 ITMO_ENTER/day 1/photo_3_2024-09-02_11-41-53.jpg",
-    "0 ITMO_ENTER/day 1/photo_5_2024-09-02_11-41-53.jpg",
-    "0 ITMO_ENTER/day 1/photo_6_2024-09-02_11-41-53.jpg",
-    "4 Introduction to Software Engeneering/README.md",
+    "Untitled.md",
+    "4 Numerical Methods/lections_2026",
+    "Untitled.base",
+    "3-4 Physics/practices/1.04 physics.pdf",
+    "4 Public Speaking Techniques/home_assignments/Домашние задания.pdf",
+    "4 Public Speaking Techniques/home_assignments/Домашние задания.docx",
+    "4 Public Speaking Techniques/img.gif",
+    "4 Public Speaking Techniques/home_assignments",
+    "4 Public Speaking Techniques/README.md",
+    "4 Public Speaking Techniques",
+    "3-4 Physics/lectures/Лекции Введение Физика основа современного естествознания Из истории механики.pdf",
+    "3-4 Physics/practices/sem1",
+    "3-4 Physics/README.md",
+    "README.md",
+    "CODE_OF_CONDUCT.md",
+    "4 Introduction to Software Engeneering/img/monolit_microservices.png",
+    "4 Introduction to Software Engeneering/img/literature.png",
     "4 Introduction to Software Engeneering/docs/Конспект 04.02.2026.md",
+    "4 Introduction to Software Engeneering/Конспекь 04.02.2026.md",
+    "4 Introduction to Software Engeneering/README.md",
     "4 Math Statistics/README.md",
     "4 Numerical Methods/Books/README.md",
+    "4 Computer Architecture/README.md",
     "REVIEWS.md",
-    "3-4 Physics/README.md",
+    "4 Numerical Methods/4 Numerical Methods.gif",
     "README_ENG.md",
     "0 Media/Templates/COURSE TEMPLATE.md",
     "3 Programming Languages/README.md",
     "0 Deutsch A1/hw/HW_18_12_2025.md",
     "0 Deutsch A1/16_12_2025 sein.md",
+    "3 Theory of Complex Functions/2/z1.png",
     "img.md",
     "img 1.md",
     "1-2 Basics of Professional Activities (ОПД)/README.md",
+    "3 Web Programming/img/web-programming-3-semester-2025-.gif",
     "3 Web Programming/README.md",
     "0 Deutsch A1/hw/02_12_2025/HW_01_12_2025.md",
+    "0 Deutsch A1/hw/02_12_2025/Pasted image 20251202175933.png",
+    "0 Deutsch A1/hw/02_12_2025/Pasted image 20251202180023.png",
+    "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/scipy/ndimage/tests/dots.png",
     "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/scipy/fft/_pocketfft/LICENSE.md",
-    "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/numpy/random/LICENSE.md",
-    "CODE_OF_CONDUCT.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
