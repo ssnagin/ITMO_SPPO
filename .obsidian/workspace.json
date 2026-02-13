@@ -39,10 +39,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "4 Numerical Methods/docs/(old)_Лабораторный практикум.pdf"
+                "file": "4 Numerical Methods/docs/(2023)_Лабораторный практикум.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "(old)_Лабораторный практикум"
+              "title": "(2023)_Лабораторный практикум"
             }
           },
           {
@@ -205,6 +205,8 @@
   },
   "active": "1bb2afd4629fe3ee",
   "lastOpenFiles": [
+    "4 Numerical Methods/lections_2026/Лекция №1 СЛАУ.pdf",
+    "4 Numerical Methods/docs/2026_lab1.pdf",
     "3-4 Physics/practices/sem2/ФПИиКТ online Практические занятия.pdf",
     "3-4 Physics/books/ОБРАБОТКА_ЭКСПЕРИМЕНТАЛЬНЫХ_ДАННЫХ.pdf",
     "4 Numerical Methods/README.md",
@@ -220,8 +222,6 @@
     "4 Public Speaking Techniques/home_assignments",
     "4 Public Speaking Techniques/README.md",
     "4 Public Speaking Techniques",
-    "3-4 Physics/lectures/Лекции Введение Физика основа современного естествознания Из истории механики.pdf",
-    "3-4 Physics/practices/sem1",
     "3-4 Physics/README.md",
     "README.md",
     "CODE_OF_CONDUCT.md",
