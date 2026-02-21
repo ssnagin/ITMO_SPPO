@@ -39,10 +39,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "4 Numerical Methods/docs/(2023)_Лабораторный практикум.pdf"
+                "file": "4 Numerical Methods/lections_2024/Лекция №2 НУиСНУ.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "(2023)_Лабораторный практикум"
+              "title": "Лекция №2 НУиСНУ"
             }
           },
           {
@@ -56,9 +56,21 @@
               "icon": "lucide-file-text",
               "title": "Fadeev"
             }
+          },
+          {
+            "id": "fb3cca84c8cd43ef",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "4 Algorithms & Data Structures/lections_old/AlgoLecture2.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "AlgoLecture2"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -194,6 +206,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -203,25 +216,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1bb2afd4629fe3ee",
+  "active": "fb3cca84c8cd43ef",
   "lastOpenFiles": [
+    "4 Algorithms & Data Structures/reports/lu176682v7cj.tmp",
+    "4 Algorithms & Data Structures/lections_old/AlgoLecture1.pdf",
+    "4 Numerical Methods/lections_2024/Лекция №2 НУиСНУ.pdf",
+    "4 Numerical Methods/lections_2024/Лекция №3 Численное интегрирование.pdf",
+    "4 Algorithms & Data Structures/README.md",
+    "4 Computer Architecture/README.md",
+    "4 Numerical Methods/lections_2024/Лекция №6. Решение ОДУ.pdf",
+    "4 Numerical Methods/lections_2024/Лекция №5 Интерполяция функции.pdf",
+    "4 Numerical Methods/lections_2024/Лекция №4 Аппроксимация функции.pdf",
+    "4 Numerical Methods/docs/(2023)_Лабораторный практикум.pdf",
     "4 Numerical Methods/lections_2026/Лекция №1 СЛАУ.pdf",
     "4 Numerical Methods/docs/2026_lab1.pdf",
     "3-4 Physics/practices/sem2/ФПИиКТ online Практические занятия.pdf",
-    "3-4 Physics/books/ОБРАБОТКА_ЭКСПЕРИМЕНТАЛЬНЫХ_ДАННЫХ.pdf",
     "4 Numerical Methods/README.md",
     "4 Numerical Methods/num_methods.gif",
     "4 Numerical Methods/REQUIREMENTS.md",
     "Untitled.md",
-    "4 Numerical Methods/lections_2026",
-    "Untitled.base",
-    "3-4 Physics/practices/1.04 physics.pdf",
-    "4 Public Speaking Techniques/home_assignments/Домашние задания.pdf",
-    "4 Public Speaking Techniques/home_assignments/Домашние задания.docx",
     "4 Public Speaking Techniques/img.gif",
-    "4 Public Speaking Techniques/home_assignments",
     "4 Public Speaking Techniques/README.md",
-    "4 Public Speaking Techniques",
     "3-4 Physics/README.md",
     "README.md",
     "CODE_OF_CONDUCT.md",
@@ -232,7 +247,6 @@
     "4 Introduction to Software Engeneering/README.md",
     "4 Math Statistics/README.md",
     "4 Numerical Methods/Books/README.md",
-    "4 Computer Architecture/README.md",
     "REVIEWS.md",
     "4 Numerical Methods/4 Numerical Methods.gif",
     "README_ENG.md",
@@ -250,7 +264,6 @@
     "0 Deutsch A1/hw/02_12_2025/Pasted image 20251202175933.png",
     "0 Deutsch A1/hw/02_12_2025/Pasted image 20251202180023.png",
     "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/scipy/ndimage/tests/dots.png",
-    "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/scipy/fft/_pocketfft/LICENSE.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
