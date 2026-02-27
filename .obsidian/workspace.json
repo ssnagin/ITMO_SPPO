@@ -37,12 +37,12 @@
             "id": "375faeb1fe208916",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "image",
               "state": {
-                "file": "4 Numerical Methods/lections_2024/Лекция №2 НУиСНУ.pdf"
+                "file": "3-4 Physics/img/physics-3-4-semester-2025-2026.gif"
               },
-              "icon": "lucide-file-text",
-              "title": "Лекция №2 НУиСНУ"
+              "icon": "lucide-image",
+              "title": "physics-3-4-semester-2025-2026"
             }
           },
           {
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -216,35 +216,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb3cca84c8cd43ef",
+  "active": "1bb2afd4629fe3ee",
   "lastOpenFiles": [
-    "4 Algorithms & Data Structures/reports/lu176682v7cj.tmp",
-    "4 Algorithms & Data Structures/lections_old/AlgoLecture1.pdf",
-    "4 Numerical Methods/lections_2024/Лекция №2 НУиСНУ.pdf",
-    "4 Numerical Methods/lections_2024/Лекция №3 Численное интегрирование.pdf",
+    "3-4 Physics/sem2/hw/ФПИиКТ online Практические занятия.pdf",
+    "3-4 Physics/sem2/hw",
+    "3-4 Physics/docs/Рекомендации по написанию отчета по лабораторной работе.pdf",
+    "3-4 Physics/README.md",
+    "docs/\"ОБРАБОТКА.md",
+    "docs",
+    "4 Numerical Methods/labs/Задание Л.Р.№2.pdf",
+    "3-4 Physics/sem1/books/3_Общая физика Оптика Учебно-методическое пособие.pdf",
+    "3-4 Physics/sem1/books/2_Механика. Часть 2. Энергия, динамика вращения, основы теории относительности учебное пособие.pdf",
+    "3-4 Physics/sem1/books/1_Боярский К.К., Смирнов А.В., Прищепенок О.Б. Механика. Ч. 1  Кинематика, динамика Учебно-методическое пособие.pdf",
+    "3-4 Physics/sem1/books",
+    "3-4 Physics/docs/ОБРАБОТКА_ЭКСПЕРИМЕНТАЛЬНЫХ_ДАННЫХ.pdf",
+    "3-4 Physics/sem1/hw/ПИИКТ домашка № 3.pdf",
+    "4 Numerical Methods/README.md",
+    "4 Numerical Methods/REQUIREMENTS.md",
+    "4 Numerical Methods/num_methods.gif",
+    "4 Introduction to Software Engeneering/README.md",
+    "4 Numerical Methods/labs/README.md",
     "4 Algorithms & Data Structures/README.md",
     "4 Computer Architecture/README.md",
-    "4 Numerical Methods/lections_2024/Лекция №6. Решение ОДУ.pdf",
-    "4 Numerical Methods/lections_2024/Лекция №5 Интерполяция функции.pdf",
-    "4 Numerical Methods/lections_2024/Лекция №4 Аппроксимация функции.pdf",
-    "4 Numerical Methods/docs/(2023)_Лабораторный практикум.pdf",
-    "4 Numerical Methods/lections_2026/Лекция №1 СЛАУ.pdf",
-    "4 Numerical Methods/docs/2026_lab1.pdf",
-    "3-4 Physics/practices/sem2/ФПИиКТ online Практические занятия.pdf",
-    "4 Numerical Methods/README.md",
-    "4 Numerical Methods/num_methods.gif",
-    "4 Numerical Methods/REQUIREMENTS.md",
     "Untitled.md",
     "4 Public Speaking Techniques/img.gif",
     "4 Public Speaking Techniques/README.md",
-    "3-4 Physics/README.md",
     "README.md",
     "CODE_OF_CONDUCT.md",
     "4 Introduction to Software Engeneering/img/monolit_microservices.png",
     "4 Introduction to Software Engeneering/img/literature.png",
     "4 Introduction to Software Engeneering/docs/Конспект 04.02.2026.md",
     "4 Introduction to Software Engeneering/Конспекь 04.02.2026.md",
-    "4 Introduction to Software Engeneering/README.md",
     "4 Math Statistics/README.md",
     "4 Numerical Methods/Books/README.md",
     "REVIEWS.md",
@@ -259,8 +261,6 @@
     "img 1.md",
     "1-2 Basics of Professional Activities (ОПД)/README.md",
     "3 Web Programming/img/web-programming-3-semester-2025-.gif",
-    "3 Web Programming/README.md",
-    "0 Deutsch A1/hw/02_12_2025/HW_01_12_2025.md",
     "0 Deutsch A1/hw/02_12_2025/Pasted image 20251202175933.png",
     "0 Deutsch A1/hw/02_12_2025/Pasted image 20251202180023.png",
     "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/scipy/ndimage/tests/dots.png",
