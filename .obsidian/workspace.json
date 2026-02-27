@@ -34,27 +34,17 @@
             }
           },
           {
-            "id": "375faeb1fe208916",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "3-4 Physics/img/physics-3-4-semester-2025-2026.gif"
-              },
-              "icon": "lucide-image",
-              "title": "physics-3-4-semester-2025-2026"
-            }
-          },
-          {
             "id": "ca1a51ffefcc9113",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "1-2 Linear Algebra/Books/Fadeev.pdf"
+                "file": "REVIEWS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Fadeev"
+              "icon": "lucide-file",
+              "title": "REVIEWS"
             }
           },
           {
@@ -216,21 +206,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1bb2afd4629fe3ee",
+  "active": "ca1a51ffefcc9113",
   "lastOpenFiles": [
-    "3-4 Physics/sem2/hw/ФПИиКТ online Практические занятия.pdf",
-    "3-4 Physics/sem2/hw",
-    "3-4 Physics/docs/Рекомендации по написанию отчета по лабораторной работе.pdf",
+    "1-2 Basics of Professional Activities (ОПД)/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
+    "1-2 Basics of Professional Activities (ОПД)/microlectures/img/Pasted image 20250310212238.png",
+    "1-2 Basics of Professional Activities (ОПД)/microlectures/CALLING_CONVENTIONS.md",
+    "1-2 Basics of Professional Activities (ОПД)/microlectures/DRAFT__CALLING_CONVENTIONS.md",
+    "1-2 Basics of Professional Activities (ОПД)/microlectures/TYPES_OF_ADDRESSING.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/преза-2семестра.pdf",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/Books/Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng.pdf",
+    "1-2 Basics of Professional Activities (ОПД)/img/Pasted image 20250310210535.png",
+    "1-2 Basics of Professional Activities (ОПД)/img/Pasted image 20250306174825.png",
+    "1-2 Basics of Professional Activities (ОПД)/img/Pasted image 20250306174123.png",
+    "1-2 Basics of Professional Activities (ОПД)/img/Data-2521677485.gif",
+    "1-2 Basics of Professional Activities (ОПД)/EXAM.md",
+    "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh/README.md",
+    "1-2 Basics of Professional Activities (ОПД)/ABOUT_BEC.md",
+    "3 Web Programming/README.md",
+    "3 Web Programming/slides/internet-v25.pdf",
+    "3 Web Programming/slides/React-2025.pdf",
+    "3 Web Programming/img/web-programming-3-semester-2025-.gif",
+    "3 Web Programming/slides/Angular .pdf",
+    "4 Optimization methods/lections_selina_old/lec5.pdf",
+    "4 Optimization methods/lections_selina_old/lec9.pdf",
+    "4 Optimization methods/lections_selina_old/lec3.pdf",
+    "README.md",
+    "1-2 Linear Algebra/Books/Fadeev.pdf",
+    "3 Programming Languages/README.md",
+    "1-2 History/sem1/Alexander Nevskiy map/Infographic.pdf",
+    "1 ICT/README.md",
+    "3-4 Physics/img/physics-3-4-semester-2025-2026.gif",
     "3-4 Physics/README.md",
     "docs/\"ОБРАБОТКА.md",
-    "docs",
-    "4 Numerical Methods/labs/Задание Л.Р.№2.pdf",
-    "3-4 Physics/sem1/books/3_Общая физика Оптика Учебно-методическое пособие.pdf",
-    "3-4 Physics/sem1/books/2_Механика. Часть 2. Энергия, динамика вращения, основы теории относительности учебное пособие.pdf",
-    "3-4 Physics/sem1/books/1_Боярский К.К., Смирнов А.В., Прищепенок О.Б. Механика. Ч. 1  Кинематика, динамика Учебно-методическое пособие.pdf",
-    "3-4 Physics/sem1/books",
-    "3-4 Physics/docs/ОБРАБОТКА_ЭКСПЕРИМЕНТАЛЬНЫХ_ДАННЫХ.pdf",
-    "3-4 Physics/sem1/hw/ПИИКТ домашка № 3.pdf",
     "4 Numerical Methods/README.md",
     "4 Numerical Methods/REQUIREMENTS.md",
     "4 Numerical Methods/num_methods.gif",
@@ -241,29 +250,10 @@
     "Untitled.md",
     "4 Public Speaking Techniques/img.gif",
     "4 Public Speaking Techniques/README.md",
-    "README.md",
     "CODE_OF_CONDUCT.md",
     "4 Introduction to Software Engeneering/img/monolit_microservices.png",
-    "4 Introduction to Software Engeneering/img/literature.png",
     "4 Introduction to Software Engeneering/docs/Конспект 04.02.2026.md",
     "4 Introduction to Software Engeneering/Конспекь 04.02.2026.md",
-    "4 Math Statistics/README.md",
-    "4 Numerical Methods/Books/README.md",
-    "REVIEWS.md",
-    "4 Numerical Methods/4 Numerical Methods.gif",
-    "README_ENG.md",
-    "0 Media/Templates/COURSE TEMPLATE.md",
-    "3 Programming Languages/README.md",
-    "0 Deutsch A1/hw/HW_18_12_2025.md",
-    "0 Deutsch A1/16_12_2025 sein.md",
-    "3 Theory of Complex Functions/2/z1.png",
-    "img.md",
-    "img 1.md",
-    "1-2 Basics of Professional Activities (ОПД)/README.md",
-    "3 Web Programming/img/web-programming-3-semester-2025-.gif",
-    "0 Deutsch A1/hw/02_12_2025/Pasted image 20251202175933.png",
-    "0 Deutsch A1/hw/02_12_2025/Pasted image 20251202180023.png",
-    "3 Theory of Complex Functions/2/venv/lib/python3.12/site-packages/scipy/ndimage/tests/dots.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
