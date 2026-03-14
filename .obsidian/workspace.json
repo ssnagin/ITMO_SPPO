@@ -34,17 +34,15 @@
             }
           },
           {
-            "id": "ca1a51ffefcc9113",
+            "id": "375faeb1fe208916",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "REVIEWS.md",
-                "mode": "source",
-                "source": false
+                "file": "4 Numerical Methods/lections_2024/Лекция №2 НУиСНУ.pdf"
               },
-              "icon": "lucide-file",
-              "title": "REVIEWS"
+              "icon": "lucide-file-text",
+              "title": "Лекция №2 НУиСНУ"
             }
           },
           {
@@ -53,14 +51,28 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "4 Algorithms & Data Structures/lections_old/AlgoLecture2.pdf"
+                "file": "3-4 Physics/sem2/ФПИиКТ Онлайн 2026 Электричество Регламент и Оценивание.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "AlgoLecture2"
+              "title": "ФПИиКТ Онлайн 2026 Электричество Регламент и Оценивание"
+            }
+          },
+          {
+            "id": "8a38767e0c348f9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-4 Physics/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -206,54 +218,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca1a51ffefcc9113",
+  "active": "8a38767e0c348f9c",
   "lastOpenFiles": [
-    "1-2 Basics of Professional Activities (ОПД)/README.md",
-    "1-2 Basics of Professional Activities (ОПД)/IMPORTANT_TABLES.md",
-    "1-2 Basics of Professional Activities (ОПД)/microlectures/img/Pasted image 20250310212238.png",
-    "1-2 Basics of Professional Activities (ОПД)/microlectures/CALLING_CONVENTIONS.md",
-    "1-2 Basics of Professional Activities (ОПД)/microlectures/DRAFT__CALLING_CONVENTIONS.md",
-    "1-2 Basics of Professional Activities (ОПД)/microlectures/TYPES_OF_ADDRESSING.md",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/преза-2семестра.pdf",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/lab4/README.md",
-    "1-2 Basics of Professional Activities (ОПД)/Books/Методические указания к выполнению лабораторных работ и рубежного контроля БЭВМ 2019 bcomp-ng.pdf",
-    "1-2 Basics of Professional Activities (ОПД)/img/Pasted image 20250310210535.png",
-    "1-2 Basics of Professional Activities (ОПД)/img/Pasted image 20250306174825.png",
-    "1-2 Basics of Professional Activities (ОПД)/img/Pasted image 20250306174123.png",
-    "1-2 Basics of Professional Activities (ОПД)/img/Data-2521677485.gif",
-    "1-2 Basics of Professional Activities (ОПД)/EXAM.md",
-    "1-2 Basics of Professional Activities (ОПД)/2sem/rubezh/README.md",
-    "1-2 Basics of Professional Activities (ОПД)/ABOUT_BEC.md",
-    "3 Web Programming/README.md",
-    "3 Web Programming/slides/internet-v25.pdf",
-    "3 Web Programming/slides/React-2025.pdf",
-    "3 Web Programming/img/web-programming-3-semester-2025-.gif",
-    "3 Web Programming/slides/Angular .pdf",
-    "4 Optimization methods/lections_selina_old/lec5.pdf",
-    "4 Optimization methods/lections_selina_old/lec9.pdf",
-    "4 Optimization methods/lections_selina_old/lec3.pdf",
-    "README.md",
-    "1-2 Linear Algebra/Books/Fadeev.pdf",
-    "3 Programming Languages/README.md",
-    "1-2 History/sem1/Alexander Nevskiy map/Infographic.pdf",
-    "1 ICT/README.md",
-    "3-4 Physics/img/physics-3-4-semester-2025-2026.gif",
+    "3-4 Physics/sem1/schpargalka.webp",
     "3-4 Physics/README.md",
-    "docs/\"ОБРАБОТКА.md",
-    "4 Numerical Methods/README.md",
-    "4 Numerical Methods/REQUIREMENTS.md",
+    "3-4 Physics/sem2/hw/ФПИиКТ online Практические занятия.pdf",
+    "3-4 Physics/sem2/ФПИиКТ Онлайн 2026 Электричество Регламент и Оценивание.pdf",
+    "3-4 Physics/2 сем Календарно-тематический план ФПИиКТ online Электромагнетимз.pdf",
+    "3-4 Physics/sem2/ФПИиКТ online Практические занятия.pdf",
+    "3-4 Physics/sem2/Календарно-тематический план ФПИиКТ online Электромагнетимз.pdf",
+    "4 Numerical Methods/lections_2024/Лекция №1 СЛАУ.pdf",
+    "4 Numerical Methods/lections_2024/Лекция №3 Численное интегрирование.pdf",
+    "4 Numerical Methods/lections_2024/Лекция №2 НУиСНУ.pdf",
     "4 Numerical Methods/num_methods.gif",
+    "4 Algorithms & Data Structures/lections_old/AlgoLecture1.pdf",
+    "3-4 Physics/sem2/labs/3.06/lab3.06.pdf",
+    "4 Introduction to Software Engeneering/egoshin_notes.md",
     "4 Introduction to Software Engeneering/README.md",
-    "4 Numerical Methods/labs/README.md",
     "4 Algorithms & Data Structures/README.md",
     "4 Computer Architecture/README.md",
+    "4 Numerical Methods/README.md",
+    "4 Numerical Methods/REQUIREMENTS.md",
     "Untitled.md",
     "4 Public Speaking Techniques/img.gif",
     "4 Public Speaking Techniques/README.md",
+    "README.md",
     "CODE_OF_CONDUCT.md",
     "4 Introduction to Software Engeneering/img/monolit_microservices.png",
+    "4 Introduction to Software Engeneering/img/literature.png",
     "4 Introduction to Software Engeneering/docs/Конспект 04.02.2026.md",
     "4 Introduction to Software Engeneering/Конспекь 04.02.2026.md",
+    "4 Math Statistics/README.md",
+    "4 Numerical Methods/Books/README.md",
+    "REVIEWS.md",
+    "4 Numerical Methods/4 Numerical Methods.gif",
+    "README_ENG.md",
+    "0 Media/Templates/COURSE TEMPLATE.md",
+    "3 Programming Languages/README.md",
+    "0 Deutsch A1/hw/HW_18_12_2025.md",
+    "0 Deutsch A1/16_12_2025 sein.md",
+    "3 Theory of Complex Functions/2/z1.png",
+    "img.md",
+    "img 1.md",
+    "1-2 Basics of Professional Activities (ОПД)/README.md",
+    "3 Web Programming/img/web-programming-3-semester-2025-.gif",
+    "3 Web Programming/README.md",
+    "0 Deutsch A1/hw/02_12_2025/Pasted image 20251202175933.png",
+    "0 Deutsch A1/hw/02_12_2025/Pasted image 20251202180023.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
