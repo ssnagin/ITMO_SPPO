@@ -61,18 +61,28 @@
             "id": "8a38767e0c348f9c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "3-4 Physics/README.md",
-                "mode": "source",
-                "source": false
+                "file": "4 Algorithms & Data Structures/lections_old/AlgoLecture2.pdf"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-file-text",
+              "title": "AlgoLecture2"
+            }
+          },
+          {
+            "id": "ea454203bee6b055",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "4 Algorithms & Data Structures/lections_old/AlgoLecture3.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "AlgoLecture3"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -218,21 +228,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8a38767e0c348f9c",
+  "active": "1bb2afd4629fe3ee",
   "lastOpenFiles": [
-    "3-4 Physics/sem1/schpargalka.webp",
+    "4 Numerical Methods/labs/2026_lab3.pdf",
+    "4 Numerical Methods/labs/Задание ЛР №3.pdf",
+    "4 Numerical Methods/lections_2026/Лекция №3 Численное интегрирование.pdf",
+    "4 Numerical Methods/labs/2026_lab2.pdf",
+    "4 Algorithms & Data Structures/lections_old/AlgoLecture2.pdf",
+    "4 Algorithms & Data Structures/lections_old/AlgoLecture3.pdf",
+    "4 Algorithms & Data Structures/lections_old/AlgoLecture1.pdf",
     "3-4 Physics/README.md",
+    "3-4 Physics/sem1/schpargalka.webp",
     "3-4 Physics/sem2/hw/ФПИиКТ online Практические занятия.pdf",
     "3-4 Physics/sem2/ФПИиКТ Онлайн 2026 Электричество Регламент и Оценивание.pdf",
     "3-4 Physics/2 сем Календарно-тематический план ФПИиКТ online Электромагнетимз.pdf",
     "3-4 Physics/sem2/ФПИиКТ online Практические занятия.pdf",
-    "3-4 Physics/sem2/Календарно-тематический план ФПИиКТ online Электромагнетимз.pdf",
-    "4 Numerical Methods/lections_2024/Лекция №1 СЛАУ.pdf",
-    "4 Numerical Methods/lections_2024/Лекция №3 Численное интегрирование.pdf",
-    "4 Numerical Methods/lections_2024/Лекция №2 НУиСНУ.pdf",
     "4 Numerical Methods/num_methods.gif",
-    "4 Algorithms & Data Structures/lections_old/AlgoLecture1.pdf",
-    "3-4 Physics/sem2/labs/3.06/lab3.06.pdf",
     "4 Introduction to Software Engeneering/egoshin_notes.md",
     "4 Introduction to Software Engeneering/README.md",
     "4 Algorithms & Data Structures/README.md",
