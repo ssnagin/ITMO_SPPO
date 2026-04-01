@@ -17,4 +17,4 @@ soon
 
 ## Полезные источники
 
-1. Blank
+1. Страница с курсом [здесь](https://gitlab.se.ifmo.ru/computer-systems/csa-rolling)
