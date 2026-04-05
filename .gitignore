@@ -1,5 +1,7 @@
 # OBSIDIAN GITIGNORE
 
+.obsidian\workspace.json
+
 # UI
 .obsidian/workspace.json
 /.obsidian/app.json
