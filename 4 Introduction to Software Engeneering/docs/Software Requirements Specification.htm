@@ -1,0 +1,782 @@
+<html><head>
+<meta name="Generator" content="Microsoft FrontPage 4.0">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="Originator" content="Microsoft Word 9">
+<title>Software Requirements Specification</title>
+<style>
+<!--
+ 
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+h1
+	{
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	line-height:12.0pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:Arial;}
+h2
+	{
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	line-height:12.0pt;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:Arial;}
+h3
+	{
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	line-height:12.0pt;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:Arial;
+	font-weight:normal;
+	font-style:italic;}
+h4
+	{
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	line-height:12.0pt;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:Arial;
+	font-weight:normal;}
+h5
+	{
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:2.0in;
+	text-indent:0in;
+	line-height:12.0pt;
+	font-size:11.0pt;
+	font-family:"Times New Roman";
+	font-weight:normal;}
+h6
+	{
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:2.0in;
+	text-indent:0in;
+	line-height:12.0pt;
+	font-size:11.0pt;
+	font-family:"Times New Roman";
+	font-weight:normal;
+	font-style:italic;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:2.0in;
+	text-indent:0in;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:2.0in;
+	text-indent:0in;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:2.0in;
+	text-indent:0in;
+	line-height:12.0pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;
+	font-style:italic;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{
+	margin-top:12.0pt;
+	margin-right:.5in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.3in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.6in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:30.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:40.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:50.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:70.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:80.0pt;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoNormalIndent, li.MsoNormalIndent, div.MsoNormalIndent
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:45.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-45.0pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:2.0pt;
+	margin-left:.25in;
+	text-indent:-.25in;
+	line-height:12.0pt;
+	page-break-after:avoid;
+	border:none;
+	padding:0in;
+	font-size:8.0pt;
+	font-family:HELVETICA;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+span.MsoFootnoteReference
+	{
+	vertical-align:super;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:18.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:blue;
+	font-style:italic;
+	text-decoration:underline;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	text-align:center;
+	font-size:18.0pt;
+	font-family:Arial;
+	font-style:italic;}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:blue;
+	font-style:italic;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	background:navy;
+	font-size:10.0pt;
+	font-family:Tahoma;}
+p.Paragraph2, li.Paragraph2, div.Paragraph2
+	{
+	margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:black;}
+p.Bullet1, li.Bullet1, div.Bullet1
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.3in;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.Bullet2, li.Bullet2, div.Bullet2
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:navy;}
+p.Tabletext, li.Tabletext, div.Tabletext
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MainTitle, li.MainTitle, div.MainTitle
+	{
+	margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+p.Paragraph1, li.Paragraph1, div.Paragraph1
+	{
+	margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.Paragraph3, li.Paragraph3, div.Paragraph3
+	{
+	margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:76.5pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.Paragraph4, li.Paragraph4, div.Paragraph4
+	{
+	margin-top:4.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:112.5pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.Body, li.Body, div.Body
+	{
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Book Antiqua";}
+p.Bullet, li.Bullet, div.Bullet
+	{
+	margin-top:6.0pt;
+	margin-right:.25in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:0in;
+	font-size:10.0pt;
+	font-family:"Book Antiqua";}
+p.InfoBlue, li.InfoBlue, div.InfoBlue
+	{
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:38.25pt;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:blue;
+	font-style:italic;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head>
+
+<body lang="EN-US" link="blue" vlink="purple">
+<p style="MARGIN: -14px 0px +2px"><font face="Arial" size="1">
+<img src="Software%20Requirements%20Specification_files/artfc_w.gif" border="0"> <a href="file:///home/jek/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/archive/pre-2009/itmo/students/RUP_classic.2002.05.00/RationalUnifiedProcess/process/artifact/ovu_arts.htm">Artifacts</a> &gt;
+<img src="Software%20Requirements%20Specification_files/artfc_y.gif" border="0"> <a href="file:///home/jek/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/archive/pre-2009/itmo/students/RUP_classic.2002.05.00/RationalUnifiedProcess/process/artifact/ars_req.htm">Requirements Artifact Set</a> &gt;
+<img src="Software%20Requirements%20Specification_files/additional.gif" border="0"> <a href="file:///home/jek/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/archive/pre-2009/itmo/students/RUP_classic.2002.05.00/RationalUnifiedProcess/process/artifact/arp_req_add.htm">{More Requirements Artifacts}</a> &gt;
+<img src="Software%20Requirements%20Specification_files/ar_srs.gif" border="0"> <a href="file:///home/jek/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/archive/pre-2009/itmo/students/RUP_classic.2002.05.00/RationalUnifiedProcess/process/artifact/ar_srs.htm">Software Requirements Specification</a> &gt;
+<img src="Software%20Requirements%20Specification_files/ie.gif" border="0">  SRS w/ Use-Cases
+</font></p>
+<!---
+<rpw name="PresentationName"> SRS w/ Use-Cases</rpw>
+--->
+<div class="Section1">
+
+<p class="MsoTitle" style="text-align:right" align="right">&lt;Project Name&gt;</p>
+
+<p class="MsoTitle" style="text-align:right" align="right">Software Requirements Specification</p>
+
+<p class="MsoTitle" style="text-align:right" align="right">For &lt;Subsystem or
+Feature&gt;</p>
+
+<p class="MsoNormal">&nbsp;</p>
+
+<p class="MsoNormal">&nbsp;</p>
+
+<p class="MsoTitle" style="text-align:right" align="right"><span style="font-size:
+14.0pt;">Version &lt;1.0&gt;</span></p>
+
+<p class="MsoTitle"><span style="font-size:14.0pt;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:right" align="right">&nbsp;</p>
+
+<p class="InfoBlue">[Note: The following template is provided for use with the
+Rational Unified Process. Text enclosed
+in square brackets and displayed in blue italics (style=InfoBlue) is included
+to provide guidance to the author and should be deleted before publishing the
+document. A paragraph entered following this style will automatically be set to
+normal (style=Body Text).]</p>
+
+</div>
+
+<i><span style="font-size:10.0pt;font-family:
+&quot;Times New Roman&quot;;color:blue;"><br style="page-break-before:always;" clear="all">
+</span></i>
+
+<div class="Section2">
+
+<p class="MsoTitle">Revision History</p>
+
+<table style="border-collapse:collapse;
+ border:none;" border="1" cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td style="width:1.6in;border:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="154">
+  <p class="Tabletext" style="text-align:center" align="center"><b>Date</b></p>
+  </td>
+  <td style="width:.8in;border:solid windowtext .75pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt" valign="top" width="77">
+  <p class="Tabletext" style="text-align:center" align="center"><b>Version</b></p>
+  </td>
+  <td style="width:2.6in;border:solid windowtext .75pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt" valign="top" width="250">
+  <p class="Tabletext" style="text-align:center" align="center"><b>Description</b></p>
+  </td>
+  <td style="width:1.6in;border:solid windowtext .75pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt" valign="top" width="154">
+  <p class="Tabletext" style="text-align:center" align="center"><b>Author</b></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:1.6in;border:solid windowtext .75pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt" valign="top" width="154">
+  <p class="Tabletext">&lt;dd/mmm/yy&gt;</p>
+  </td>
+  <td style="width:.8in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="77">
+  <p class="Tabletext">&lt;x.x&gt;</p>
+  </td>
+  <td style="width:2.6in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="250">
+  <p class="Tabletext">&lt;details&gt;</p>
+  </td>
+  <td style="width:1.6in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="154">
+  <p class="Tabletext">&lt;name&gt;</p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:1.6in;border:solid windowtext .75pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt" valign="top" width="154">
+  <p class="Tabletext">&nbsp;</p>
+  </td>
+  <td style="width:.8in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="77">
+  <p class="Tabletext">&nbsp;</p>
+  </td>
+  <td style="width:2.6in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="250">
+  <p class="Tabletext">&nbsp;</p>
+  </td>
+  <td style="width:1.6in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="154">
+  <p class="Tabletext">&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:1.6in;border:solid windowtext .75pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt" valign="top" width="154">
+  <p class="Tabletext">&nbsp;</p>
+  </td>
+  <td style="width:.8in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="77">
+  <p class="Tabletext">&nbsp;</p>
+  </td>
+  <td style="width:2.6in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="250">
+  <p class="Tabletext">&nbsp;</p>
+  </td>
+  <td style="width:1.6in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="154">
+  <p class="Tabletext">&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:1.6in;border:solid windowtext .75pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt" valign="top" width="154">
+  <p class="Tabletext">&nbsp;</p>
+  </td>
+  <td style="width:.8in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="77">
+  <p class="Tabletext">&nbsp;</p>
+  </td>
+  <td style="width:2.6in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="250">
+  <p class="Tabletext">&nbsp;</p>
+  </td>
+  <td style="width:1.6in;border-top:none;border-left:none;
+  border-bottom:solid windowtext .75pt;border-right:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt" valign="top" width="154">
+  <p class="Tabletext">&nbsp;</p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal">&nbsp;</p>
+
+<b><span style="font-size:18.0pt;font-family:Arial;"><br style="page-break-before:always" clear="all">
+</span></b>
+
+<p class="MsoTitle">Table of Contents</p>
+
+<p class="MsoToc1"><a href="#1.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Introduction" "="">1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Introduction</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc2"><a href="#1.1%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Purpose" "="">1.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Purpose</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc2"><a href="#1.2%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Scope" "="">1.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Scope</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc2"><a href="#1.3%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Definitions,%20Acronyms%20and%20Abbreviations" "="">1.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Definitions, Acronyms and
+Abbreviations</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc2"><a href="#1.4%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20References" "="">1.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+References</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc2"><a href="#1.5%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Overview" "="">1.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Overview</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc1"><a href="#2.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Overall%20Description" "="">2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Overall
+Description</a>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc2"><a href="#2.1%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Use-Case%20Model%20Survey" "="">2.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use-Case Model
+Survey</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc2"><a href="#2.2%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Assumptions%20and%20Dependencies" "="">2.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Assumptions and
+Dependencies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc1"><a href="#3.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Specific%20Requirements" "="">3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Specific
+Requirements</a></p>
+
+<p class="MsoToc2"><a href="#3.1%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Use-Case%20Reports" "="">3.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use-Case
+Reports</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc2"><a href="#3.2%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Supplementary%20Requirements" "="">3.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Supplementary
+Requirements</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoToc1"><a href="#4.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Supporting%20Information" "="">4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Supporting
+Information</a>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p class="MsoTitle"><br style="page-break-before:always" clear="all">Software Requirements
+Specification </p>
+
+<h1><a name="1.                  Introduction">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Introduction</a></h1>
+
+<p class="InfoBlue">[The introduction of the <b>Software Requirements
+Specification (SRS) </b>should provide an overview of the entire document. It
+should include the purpose, scope, definitions, acronyms, abbreviations,
+references, and overview of the <b>Software Requirements Specification</b>.]</p>
+
+<p class="InfoBlue">[Note: The <b>Software Requirements Specification </b>captures
+the complete software requirements for the system, or a portion of the
+system.&nbsp; Following is a typical <b>Software Requirements Specification</b>
+outline for a project <b>using use-case modeling</b>. This artifact consists of
+a package containing use cases of the use-case model and applicable
+Supplementary Specifications and other supporting information.&nbsp; For a template of an <b>Software Requirements
+Specification</b> <b>not</b> using use-case modeling, which captures all
+requirements in a single document, with applicable sections inserted from the
+Supplementary Specifications (which would no longer be needed), see
+rup_srs.dot.]</p>
+
+<p class="InfoBlue">[Many different arrangements of a <b>Software Requirements
+Specification </b>are possible.&nbsp; Refer
+to [IEEE830-1998] for further elaboration of these explanations, as well as other
+options for a <b>Software Requirements Specification</b> organization.]</p>
+
+<h2><a name="1.1               Purpose">1.1<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Purpose</a></h2>
+
+<p class="InfoBlue">[Specify the purpose of this <b>Software Requirements
+Specification</b>. The <b>Software Requirements Specification</b> should fully
+describe the external behavior of the application or subsystem identified. It
+also describes nonfunctional requirements, design constraints and other factors
+necessary to provide a complete and comprehensive description of the
+requirements for the software.]</p>
+
+<h2><a name="1.2               Scope">1.2<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Scope</a></h2>
+
+<p class="InfoBlue">[A brief description of the software application that the <b>Software
+Requirements Specification</b> applies to; the feature or other subsystem
+grouping; what Use-case model(s) it is associated with; and anything else that
+is affected or influenced by this document.]</p>
+
+<h2><a name="1.3               Definitions, Acronyms and Abbreviations">1.3<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Definitions, Acronyms and Abbreviations</a></h2>
+
+<p class="InfoBlue">[This subsection should provide the definitions of all terms,
+acronyms, and abbreviations required to properly interpret the <b>Software
+Requirements Specification</b>.&nbsp; This information may be provided by
+reference to the project Glossary.]</p>
+
+<h2><a name="1.4               References">1.4<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>References</a></h2>
+
+<p class="InfoBlue">[This subsection should provide a complete list of all
+documents referenced elsewhere in the <b>Software Requirements Specification</b>.&nbsp; Each document should be identified by title,
+report number (if applicable), date, and publishing organization.&nbsp; Specify the sources from which the
+references can be obtained. This information may be provided by reference to an
+appendix or to another document.]</p>
+
+<h2><a name="1.5               Overview">1.5<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Overview</a></h2>
+
+<p class="InfoBlue">[This subsection should describe what the rest of the <b>Software
+Requirements Specification</b> contains and explain how the document is
+organized.]</p>
+
+<h1><a name="2.                  Overall Description">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Overall Description</a></h1>
+
+<p class="InfoBlue">[This section of the <b>Software Requirements Specification</b>
+should describe the general factors that affect the product and its
+requirements.&nbsp; This section does not
+state specific requirements.&nbsp; Instead,
+it provides a background for those requirements, which are defined in detail in
+<b>Section 3</b>, and makes them easier to understand. Include such items as
+product perspective, product functions, user characteristics, constraints,
+assumptions and dependencies, and requirements subsets.]</p>
+
+<h2><a name="2.1               Use-Case Model Survey">2.1<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Use-Case Model Survey</a></h2>
+
+<p class="InfoBlue">&nbsp;[If using use-case
+modeling, this section contains an overview of the use-case model or the subset
+of the use-case model that is applicable for this subsystem or feature.&nbsp;
+This includes a list of names and brief descriptions of all use cases and
+actors, along with applicable diagrams and relationships.&nbsp; Refer to the <b>Use-Case-Model
+Survey Report</b>, which may be used as an enclosure at this point.]</p>
+
+<h2><a name="2.2               Assumptions and Dependencies">2.2<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Assumptions and Dependencies</a></h2>
+
+<p class="InfoBlue">[This section describes any key technical feasibility,
+subsystem or component availability, or other project related assumptions on
+which the viability of the software described by this <b>Software Requirements
+Specification</b> may be based.]</p>
+
+<h1><a name="3.                  Specific Requirements">3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Specific Requirements</a> </h1>
+
+<p class="InfoBlue">[This section of the <b>Software Requirements Specification</b>
+should contain all the software requirements to a level of detail sufficient to
+enable designers to design a system to satisfy those requirements and testers
+to test that the system satisfies those requirements. &nbsp; When using
+use-case modeling, these requirements are captured in the use cases and the
+applicable supplementary specifications.&nbsp;
+If use-case modeling is not used, the outline for supplementary specifications
+may be inserted directly into this section.]</p>
+
+<h2><a name="3.1               Use-Case Reports">3.1<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Use-Case Reports</a></h2>
+
+<p class="InfoBlue">[In use-case modeling, the use cases often define the
+majority of the functional requirements of the system, along with some
+non-functional requirements.&nbsp; For each
+use case in the above use-case model, or subset thereof, refer to, or enclose,
+the use-case report in this section.&nbsp;
+Make sure that each requirement is clearly labeled.]</p>
+
+<h2><a name="3.2               Supplementary Requirements">3.2<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Supplementary Requirements</a> </h2>
+
+<p class="InfoBlue">[Supplementary Specifications capture requirements that are
+not included in the use cases.&nbsp; The
+specific requirements from the Supplementary Specifications, which are
+applicable to this subsystem or feature, should be included here and refined to
+the necessary level of detail to describe this subsystem or feature.&nbsp; These may be captured directly in this
+document or referred to as separate Supplementary Specifications, which may be
+used as an enclosure at this point. Make sure that each requirement is clearly
+labeled.]</p>
+
+<h1><a name="4.                  Supporting Information">4.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Supporting Information</a></h1>
+
+<p class="InfoBlue">[The supporting information makes the <b>Software
+Requirements Specification</b> easier to use.&nbsp;
+It includes:</p>
+
+<p class="InfoBlue">•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Table of
+Contents</p>
+
+<p class="InfoBlue">•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Index</p>
+
+<p class="InfoBlue">•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Appendices </p>
+
+<p class="InfoBlue">&nbsp;These may include
+use-case storyboards or user-interface prototypes. When appendices are
+included, the <b>Software Requirements Specification</b> should explicitly
+state whether or not the appendices are to be considered part of the
+requirements.]</p>
+
+</div>
+
+
+
+
+</body></html>
