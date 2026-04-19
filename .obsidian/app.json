@@ -2,5 +2,6 @@
   "attachmentFolderPath": "0 Media/Unsorted attachments",
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
 }
